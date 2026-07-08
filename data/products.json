@@ -1,0 +1,2277 @@
+{
+  "_meta": {
+    "source": "Magna mebel catalog.pdf (64 pages, RU) + logo.jpg",
+    "extracted": "2026-07-03",
+    "note": "Narxlar katalogda yo'q — 'price' bo'sh, keyin to'ldiriladi. Ba'zi artikullar katalogda takrorlangan (masalan MGK108, MGK150, MGD112, MGU256) — manba xatosi, tekshirish kerak. name.uz/name.en avtomatik tarjima, atoqli nomlar (ПЕРФЕКТ va h.k.) transliteratsiya qilingan.",
+    "currency": "UZS",
+    "images_note": "Mahsulot fotolari adminka orqali yuklanadi (kompaniyada toza fotolar bor). Katalog sahifalari /public/catalog/pXX.jpg da (flipbook)."
+  },
+  "brand": {
+    "name": "Magna Group",
+    "legacy_name": "Magna mebel",
+    "website": "magnagroup.uz",
+    "catalog_site": "magnamebel.uz",
+    "address": {
+      "uz": "Toshkent shahri, Bektemir tumani, Bektemir MFY, Olmos ko'chasi, 51-uy",
+      "ru": "г. Ташкент, Бектемирский район, МФЙ Бектемир, ул. Олмос, дом 51",
+      "en": "Tashkent, Bektemir district, Bektemir MFY, Olmos street, 51"
+    },
+    "phones": [
+      "+998 99 172 50 50",
+      "+998 71 200 54 54"
+    ],
+    "email": "magnamebel@mail.ru",
+    "telegram": "magnamebeluz",
+    "instagram": "magnamebel.uz",
+    "legal_name": "\"MAGNA GROUP\" MCHJ",
+    "director": "Jo'rayev Z.X",
+    "stir": "310297954",
+    "qqs": "326110252513",
+    "ifut": "46180",
+    "bank": {
+      "account": "20208000105628474001",
+      "mfo": "01056",
+      "name": "INVEST FINANCE BANK ATB, Toshkent viloyat filiali"
+    },
+    "tagline": {
+      "uz": "Katta g'oyalar uchun keng yechimlar. Ofis, konferentsiya va xodimlar mebellari loyihalari.",
+      "ru": "Широкие решения для больших идей. Проекты офисной, конференц- и корпоративной мебели.",
+      "en": "Broad solutions for big ideas. Office, conference and staff furniture projects."
+    }
+  },
+  "categories": [
+    {
+      "id": "office",
+      "name": {
+        "uz": "Ofis mebeli",
+        "ru": "Офисная мебель",
+        "en": "Office furniture"
+      }
+    },
+    {
+      "id": "staff",
+      "name": {
+        "uz": "Xodimlar uchun mebel",
+        "ru": "Мебель для персонала",
+        "en": "Staff furniture"
+      }
+    },
+    {
+      "id": "conference",
+      "name": {
+        "uz": "Muzokara stollari",
+        "ru": "Столы для переговоров",
+        "en": "Conference tables"
+      }
+    },
+    {
+      "id": "storage",
+      "name": {
+        "uz": "Shkaf, tumba, stellaj",
+        "ru": "Шкафы, тумбы, стеллажи",
+        "en": "Cabinets & shelving"
+      }
+    },
+    {
+      "id": "tables",
+      "name": {
+        "uz": "Stollar",
+        "ru": "Столы",
+        "en": "Desks & tables"
+      }
+    },
+    {
+      "id": "seating",
+      "name": {
+        "uz": "Stullar va kreslolar",
+        "ru": "Стулья и кресла",
+        "en": "Chairs & armchairs"
+      }
+    },
+    {
+      "id": "medical",
+      "name": {
+        "uz": "Tibbiy mebel",
+        "ru": "Медицинская мебель",
+        "en": "Medical furniture"
+      }
+    },
+    {
+      "id": "student",
+      "name": {
+        "uz": "O'quvchi mebeli",
+        "ru": "Ученическая мебель",
+        "en": "School furniture"
+      }
+    },
+    {
+      "id": "children",
+      "name": {
+        "uz": "Bolalar mebeli",
+        "ru": "Детская мебель",
+        "en": "Children's furniture"
+      }
+    }
+  ],
+  "products": [
+    {
+      "article": "MG218",
+      "category": "office",
+      "name": {
+        "uz": "Rahbar ofis mebeli to'plami \"PERFEKT\"",
+        "ru": "Набор офисной мебели для руководителей \"ПЕРФЕКТ\"",
+        "en": "Executive office set \"PERFECT\""
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 3,
+      "image": "/products/MG218.jpg"
+    },
+    {
+      "article": "MG210",
+      "category": "office",
+      "name": {
+        "uz": "Rahbar ofis mebeli to'plami \"KLASSIK\"",
+        "ru": "Набор офисной мебели для руководителей \"КЛАССИК\"",
+        "en": "Executive office set \"CLASSIC\""
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 3,
+      "image": "/products/MG210.jpg"
+    },
+    {
+      "article": "MG225",
+      "category": "office",
+      "name": {
+        "uz": "Rahbar ofis mebeli to'plami \"MASTER\"",
+        "ru": "Набор офисной мебели для руководителей \"МАСТЕР\"",
+        "en": "Executive office set \"MASTER\""
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 4,
+      "image": "/products/MG225.jpg"
+    },
+    {
+      "article": "MG230",
+      "category": "office",
+      "name": {
+        "uz": "Rahbar ofis mebeli to'plami \"DARK\"",
+        "ru": "Набор офисной мебели для руководителей \"ДАРК\"",
+        "en": "Executive office set \"DARK\""
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 4,
+      "image": "/products/MG230.jpg",
+      "imageExploded": "/products/MG230_exploded.jpg"
+    },
+    {
+      "article": "MG215",
+      "category": "office",
+      "name": {
+        "uz": "Rahbar ofis mebeli to'plami \"SMART\"",
+        "ru": "Набор офисной мебели для руководителей \"СМАРТ\"",
+        "en": "Executive office set \"SMART\""
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 5,
+      "image": "/products/MG215.jpg"
+    },
+    {
+      "article": "MG227",
+      "category": "office",
+      "name": {
+        "uz": "Rahbar ofis mebeli to'plami \"GRAND\"",
+        "ru": "Набор офисной мебели для руководителей \"ГРАНД\"",
+        "en": "Executive office set \"GRAND\""
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 5,
+      "image": "/products/MG227.jpg"
+    },
+    {
+      "article": "MG235",
+      "category": "office",
+      "name": {
+        "uz": "Rahbar ofis mebeli to'plami \"EKO\"",
+        "ru": "Набор офисной мебели для руководителей \"ЭКО\"",
+        "en": "Executive office set \"ECO\""
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 6,
+      "image": "/products/MG235.jpg"
+    },
+    {
+      "article": "MG242",
+      "category": "office",
+      "name": {
+        "uz": "Rahbar ofis mebeli to'plami \"RIO\"",
+        "ru": "Набор офисной мебели для руководителей \"РИО\"",
+        "en": "Executive office set \"RIO\""
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 6,
+      "image": "/products/MG242.jpg"
+    },
+    {
+      "article": "MG229",
+      "category": "office",
+      "name": {
+        "uz": "Rahbar ofis mebeli to'plami \"GRAND\" (2)",
+        "ru": "Набор офисной мебели для руководителей \"ГРАНД\"",
+        "en": "Executive office set \"GRAND\" (2)"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 7,
+      "image": "/products/MG229.jpg"
+    },
+    {
+      "article": "MG245",
+      "category": "office",
+      "name": {
+        "uz": "Rahbar ofis mebeli to'plami \"MODERA\"",
+        "ru": "Набор офисной мебели для руководителей \"МОДЕРА\"",
+        "en": "Executive office set \"MODERA\""
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 7,
+      "image": "/products/MG245.jpg"
+    },
+    {
+      "article": "MG251",
+      "category": "office",
+      "name": {
+        "uz": "Rahbar ofis mebeli to'plami \"DIPLOMAT\"",
+        "ru": "Набор офисной мебели для руководителей \"ДИПЛОМАТ\"",
+        "en": "Executive office set \"DIPLOMAT\""
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 10,
+      "image": "/products/MG251.jpg"
+    },
+    {
+      "article": "MG233",
+      "category": "office",
+      "name": {
+        "uz": "Rahbar ofis mebeli to'plami \"SANTA\"",
+        "ru": "Набор офисной мебели для руководителей \"САНТА\"",
+        "en": "Executive office set \"SANTA\""
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 10,
+      "image": "/products/MG233.jpg"
+    },
+    {
+      "article": "MGP201",
+      "category": "staff",
+      "name": {
+        "uz": "Xodimlar ofis mebeli to'plami \"DEMO\"",
+        "ru": "Набор офисной мебели для персонала \"ДЕМО\"",
+        "en": "Staff office set \"DEMO\""
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 12,
+      "image": "/products/MGP201.jpg"
+    },
+    {
+      "article": "MGP212",
+      "category": "staff",
+      "name": {
+        "uz": "Xodimlar ofis mebeli to'plami \"STRONG\"",
+        "ru": "Набор офисной мебели для персонала \"СТРОНГ\"",
+        "en": "Staff office set \"STRONG\""
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 12,
+      "image": "/products/MGP212.jpg"
+    },
+    {
+      "article": "MGP215",
+      "category": "staff",
+      "name": {
+        "uz": "Xodimlar ofis mebeli to'plami \"DILLER\"",
+        "ru": "Набор офисной мебели для персонала \"ДИЛЛЕР\"",
+        "en": "Staff office set \"DILLER\""
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 13,
+      "image": "/products/MGP215.jpg"
+    },
+    {
+      "article": "MGP220",
+      "category": "staff",
+      "name": {
+        "uz": "Xodimlar ofis mebeli to'plami \"SMART-2\"",
+        "ru": "Набор офисной мебели для персонала \"СМАРТ-2\"",
+        "en": "Staff office set \"SMART-2\""
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 13,
+      "image": "/products/MGP220.jpg"
+    },
+    {
+      "article": "MGP214",
+      "category": "staff",
+      "name": {
+        "uz": "Xodimlar ofis mebeli to'plami \"SLIM\"",
+        "ru": "Набор офисной мебели для персонала \"СЛИМ\"",
+        "en": "Staff office set \"SLIM\""
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 14,
+      "image": "/products/MGP214.jpg"
+    },
+    {
+      "article": "MGP218",
+      "category": "staff",
+      "name": {
+        "uz": "Xodimlar ofis mebeli to'plami \"MONO\"",
+        "ru": "Набор офисной мебели для персонала \"МОНО\"",
+        "en": "Staff office set \"MONO\""
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 14,
+      "image": "/products/MGP218.jpg"
+    },
+    {
+      "article": "MGP065",
+      "category": "conference",
+      "name": {
+        "uz": "Muzokaralar stoli",
+        "ru": "Стол для переговоров",
+        "en": "Conference table"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 27,
+      "image": "/products/MGP065.jpg"
+    },
+    {
+      "article": "MGP015",
+      "category": "conference",
+      "name": {
+        "uz": "Muzokaralar stoli",
+        "ru": "Стол для переговоров",
+        "en": "Conference table"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 27,
+      "image": "/products/MGP015.jpg"
+    },
+    {
+      "article": "MGP077",
+      "category": "conference",
+      "name": {
+        "uz": "Muzokaralar stoli",
+        "ru": "Стол для переговоров",
+        "en": "Conference table"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 28,
+      "image": "/products/MGP077.jpg"
+    },
+    {
+      "article": "MGP032",
+      "category": "conference",
+      "name": {
+        "uz": "Muzokaralar stoli",
+        "ru": "Стол для переговоров",
+        "en": "Conference table"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 28,
+      "image": "/products/MGP032.jpg"
+    },
+    {
+      "article": "MGW110",
+      "category": "storage",
+      "name": {
+        "uz": "Kitob stellaji",
+        "ru": "Книжный стеллаж",
+        "en": "Bookshelf"
+      },
+      "dimensions": "L80×W36×H180",
+      "price": null,
+      "page": 16,
+      "image": "/products/MGW110.jpg"
+    },
+    {
+      "article": "MGW111",
+      "category": "storage",
+      "name": {
+        "uz": "Kitob stellaji",
+        "ru": "Книжный стеллаж",
+        "en": "Bookshelf"
+      },
+      "dimensions": "L80×W36×H180",
+      "price": null,
+      "page": 16,
+      "image": "/products/MGW111.jpg"
+    },
+    {
+      "article": "MGW112",
+      "category": "storage",
+      "name": {
+        "uz": "Shisha eshikli kitob stellaji",
+        "ru": "Книжный стеллаж со стеклянными дверцами",
+        "en": "Bookshelf with glass doors"
+      },
+      "dimensions": "L80×W40×H180",
+      "price": null,
+      "page": 16,
+      "image": "/products/MGW112.jpg"
+    },
+    {
+      "article": "MGW113",
+      "category": "storage",
+      "name": {
+        "uz": "Kitob shkafi",
+        "ru": "Книжный шкаф",
+        "en": "Bookcase"
+      },
+      "dimensions": "L80×W38×H180",
+      "price": null,
+      "page": 16,
+      "image": "/products/MGW113.jpg"
+    },
+    {
+      "article": "MGW114",
+      "category": "storage",
+      "name": {
+        "uz": "Kitob shkafi",
+        "ru": "Книжный шкаф",
+        "en": "Bookcase"
+      },
+      "dimensions": "L80×W38×H180",
+      "price": null,
+      "page": 17,
+      "image": "/products/MGW114.jpg"
+    },
+    {
+      "article": "MGW126",
+      "category": "storage",
+      "name": {
+        "uz": "Shisha eshikli kitob shkafi",
+        "ru": "Книжный шкаф со стеклянными дверцами",
+        "en": "Bookcase with glass doors"
+      },
+      "dimensions": "L80×W45×H180",
+      "price": null,
+      "page": 17,
+      "image": "/products/MGW126.jpg"
+    },
+    {
+      "article": "MGW138",
+      "category": "storage",
+      "name": {
+        "uz": "Kitob shkafi",
+        "ru": "Книжный шкаф",
+        "en": "Bookcase"
+      },
+      "dimensions": "L80×W40×H180",
+      "price": null,
+      "page": 17,
+      "image": "/products/MGW138.jpg"
+    },
+    {
+      "article": "MGW117",
+      "category": "storage",
+      "name": {
+        "uz": "Shisha eshikli kitob shkafi",
+        "ru": "Книжный шкаф со стеклянными дверцами",
+        "en": "Bookcase with glass doors"
+      },
+      "dimensions": "L80×W40×H180",
+      "price": null,
+      "page": 17,
+      "image": "/products/MGW117.jpg"
+    },
+    {
+      "article": "MGW118",
+      "category": "storage",
+      "name": {
+        "uz": "Shisha eshikli kitob shkafi",
+        "ru": "Книжный шкаф со стеклянными дверцами",
+        "en": "Bookcase with glass doors"
+      },
+      "dimensions": "L80×W45×H180",
+      "price": null,
+      "page": 18,
+      "image": "/products/MGW118.jpg"
+    },
+    {
+      "article": "MGW120",
+      "category": "storage",
+      "name": {
+        "uz": "Shisha eshikli kitob shkafi",
+        "ru": "Книжный шкаф со стеклянными дверцами",
+        "en": "Bookcase with glass doors"
+      },
+      "dimensions": "L80×W45×H180",
+      "price": null,
+      "page": 18,
+      "image": "/products/MGW120.jpg"
+    },
+    {
+      "article": "MGW125",
+      "category": "storage",
+      "name": {
+        "uz": "Bir tavaqali kitob shkafi",
+        "ru": "Книжный шкаф одностворчатый",
+        "en": "Single-door bookcase"
+      },
+      "dimensions": "L40×W45×H200",
+      "price": null,
+      "page": 18,
+      "image": "/products/MGW125.jpg"
+    },
+    {
+      "article": "MGW132",
+      "category": "storage",
+      "name": {
+        "uz": "Bir tavaqali kitob shkafi",
+        "ru": "Книжный шкаф одностворчатый",
+        "en": "Single-door bookcase"
+      },
+      "dimensions": "L40×W45×H200",
+      "price": null,
+      "page": 18,
+      "image": "/products/MGW132.jpg"
+    },
+    {
+      "article": "MGW142",
+      "category": "storage",
+      "name": {
+        "uz": "Kitob shkafi",
+        "ru": "Книжный шкаф",
+        "en": "Bookcase"
+      },
+      "dimensions": "L80×W45×H200",
+      "price": null,
+      "page": 19,
+      "image": "/products/MGW142.jpg"
+    },
+    {
+      "article": "MGW135",
+      "category": "storage",
+      "name": {
+        "uz": "Kiyim shkafi",
+        "ru": "Шкаф для одежды",
+        "en": "Wardrobe"
+      },
+      "dimensions": "L80×W50×H200",
+      "price": null,
+      "page": 19,
+      "image": "/products/MGW135.jpg"
+    },
+    {
+      "article": "MGW119",
+      "category": "storage",
+      "name": {
+        "uz": "Kitob shkafi",
+        "ru": "Книжный шкаф",
+        "en": "Bookcase"
+      },
+      "dimensions": "L180×W50×H200",
+      "price": null,
+      "page": 19,
+      "image": "/products/MGW119.jpg"
+    },
+    {
+      "article": "MGW152",
+      "category": "storage",
+      "name": {
+        "uz": "Kitob shkafi",
+        "ru": "Книжный шкаф",
+        "en": "Bookcase"
+      },
+      "dimensions": "L180×W50×H200",
+      "price": null,
+      "page": 19,
+      "image": "/products/MGW152.jpg"
+    },
+    {
+      "article": "MGW148",
+      "category": "storage",
+      "name": {
+        "uz": "Kitob shkafi",
+        "ru": "Книжный шкаф",
+        "en": "Bookcase"
+      },
+      "dimensions": "L120×W50×H110",
+      "price": null,
+      "page": 20,
+      "image": "/products/MGW148.jpg"
+    },
+    {
+      "article": "MGT139",
+      "category": "storage",
+      "name": {
+        "uz": "Ko'chma tumba",
+        "ru": "Тумба мобильная",
+        "en": "Mobile pedestal"
+      },
+      "dimensions": "L45×W42×H65",
+      "price": null,
+      "page": 20,
+      "image": "/products/MGT139.jpg"
+    },
+    {
+      "article": "MGT123",
+      "category": "storage",
+      "name": {
+        "uz": "Tumba",
+        "ru": "Тумба",
+        "en": "Pedestal"
+      },
+      "dimensions": "L45×W42×H65",
+      "price": null,
+      "page": 20,
+      "image": "/products/MGT123.jpg"
+    },
+    {
+      "article": "MGT146",
+      "category": "storage",
+      "name": {
+        "uz": "Tumba",
+        "ru": "Тумба",
+        "en": "Pedestal"
+      },
+      "dimensions": "L40×W45×H70",
+      "price": null,
+      "page": 20,
+      "image": "/products/MGT146.jpg"
+    },
+    {
+      "article": "MGT115",
+      "category": "storage",
+      "name": {
+        "uz": "Telefon tumbasi",
+        "ru": "Тумба под телефон",
+        "en": "Telephone stand"
+      },
+      "dimensions": "L80×W40×H85",
+      "price": null,
+      "page": 21,
+      "image": "/products/MGT115.jpg"
+    },
+    {
+      "article": "MGT133",
+      "category": "storage",
+      "name": {
+        "uz": "Ko'chma tumba",
+        "ru": "Тумба мобильная",
+        "en": "Mobile pedestal"
+      },
+      "dimensions": "L80×W42×H180",
+      "price": null,
+      "page": 21,
+      "image": "/products/MGT133.jpg"
+    },
+    {
+      "article": "MGT127",
+      "category": "storage",
+      "name": {
+        "uz": "Ko'chma tumba",
+        "ru": "Тумба мобильная",
+        "en": "Mobile pedestal"
+      },
+      "dimensions": "L160×W42×H120",
+      "price": null,
+      "page": 21,
+      "image": "/products/MGT127.jpg"
+    },
+    {
+      "article": "MGT142",
+      "category": "storage",
+      "name": {
+        "uz": "Ko'chma tumba",
+        "ru": "Тумба мобильная",
+        "en": "Mobile pedestal"
+      },
+      "dimensions": "L160×W42×H120",
+      "price": null,
+      "page": 21,
+      "image": "/products/MGT142.jpg"
+    },
+    {
+      "article": "MGS020",
+      "category": "tables",
+      "name": {
+        "uz": "Stol",
+        "ru": "Стол",
+        "en": "Desk"
+      },
+      "dimensions": "L200×W90×H75",
+      "price": null,
+      "page": 23,
+      "image": "/products/MGS020.jpg"
+    },
+    {
+      "article": "MGS011",
+      "category": "tables",
+      "name": {
+        "uz": "Stol",
+        "ru": "Стол",
+        "en": "Desk"
+      },
+      "dimensions": "L100×W60×H75",
+      "price": null,
+      "page": 23,
+      "image": "/products/MGS011.jpg"
+    },
+    {
+      "article": "MGS058",
+      "category": "tables",
+      "name": {
+        "uz": "Stol",
+        "ru": "Стол",
+        "en": "Desk"
+      },
+      "dimensions": "L120×W60×H75",
+      "price": null,
+      "page": 23,
+      "image": "/products/MGS058.jpg"
+    },
+    {
+      "article": "MGS065",
+      "category": "tables",
+      "name": {
+        "uz": "Stol",
+        "ru": "Стол",
+        "en": "Desk"
+      },
+      "dimensions": "L120×W60×H75",
+      "price": null,
+      "page": 23,
+      "image": "/products/MGS065.jpg"
+    },
+    {
+      "article": "MGS036",
+      "category": "tables",
+      "name": {
+        "uz": "Stol",
+        "ru": "Стол",
+        "en": "Desk"
+      },
+      "dimensions": "L120×W60×H75",
+      "price": null,
+      "page": 24,
+      "image": "/products/MGS036.jpg"
+    },
+    {
+      "article": "MGS052",
+      "category": "tables",
+      "name": {
+        "uz": "Kompyuter stoli",
+        "ru": "Компьютерный стол",
+        "en": "Computer desk"
+      },
+      "dimensions": "L100×W50×H75",
+      "price": null,
+      "page": 24,
+      "image": "/products/MGS052.jpg"
+    },
+    {
+      "article": "MGS079",
+      "category": "tables",
+      "name": {
+        "uz": "Ish stoli",
+        "ru": "Рабочий стол",
+        "en": "Work desk"
+      },
+      "dimensions": "L150×W60×H75",
+      "price": null,
+      "page": 24,
+      "image": "/products/MGS079.jpg"
+    },
+    {
+      "article": "MGS050",
+      "category": "tables",
+      "name": {
+        "uz": "Ish stoli",
+        "ru": "Рабочий стол",
+        "en": "Work desk"
+      },
+      "dimensions": "L100×W60×H75",
+      "price": null,
+      "page": 24,
+      "image": "/products/MGS050.jpg"
+    },
+    {
+      "article": "MGS022",
+      "category": "tables",
+      "name": {
+        "uz": "Burchak kompyuter stoli",
+        "ru": "Компьютерный стол угловой",
+        "en": "Corner computer desk"
+      },
+      "dimensions": "L140×W60×H75",
+      "price": null,
+      "page": 25,
+      "image": "/products/MGS022.jpg"
+    },
+    {
+      "article": "MGS024",
+      "category": "tables",
+      "name": {
+        "uz": "Kompyuter stoli",
+        "ru": "Компьютерный стол",
+        "en": "Computer desk"
+      },
+      "dimensions": "L100×W60×H75",
+      "price": null,
+      "page": 25,
+      "image": "/products/MGS024.jpg"
+    },
+    {
+      "article": "MGS037",
+      "category": "tables",
+      "name": {
+        "uz": "Ish stoli",
+        "ru": "Рабочий стол",
+        "en": "Work desk"
+      },
+      "dimensions": "L120×W60×H75",
+      "price": null,
+      "page": 25,
+      "image": "/products/MGS037.jpg"
+    },
+    {
+      "article": "MGS016",
+      "category": "tables",
+      "name": {
+        "uz": "Ish stoli",
+        "ru": "Рабочий стол",
+        "en": "Work desk"
+      },
+      "dimensions": "L120×W60×H75",
+      "price": null,
+      "page": 25,
+      "image": "/products/MGS016.jpg"
+    },
+    {
+      "article": "MGK077",
+      "category": "seating",
+      "name": {
+        "uz": "Aktzal kreslosi - 1",
+        "ru": "Кресло для актового зала - 1",
+        "en": "Auditorium chair - 1"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 30,
+      "image": "/products/MGK077.jpg"
+    },
+    {
+      "article": "MGK012",
+      "category": "seating",
+      "name": {
+        "uz": "Aktzal kreslosi - 2",
+        "ru": "Кресло для актового зала - 2",
+        "en": "Auditorium chair - 2"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 30,
+      "image": "/products/MGK012.jpg"
+    },
+    {
+      "article": "MGK115",
+      "category": "seating",
+      "name": {
+        "uz": "Aktzal kreslosi - 3",
+        "ru": "Кресло для актового зала - 3",
+        "en": "Auditorium chair - 3"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 30,
+      "image": "/products/MGK115.jpg"
+    },
+    {
+      "article": "MGK150-A",
+      "category": "seating",
+      "name": {
+        "uz": "Yozuv taxtali aktzal kreslosi - 4",
+        "ru": "Кресло для актового зала с пюпитром - 4",
+        "en": "Auditorium chair with tablet - 4"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 30,
+      "image": "/products/MGK150-A.jpg"
+    },
+    {
+      "article": "MGK025",
+      "category": "seating",
+      "name": {
+        "uz": "Rahbar kreslosi H472",
+        "ru": "Кресло руководителя H472",
+        "en": "Executive chair H472"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 31,
+      "image": "/products/MGK025.jpg"
+    },
+    {
+      "article": "MGK036",
+      "category": "seating",
+      "name": {
+        "uz": "Rahbar kreslosi H604",
+        "ru": "Кресло руководителя H604",
+        "en": "Executive chair H604"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 31,
+      "image": "/products/MGK036.jpg"
+    },
+    {
+      "article": "MGK138",
+      "category": "seating",
+      "name": {
+        "uz": "Rahbar kreslosi H376",
+        "ru": "Кресло руководителя H376",
+        "en": "Executive chair H376"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 31,
+      "image": "/products/MGK138.jpg"
+    },
+    {
+      "article": "MGK029",
+      "category": "seating",
+      "name": {
+        "uz": "Rahbar kreslosi H409",
+        "ru": "Кресло руководителя H409",
+        "en": "Executive chair H409"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 31,
+      "image": "/products/MGK029.jpg"
+    },
+    {
+      "article": "MGA276-8",
+      "category": "seating",
+      "name": {
+        "uz": "Rahbar kreslosi",
+        "ru": "Кресло руководителя",
+        "en": "Executive chair"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 32,
+      "image": "/products/MGA276-8.jpg"
+    },
+    {
+      "article": "MGB315-8",
+      "category": "seating",
+      "name": {
+        "uz": "Rahbar kreslosi",
+        "ru": "Кресло руководителя",
+        "en": "Executive chair"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 32,
+      "image": "/products/MGB315-8.jpg"
+    },
+    {
+      "article": "MGC320",
+      "category": "seating",
+      "name": {
+        "uz": "Mehmon kreslosi",
+        "ru": "Кресло для посетителя",
+        "en": "Visitor chair"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 32,
+      "image": "/products/MGC320.jpg"
+    },
+    {
+      "article": "MGA337-8",
+      "category": "seating",
+      "name": {
+        "uz": "Rahbar kreslosi",
+        "ru": "Кресло руководителя",
+        "en": "Executive chair"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 32,
+      "image": "/products/MGA337-8.jpg"
+    },
+    {
+      "article": "MGK150",
+      "category": "seating",
+      "name": {
+        "uz": "Stul \"IZO\"",
+        "ru": "Стул \"ИЗО\"",
+        "en": "Chair \"ISO\""
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 33,
+      "image": "/products/MGK150.jpg"
+    },
+    {
+      "article": "MGK129",
+      "category": "seating",
+      "name": {
+        "uz": "Stul \"IZO-4\" xromli",
+        "ru": "Стул \"ИЗО-4\" хромированный",
+        "en": "Chair \"ISO-4\" chrome"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 33,
+      "image": "/products/MGK129.jpg"
+    },
+    {
+      "article": "MGK045",
+      "category": "seating",
+      "name": {
+        "uz": "Xodim kreslosi \"SOLO\"",
+        "ru": "Кресло для персонала \"СОЛО\"",
+        "en": "Staff chair \"SOLO\""
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 33,
+      "image": "/products/MGK045.jpg"
+    },
+    {
+      "article": "MGK108",
+      "category": "seating",
+      "name": {
+        "uz": "Stul \"TURON\"",
+        "ru": "Стул \"ТУРОН\"",
+        "en": "Chair \"TURON\""
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 33,
+      "image": "/products/MGK108.jpg"
+    },
+    {
+      "article": "MGK135",
+      "category": "seating",
+      "name": {
+        "uz": "Stul \"SILVIYA\"",
+        "ru": "Стул \"СИЛЬВИЯ\"",
+        "en": "Chair \"SILVIA\""
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 34,
+      "image": "/products/MGK135.jpg"
+    },
+    {
+      "article": "MGK108-B",
+      "category": "seating",
+      "name": {
+        "uz": "Stul \"SILVIYA\" tirsakli",
+        "ru": "Стул \"СИЛЬВИЯ\" с подлокотниками",
+        "en": "Chair \"SILVIA\" with armrests"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 34,
+      "image": "/products/MGK108-B.jpg"
+    },
+    {
+      "article": "MGK167",
+      "category": "seating",
+      "name": {
+        "uz": "Stul \"IZO-5\" xromli",
+        "ru": "Стул \"ИЗО-5\" хромированный",
+        "en": "Chair \"ISO-5\" chrome"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 34,
+      "image": "/products/MGK167.jpg"
+    },
+    {
+      "article": "MGK116",
+      "category": "seating",
+      "name": {
+        "uz": "Stul \"SILVIYA\"",
+        "ru": "Стул \"СИЛЬВИЯ\"",
+        "en": "Chair \"SILVIA\""
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 34,
+      "image": "/products/MGK116.jpg"
+    },
+    {
+      "article": "MGK173",
+      "category": "seating",
+      "name": {
+        "uz": "3 o'rinli kreslo \"VIP\"",
+        "ru": "Кресло 3-х местное \"ВИП\"",
+        "en": "3-seat bench \"VIP\""
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 35,
+      "image": "/products/MGK173.jpg"
+    },
+    {
+      "article": "MGK186",
+      "category": "seating",
+      "name": {
+        "uz": "3 o'rinli kreslo",
+        "ru": "Кресло 3-х местное",
+        "en": "3-seat bench"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 35,
+      "image": "/products/MGK186.jpg"
+    },
+    {
+      "article": "MGK118",
+      "category": "seating",
+      "name": {
+        "uz": "3 o'rinli mehmon kreslosi \"IZO\"",
+        "ru": "Кресло для посетителей \"ИЗО\" 3-х местное",
+        "en": "3-seat visitor bench \"ISO\""
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 36,
+      "image": "/products/MGK118.jpg"
+    },
+    {
+      "article": "MGK109",
+      "category": "seating",
+      "name": {
+        "uz": "3 o'rinli mehmon kreslosi \"TURON\"",
+        "ru": "Кресло для посетителей \"ТУРОН\" 3-х местное",
+        "en": "3-seat visitor bench \"TURON\""
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 36,
+      "image": "/products/MGK109.jpg"
+    },
+    {
+      "article": "MGK124",
+      "category": "seating",
+      "name": {
+        "uz": "3 o'rinli kreslo \"AEROPORT\"",
+        "ru": "Кресло 3-х местное \"АЭРОПОРТ\"",
+        "en": "3-seat bench \"AIRPORT\""
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 36,
+      "image": "/products/MGK124.jpg"
+    },
+    {
+      "article": "SM-2",
+      "category": "medical",
+      "name": {
+        "uz": "Tibbiy stol SM-2",
+        "ru": "Стол медицинский СМ-2",
+        "en": "Medical table SM-2"
+      },
+      "dimensions": "L120×W60×H80",
+      "price": null,
+      "page": 38,
+      "image": "/products/SM-2.jpg"
+    },
+    {
+      "article": "SM-5",
+      "category": "medical",
+      "name": {
+        "uz": "Tibbiy stol SM-5",
+        "ru": "Стол медицинский СМ-5",
+        "en": "Medical table SM-5"
+      },
+      "dimensions": "L120×W60×H80",
+      "price": null,
+      "page": 38,
+      "image": "/products/SM-5.jpg"
+    },
+    {
+      "article": "SM-6",
+      "category": "medical",
+      "name": {
+        "uz": "Tibbiy stol SM-6",
+        "ru": "Стол медицинский СМ-6",
+        "en": "Medical table SM-6"
+      },
+      "dimensions": "L140×W60×H135",
+      "price": null,
+      "page": 38,
+      "image": "/products/SM-6.jpg"
+    },
+    {
+      "article": "SM-8",
+      "category": "medical",
+      "name": {
+        "uz": "Tibbiy stol SM-8",
+        "ru": "Стол медицинский СМ-8",
+        "en": "Medical table SM-8"
+      },
+      "dimensions": "L140×W60×H50-80",
+      "price": null,
+      "page": 38,
+      "image": "/products/SM-8.jpg"
+    },
+    {
+      "article": "SMI-1",
+      "category": "medical",
+      "name": {
+        "uz": "Tibbiy aravacha SMI-1",
+        "ru": "Столик медицинский СМИ-1",
+        "en": "Medical trolley SMI-1"
+      },
+      "dimensions": "L65×W50×H80",
+      "price": null,
+      "page": 39,
+      "image": "/products/SMI-1.jpg"
+    },
+    {
+      "article": "SMI-2",
+      "category": "medical",
+      "name": {
+        "uz": "Tibbiy aravacha SMI-2",
+        "ru": "Столик медицинский СМИ-2",
+        "en": "Medical trolley SMI-2"
+      },
+      "dimensions": "L80×W45×H85",
+      "price": null,
+      "page": 39,
+      "image": "/products/SMI-2.jpg"
+    },
+    {
+      "article": "SMI-5",
+      "category": "medical",
+      "name": {
+        "uz": "Tibbiy aravacha SMI-5",
+        "ru": "Столик медицинский СМИ-5",
+        "en": "Medical trolley SMI-5"
+      },
+      "dimensions": "L90×W45×H110",
+      "price": null,
+      "page": 39,
+      "image": "/products/SMI-5.jpg"
+    },
+    {
+      "article": "SMI-10",
+      "category": "medical",
+      "name": {
+        "uz": "Tibbiy aravacha SMI-10",
+        "ru": "Столик медицинский СМИ-10",
+        "en": "Medical trolley SMI-10"
+      },
+      "dimensions": "L86×W45×H80",
+      "price": null,
+      "page": 39,
+      "image": "/products/SMI-10.jpg"
+    },
+    {
+      "article": "MM034",
+      "category": "medical",
+      "name": {
+        "uz": "Krovat usti stoli MM034",
+        "ru": "Надкроватный стол ММ034",
+        "en": "Overbed table MM034"
+      },
+      "dimensions": "L80×W40×H72/100",
+      "price": null,
+      "page": 40,
+      "image": "/products/MM034.jpg"
+    },
+    {
+      "article": "SMI-9",
+      "category": "medical",
+      "name": {
+        "uz": "Tibbiy aravacha SMI-9",
+        "ru": "Столик медицинский СМИ-9",
+        "en": "Medical trolley SMI-9"
+      },
+      "dimensions": "L70×W43×H88",
+      "price": null,
+      "page": 40,
+      "image": "/products/SMI-9.jpg"
+    },
+    {
+      "article": "TM-3",
+      "category": "medical",
+      "name": {
+        "uz": "Tungi tumba TM-3",
+        "ru": "Тумба прикроватная ТМ-3",
+        "en": "Bedside cabinet TM-3"
+      },
+      "dimensions": "L60×W38×H70",
+      "price": null,
+      "page": 40,
+      "image": "/products/TM-3.jpg"
+    },
+    {
+      "article": "TM-6",
+      "category": "medical",
+      "name": {
+        "uz": "Tungi tumba TM-6",
+        "ru": "Тумба прикроватная ТМ-6",
+        "en": "Bedside cabinet TM-6"
+      },
+      "dimensions": "L49×W52×H80",
+      "price": null,
+      "page": 40,
+      "image": "/products/TM-6.jpg"
+    },
+    {
+      "article": "MED-PELENAL-2",
+      "category": "medical",
+      "name": {
+        "uz": "Beshiklash stoli - 2",
+        "ru": "Стол пеленальный - 2",
+        "en": "Changing table - 2"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 41,
+      "image": "/products/MED-PELENAL-2.jpg"
+    },
+    {
+      "article": "MED-KARTOTEKA-TUMBA",
+      "category": "medical",
+      "name": {
+        "uz": "Kartoteka tumbasi",
+        "ru": "Тумба картотечная",
+        "en": "Card-index cabinet"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 41,
+      "image": "/products/MED-KARTOTEKA-TUMBA.jpg"
+    },
+    {
+      "article": "MED-KARTOTEKA-SHKAF-1",
+      "category": "medical",
+      "name": {
+        "uz": "Kartoteka shkafi - 1",
+        "ru": "Шкаф картотечный - 1",
+        "en": "Card-index cabinet - 1"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 41,
+      "image": "/products/MED-KARTOTEKA-SHKAF-1.jpg"
+    },
+    {
+      "article": "SHM-2",
+      "category": "medical",
+      "name": {
+        "uz": "Tibbiy shkaf ShM-2",
+        "ru": "Шкаф медицинский ШМ-2",
+        "en": "Medical cabinet SHM-2"
+      },
+      "dimensions": "L80×W40×H180",
+      "price": null,
+      "page": 41,
+      "image": "/products/SHM-2.jpg"
+    },
+    {
+      "article": "SHM-3",
+      "category": "medical",
+      "name": {
+        "uz": "Tibbiy shkaf ShM-3",
+        "ru": "Шкаф медицинский ШМ-3",
+        "en": "Medical cabinet SHM-3"
+      },
+      "dimensions": "L80×W40×H180",
+      "price": null,
+      "page": 42,
+      "image": "/products/SHM-3.jpg"
+    },
+    {
+      "article": "SHM-4",
+      "category": "medical",
+      "name": {
+        "uz": "Tibbiy shkaf ShM-4",
+        "ru": "Шкаф медицинский ШМ-4",
+        "en": "Medical cabinet SHM-4"
+      },
+      "dimensions": "L85×W45×H200",
+      "price": null,
+      "page": 42,
+      "image": "/products/SHM-4.jpg"
+    },
+    {
+      "article": "MED-LAB-STUL",
+      "category": "medical",
+      "name": {
+        "uz": "Laboratoriya stuli",
+        "ru": "Стул лабораторный",
+        "en": "Laboratory stool"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 42,
+      "image": "/products/MED-LAB-STUL.jpg"
+    },
+    {
+      "article": "MED-STELLAJ",
+      "category": "medical",
+      "name": {
+        "uz": "Stellaj",
+        "ru": "Стеллаж",
+        "en": "Shelving"
+      },
+      "dimensions": "L100×W45×H220",
+      "price": null,
+      "page": 42,
+      "image": "/products/MED-STELLAJ.jpg"
+    },
+    {
+      "article": "MED-SHTATIV",
+      "category": "medical",
+      "name": {
+        "uz": "Tomchi shtativi",
+        "ru": "Штатив для вливаний",
+        "en": "IV stand"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 43,
+      "image": "/products/MED-SHTATIV.jpg"
+    },
+    {
+      "article": "MED-SHIRMA-3",
+      "category": "medical",
+      "name": {
+        "uz": "3 seksiyali parda",
+        "ru": "Ширма 3-х секционная",
+        "en": "3-section screen"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 43,
+      "image": "/products/MED-SHIRMA-3.jpg"
+    },
+    {
+      "article": "MED-KUSHETKA",
+      "category": "medical",
+      "name": {
+        "uz": "Tibbiy kushetka",
+        "ru": "Кушетка медицинская",
+        "en": "Medical couch"
+      },
+      "dimensions": "L186×W63×H75",
+      "price": null,
+      "page": 43,
+      "image": "/products/MED-KUSHETKA.jpg"
+    },
+    {
+      "article": "MED-KROVAT-3",
+      "category": "medical",
+      "name": {
+        "uz": "Tibbiy krovat - 3",
+        "ru": "Кровать медицинская - 3",
+        "en": "Medical bed - 3"
+      },
+      "dimensions": "L200×W90×H75",
+      "price": null,
+      "page": 43,
+      "image": "/products/MED-KROVAT-3.jpg"
+    },
+    {
+      "article": "MED-KROVAT-10",
+      "category": "medical",
+      "name": {
+        "uz": "Tibbiy krovat - 10",
+        "ru": "Кровать медицинская - 10",
+        "en": "Medical bed - 10"
+      },
+      "dimensions": "L200×W80×H100",
+      "price": null,
+      "page": 44,
+      "image": "/products/MED-KROVAT-10.jpg"
+    },
+    {
+      "article": "MED-KROVAT-11",
+      "category": "medical",
+      "name": {
+        "uz": "Tibbiy krovat - 11",
+        "ru": "Кровать медицинская - 11",
+        "en": "Medical bed - 11"
+      },
+      "dimensions": "L200×W80×H100",
+      "price": null,
+      "page": 44,
+      "image": "/products/MED-KROVAT-11.jpg"
+    },
+    {
+      "article": "MED-KROVAT-13",
+      "category": "medical",
+      "name": {
+        "uz": "Tibbiy krovat - 13",
+        "ru": "Кровать медицинская - 13",
+        "en": "Medical bed - 13"
+      },
+      "dimensions": "L200×W80×H60",
+      "price": null,
+      "page": 44,
+      "image": "/products/MED-KROVAT-13.jpg"
+    },
+    {
+      "article": "MED-KROVAT-14",
+      "category": "medical",
+      "name": {
+        "uz": "Tibbiy krovat - 14",
+        "ru": "Кровать медицинская - 14",
+        "en": "Medical bed - 14"
+      },
+      "dimensions": "L200×W80×H60",
+      "price": null,
+      "page": 44,
+      "image": "/products/MED-KROVAT-14.jpg"
+    },
+    {
+      "article": "MED-NOSILKI",
+      "category": "medical",
+      "name": {
+        "uz": "Zambil",
+        "ru": "Носилки",
+        "en": "Stretcher"
+      },
+      "dimensions": "L200×W80×H60",
+      "price": null,
+      "page": 45,
+      "image": "/products/MED-NOSILKI.jpg"
+    },
+    {
+      "article": "MED-REANIM-1",
+      "category": "medical",
+      "name": {
+        "uz": "Reanimatsiya krovati - 1",
+        "ru": "Кровать реанимационная - 1",
+        "en": "ICU bed - 1"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 45,
+      "image": "/products/MED-REANIM-1.jpg"
+    },
+    {
+      "article": "MED-REANIM-2",
+      "category": "medical",
+      "name": {
+        "uz": "Reanimatsiya krovati - 2",
+        "ru": "Кровать реанимационная - 2",
+        "en": "ICU bed - 2"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 45,
+      "image": "/products/MED-REANIM-2.jpg"
+    },
+    {
+      "article": "MED-KUSHETKA-3",
+      "category": "medical",
+      "name": {
+        "uz": "Tibbiy kushetka - 3",
+        "ru": "Кушетка медицинская - 3",
+        "en": "Medical couch - 3"
+      },
+      "dimensions": "L200×W90×H75",
+      "price": null,
+      "page": 45,
+      "image": "/products/MED-KUSHETKA-3.jpg"
+    },
+    {
+      "article": "MED-LAB-STOL-OBOR",
+      "category": "medical",
+      "name": {
+        "uz": "Laboratoriya jihozi stoli",
+        "ru": "Стол для лабораторного оборудования",
+        "en": "Lab equipment table"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 46,
+      "image": "/products/MED-LAB-STOL-OBOR.jpg"
+    },
+    {
+      "article": "MED-LAB-STOL-1T",
+      "category": "medical",
+      "name": {
+        "uz": "Bir tumbali laboratoriya stoli",
+        "ru": "Стол лабораторный однотумбовый",
+        "en": "Single-pedestal lab table"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 46,
+      "image": "/products/MED-LAB-STOL-1T.jpg"
+    },
+    {
+      "article": "MED-LAB-SHKAF",
+      "category": "medical",
+      "name": {
+        "uz": "Laboratoriya shkafi",
+        "ru": "Лабораторный шкаф",
+        "en": "Laboratory cabinet"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 46,
+      "image": "/products/MED-LAB-SHKAF.jpg"
+    },
+    {
+      "article": "MED-LAB-STOL-MOYKA",
+      "category": "medical",
+      "name": {
+        "uz": "Yuvg'ichli laboratoriya stoli",
+        "ru": "Стол лабораторный с мойками",
+        "en": "Lab table with sinks"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 46,
+      "image": "/products/MED-LAB-STOL-MOYKA.jpg"
+    },
+    {
+      "article": "MGU200",
+      "category": "student",
+      "name": {
+        "uz": "Stol \"PS\"",
+        "ru": "Стол \"ПС\"",
+        "en": "Desk \"PS\""
+      },
+      "dimensions": "L90×W50×H75",
+      "price": null,
+      "page": 48,
+      "image": "/products/MGU200.jpg"
+    },
+    {
+      "article": "MGU206",
+      "category": "student",
+      "name": {
+        "uz": "Bir tomonlama stellaj",
+        "ru": "Стеллаж односторонний",
+        "en": "Single-sided shelving"
+      },
+      "dimensions": "L80×W40×H190",
+      "price": null,
+      "page": 48,
+      "image": "/products/MGU206.jpg"
+    },
+    {
+      "article": "MGU210",
+      "category": "student",
+      "name": {
+        "uz": "Kompyuter stoli",
+        "ru": "Компьютерный стол",
+        "en": "Computer desk"
+      },
+      "dimensions": "L90×W60×H75",
+      "price": null,
+      "page": 48,
+      "image": "/products/MGU210.jpg"
+    },
+    {
+      "article": "MGU224",
+      "category": "student",
+      "name": {
+        "uz": "Ish stoli",
+        "ru": "Стол рабочий",
+        "en": "Work desk"
+      },
+      "dimensions": "L90×W50×H75",
+      "price": null,
+      "page": 48,
+      "image": "/products/MGU224.jpg"
+    },
+    {
+      "article": "MGU208",
+      "category": "student",
+      "name": {
+        "uz": "O'quvchi stoli, 2 o'rinli",
+        "ru": "Стол ученический 2-х местный",
+        "en": "Student desk, 2-seat"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 49,
+      "image": "/products/MGU208.jpg"
+    },
+    {
+      "article": "MGU218",
+      "category": "student",
+      "name": {
+        "uz": "O'quvchi stoli, 2 o'rinli",
+        "ru": "Стол ученический 2-х местный",
+        "en": "Student desk, 2-seat"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 49,
+      "image": "/products/MGU218.jpg"
+    },
+    {
+      "article": "MGU203",
+      "category": "student",
+      "name": {
+        "uz": "O'quvchi stoli, 2 o'rinli",
+        "ru": "Стол ученический 2-х местный",
+        "en": "Student desk, 2-seat"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 49,
+      "image": "/products/MGU203.jpg"
+    },
+    {
+      "article": "MGU256-T",
+      "category": "student",
+      "name": {
+        "uz": "O'quvchi stoli",
+        "ru": "Стол ученический",
+        "en": "Student desk"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 49,
+      "image": "/products/MGU256-T.jpg"
+    },
+    {
+      "article": "MGU280",
+      "category": "student",
+      "name": {
+        "uz": "O'quvchi stuli",
+        "ru": "Стул ученический",
+        "en": "Student chair"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 50,
+      "image": "/products/MGU280.jpg"
+    },
+    {
+      "article": "MGU256",
+      "category": "student",
+      "name": {
+        "uz": "O'quvchi stuli",
+        "ru": "Стул ученический",
+        "en": "Student chair"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 50,
+      "image": "/products/MGU256.jpg"
+    },
+    {
+      "article": "MGU232",
+      "category": "student",
+      "name": {
+        "uz": "O'quvchi stuli",
+        "ru": "Стул ученический",
+        "en": "Student chair"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 50,
+      "image": "/products/MGU232.jpg"
+    },
+    {
+      "article": "MGU237",
+      "category": "student",
+      "name": {
+        "uz": "O'quvchi stuli",
+        "ru": "Стул ученический",
+        "en": "Student chair"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 50,
+      "image": "/products/MGU237.jpg"
+    },
+    {
+      "article": "MGU202",
+      "category": "student",
+      "name": {
+        "uz": "O'quvchi stoli, 2 o'rinli",
+        "ru": "Стол ученический 2-х местный",
+        "en": "Student desk, 2-seat"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 51,
+      "image": "/products/MGU202.jpg"
+    },
+    {
+      "article": "MGU207",
+      "category": "student",
+      "name": {
+        "uz": "O'quvchi stoli",
+        "ru": "Стол ученический",
+        "en": "Student desk"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 51,
+      "image": "/products/MGU207.jpg"
+    },
+    {
+      "article": "MGU217",
+      "category": "student",
+      "name": {
+        "uz": "O'quvchi stoli, 2 o'rinli",
+        "ru": "Стол ученический 2-х местный",
+        "en": "Student desk, 2-seat"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 51,
+      "image": "/products/MGU217.jpg"
+    },
+    {
+      "article": "MGU236",
+      "category": "student",
+      "name": {
+        "uz": "O'qituvchi stoli",
+        "ru": "Стол для преподавателя",
+        "en": "Teacher's desk"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 51,
+      "image": "/products/MGU236.jpg"
+    },
+    {
+      "article": "MGU282",
+      "category": "student",
+      "name": {
+        "uz": "O'quvchi stoli, 2 o'rinli",
+        "ru": "Стол ученический 2-х местный",
+        "en": "Student desk, 2-seat"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 52,
+      "image": "/products/MGU282.jpg"
+    },
+    {
+      "article": "MGU273",
+      "category": "student",
+      "name": {
+        "uz": "O'quvchi stoli, 2 o'rinli",
+        "ru": "Стол ученический 2-х местный",
+        "en": "Student desk, 2-seat"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 52,
+      "image": "/products/MGU273.jpg"
+    },
+    {
+      "article": "MGU255",
+      "category": "student",
+      "name": {
+        "uz": "3 seksiyali bo'r doskasi",
+        "ru": "Доска меловая трёхсекционная",
+        "en": "3-section chalkboard"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 52,
+      "image": "/products/MGU255.jpg"
+    },
+    {
+      "article": "MGL100",
+      "category": "student",
+      "name": {
+        "uz": "Kimyoviy reaktivlar shkafi",
+        "ru": "Шкаф для хранения химических реактивов",
+        "en": "Chemical storage cabinet"
+      },
+      "dimensions": "L60×W60×H200",
+      "price": null,
+      "page": 53,
+      "image": "/products/MGL100.jpg"
+    },
+    {
+      "article": "MGU123",
+      "category": "student",
+      "name": {
+        "uz": "Laboratoriya idishlari shkafi",
+        "ru": "Шкаф для хранения лабораторной посуды",
+        "en": "Labware storage cabinet"
+      },
+      "dimensions": "L80×W40×H188",
+      "price": null,
+      "page": 53,
+      "image": "/products/MGU123.jpg"
+    },
+    {
+      "article": "MGU135",
+      "category": "student",
+      "name": {
+        "uz": "Namoyish so'rg'ich shkafi",
+        "ru": "Вытяжной шкаф демонстрационный",
+        "en": "Demonstration fume hood"
+      },
+      "dimensions": "L90×W65×H190",
+      "price": null,
+      "page": 53,
+      "image": "/products/MGU135.jpg"
+    },
+    {
+      "article": "MGU156",
+      "category": "student",
+      "name": {
+        "uz": "Fizika xonasi namoyish stoli",
+        "ru": "Стол демонстрационный для кабинета физики",
+        "en": "Physics demonstration table"
+      },
+      "dimensions": "L160×W75×H75",
+      "price": null,
+      "page": 54,
+      "image": "/products/MGU156.jpg"
+    },
+    {
+      "article": "MGU128",
+      "category": "student",
+      "name": {
+        "uz": "Fizika o'quvchi stoli",
+        "ru": "Стол физический ученический",
+        "en": "Physics student desk"
+      },
+      "dimensions": "L120×W60×H76",
+      "price": null,
+      "page": 54,
+      "image": "/products/MGU128.jpg"
+    },
+    {
+      "article": "MGU173",
+      "category": "student",
+      "name": {
+        "uz": "Kimyo xonasi namoyish stoli",
+        "ru": "Стол демонстрационный для кабинета химии",
+        "en": "Chemistry demonstration table"
+      },
+      "dimensions": "L160×W75×H75",
+      "price": null,
+      "page": 54,
+      "image": "/products/MGU173.jpg"
+    },
+    {
+      "article": "MGD111",
+      "category": "children",
+      "name": {
+        "uz": "Bolalar stoli, 4 o'rinli",
+        "ru": "Детский стол 4-х местный",
+        "en": "Kids table, 4-seat"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 56,
+      "image": "/products/MGD111.jpg"
+    },
+    {
+      "article": "MGD160",
+      "category": "children",
+      "name": {
+        "uz": "Bolalar 5 seksiyali kiyim shkafi",
+        "ru": "Детский шкаф для одежды пятисекционный",
+        "en": "Kids 5-section wardrobe"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 56,
+      "image": "/products/MGD160.jpg"
+    },
+    {
+      "article": "MGD189",
+      "category": "children",
+      "name": {
+        "uz": "Bolalar o'yin zonasi \"Doktor\"",
+        "ru": "Детская игровая зона «Доктор»",
+        "en": "Kids play unit \"Doctor\""
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 56,
+      "image": "/products/MGD189.jpg"
+    },
+    {
+      "article": "MGD114",
+      "category": "children",
+      "name": {
+        "uz": "Bolalar skameykasi",
+        "ru": "Детская скамейка",
+        "en": "Kids bench"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 57,
+      "image": "/products/MGD114.jpg"
+    },
+    {
+      "article": "MGD112-KUHNYA",
+      "category": "children",
+      "name": {
+        "uz": "Bolalar o'yin zonasi \"Oshxona\"",
+        "ru": "Детская игровая зона «Кухня»",
+        "en": "Kids play unit \"Kitchen\""
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 57,
+      "image": "/products/MGD112-KUHNYA.jpg"
+    },
+    {
+      "article": "MGD176",
+      "category": "children",
+      "name": {
+        "uz": "Didaktik o'yinlar shkafi",
+        "ru": "Шкаф для дидактических игр",
+        "en": "Educational games cabinet"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 57,
+      "image": "/products/MGD176.jpg"
+    },
+    {
+      "article": "MGD133",
+      "category": "children",
+      "name": {
+        "uz": "Bolalar o'yin zonasi \"Sartaroshxona\"",
+        "ru": "Детская игровая зона «Парикмахерская»",
+        "en": "Kids play unit \"Hair salon\""
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 57,
+      "image": "/products/MGD133.jpg"
+    },
+    {
+      "article": "MGD121",
+      "category": "children",
+      "name": {
+        "uz": "Balandligi bo'yicha yig'iladigan bog'cha krovati",
+        "ru": "Детская дошкольная кровать складируемая по высоте",
+        "en": "Stackable preschool bed"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 58,
+      "image": "/products/MGD121.jpg"
+    },
+    {
+      "article": "MGD149",
+      "category": "children",
+      "name": {
+        "uz": "Bolalar o'yin zonasi \"Do'kon\"",
+        "ru": "Детская игровая зона «Магазин»",
+        "en": "Kids play unit \"Shop\""
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 58,
+      "image": "/products/MGD149.jpg"
+    },
+    {
+      "article": "MGD117",
+      "category": "children",
+      "name": {
+        "uz": "Bolalar kitob shkafi",
+        "ru": "Книжный шкаф для детской литературы",
+        "en": "Kids bookcase"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 58,
+      "image": "/products/MGD117.jpg"
+    },
+    {
+      "article": "MGD101",
+      "category": "children",
+      "name": {
+        "uz": "Bolalar ikki qavatli krovati (matras bilan)",
+        "ru": "Детская 2-х ярусная кровать (с матрацем)",
+        "en": "Kids bunk bed (with mattress)"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 58,
+      "image": "/products/MGD101.jpg"
+    },
+    {
+      "article": "MGD130",
+      "category": "children",
+      "name": {
+        "uz": "\"Poyezd\" stellaji",
+        "ru": "Стеллаж «ПОЕЗД»",
+        "en": "\"Train\" storage unit"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 59,
+      "image": "/products/MGD130.jpg"
+    },
+    {
+      "article": "MGD144",
+      "category": "children",
+      "name": {
+        "uz": "\"Malyutka\" stellaji",
+        "ru": "Стеллаж «МАЛЮТКА»",
+        "en": "\"Malyutka\" storage unit"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 59,
+      "image": "/products/MGD144.jpg"
+    },
+    {
+      "article": "MGD187",
+      "category": "children",
+      "name": {
+        "uz": "Ovqatlanish stoli - 1",
+        "ru": "Стол обеденный - 1",
+        "en": "Dining table - 1"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 59,
+      "image": "/products/MGD187.jpg"
+    },
+    {
+      "article": "MGD193",
+      "category": "children",
+      "name": {
+        "uz": "Ovqatlanish stoli - 2",
+        "ru": "Стол обеденный - 2",
+        "en": "Dining table - 2"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 59,
+      "image": "/products/MGD193.jpg"
+    },
+    {
+      "article": "MGD190",
+      "category": "children",
+      "name": {
+        "uz": "O'yinchoq shkaf - 1",
+        "ru": "Шкаф игрушка - 1",
+        "en": "Toy cabinet - 1"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 60,
+      "image": "/products/MGD190.jpg"
+    },
+    {
+      "article": "MGD166",
+      "category": "children",
+      "name": {
+        "uz": "\"Kamin oldi\" o'yin zonasi",
+        "ru": "Игровая зона «У камина»",
+        "en": "\"Fireplace\" play unit"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 60,
+      "image": "/products/MGD166.jpg"
+    },
+    {
+      "article": "MGD125",
+      "category": "children",
+      "name": {
+        "uz": "\"Ulitka\" stellaji",
+        "ru": "Стеллаж «УЛИТКА»",
+        "en": "\"Snail\" storage unit"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 60,
+      "image": "/products/MGD125.jpg"
+    },
+    {
+      "article": "MGD139",
+      "category": "children",
+      "name": {
+        "uz": "\"Teremok - 3\" stellaji",
+        "ru": "Стеллаж «ТЕРЕМОК - 3»",
+        "en": "\"Teremok - 3\" storage unit"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 60,
+      "image": "/products/MGD139.jpg"
+    },
+    {
+      "article": "MGD112",
+      "category": "children",
+      "name": {
+        "uz": "\"Teremok - 2\" o'yin majmuasi",
+        "ru": "Игровой комплекс «ТЕРЕМОК - 2»",
+        "en": "\"Teremok - 2\" play complex"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 61,
+      "image": "/products/MGD112.jpg"
+    },
+    {
+      "article": "MGD103",
+      "category": "children",
+      "name": {
+        "uz": "\"Kamazik\" stellaji",
+        "ru": "Стеллаж «КАМАЗИК»",
+        "en": "\"Kamazik\" storage unit"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 62,
+      "image": "/products/MGD103.jpg"
+    },
+    {
+      "article": "MGD141",
+      "category": "children",
+      "name": {
+        "uz": "Sochiq ilgichi",
+        "ru": "Вешалка для полотенец",
+        "en": "Towel rack"
+      },
+      "dimensions": null,
+      "price": null,
+      "page": 62,
+      "image": "/products/MGD141.jpg"
+    }
+  ]
+}

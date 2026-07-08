@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Magna — Kirish Video Studiyasi</title>
+<style>
+  :root{--g:#22a836;--gd:#12801f;--ink:#14130f}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:Inter,system-ui,Segoe UI,Roboto,sans-serif;background:#0d0f12;color:#e7ebef;line-height:1.5;padding:24px}
+  .wrap{max-width:1000px;margin:0 auto}
+  h1{font-size:26px;font-weight:800;margin-bottom:4px}
+  h1 span{color:var(--g)}
+  .sub{color:#9aa3ad;margin-bottom:26px;font-size:14px}
+  .card{background:#151a1f;border:1px solid #232a31;border-radius:14px;padding:20px;margin-bottom:18px}
+  .card h2{font-size:15px;text-transform:uppercase;letter-spacing:.12em;color:var(--g);margin-bottom:14px;display:flex;align-items:center;gap:8px}
+  .num{display:grid;place-items:center;width:24px;height:24px;border-radius:50%;background:var(--g);color:#04120a;font-size:13px;font-weight:800}
+  img{width:100%;max-width:520px;border-radius:10px;border:1px solid #232a31;display:block}
+  .btn{display:inline-flex;align-items:center;gap:8px;background:var(--g);color:#04120a;font-weight:700;border:none;border-radius:9px;padding:11px 18px;font-size:14px;cursor:pointer;text-decoration:none;transition:.2s}
+  .btn:hover{background:#2bd047}
+  .btn.ghost{background:transparent;color:#e7ebef;border:1px solid #2f3841}
+  .btn.ghost:hover{border-color:var(--g);color:var(--g)}
+  .row{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+  pre{background:#0c0f12;border:1px solid #232a31;border-radius:10px;padding:16px;white-space:pre-wrap;font-size:13.5px;color:#cdd6df;font-family:ui-monospace,Menlo,monospace}
+  .platforms{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px;margin-top:6px}
+  .plat{display:block;background:#0f141a;border:1px solid #232a31;border-radius:11px;padding:16px;text-decoration:none;color:#e7ebef;transition:.2s}
+  .plat:hover{border-color:var(--g);transform:translateY(-2px)}
+  .plat b{display:block;font-size:15px;margin-bottom:3px}
+  .plat b .star{color:var(--g)}
+  .plat span{font-size:12.5px;color:#8b95a0}
+  ol{margin:8px 0 0 18px;color:#cdd6df;font-size:14px}
+  ol li{margin-bottom:7px}
+  code{background:#0c0f12;border:1px solid #232a31;border-radius:5px;padding:2px 6px;font-size:13px;color:var(--g)}
+  .ok{color:var(--g);font-weight:700}
+  .foot{color:#6b747d;font-size:12.5px;margin-top:20px;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>MAGNA <span>Kirish Video Studiyasi</span></h1>
+  <p class="sub">Bir joydan: eshik rasmini yuklang → prompt'ni nusxalang → bepul platformaда video qiling → MP4'ni papkaga tashlang.</p>
+
+  <div class="card">
+    <h2><span class="num">1</span> Eshik rasmini yuklab oling</h2>
+    <img src="/scenes/door_closed.jpg" alt="Magna door">
+    <div class="row">
+      <a class="btn" href="/scenes/door_closed.jpg" download="magna-door.jpg">⬇ Eshik rasmini yuklash</a>
+      <a class="btn ghost" href="/scenes/door.jpg" download="magna-door-steel.jpg">Muqobil (po'lat) eshik</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2><span class="num">2</span> Video prompt — nusxalang</h2>
+    <pre id="prompt">Eye-level cinematic shot. The premium steel double doors slowly swing open outward toward the viewer, revealing a bright luxury corporate reception lobby with a large "MAGNA GROUP" wall behind. The camera steps back slightly as the doors open, then smoothly glides forward through the doorway into the reception hall. Warm cinematic lighting, polished marble floor with reflections, photorealistic, smooth continuous motion, premium, 8k.</pre>
+    <div class="row">
+      <button class="btn" onclick="cp()">📋 Prompt'ni nusxalash</button>
+      <span id="copied" class="ok" style="display:none;align-self:center">✓ Nusxa olindi!</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2><span class="num">3</span> Bepul platformада video qiling (Image → Video)</h2>
+    <div class="platforms">
+      <a class="plat" href="https://klingai.com" target="_blank"><b>Kling AI <span class="star">★</span></b><span>Aynan o'sha model · kunlik bepul</span></a>
+      <a class="plat" href="https://hailuoai.video" target="_blank"><b>Hailuo (MiniMax)</b><span>Kunlik bepul · sifatli</span></a>
+      <a class="plat" href="https://lumalabs.ai/dream-machine" target="_blank"><b>Luma Dream Machine</b><span>Oyiga bepul · kinematografik</span></a>
+      <a class="plat" href="https://www.vidu.com" target="_blank"><b>Vidu</b><span>Bepul kredit</span></a>
+      <a class="plat" href="https://pika.art" target="_blank"><b>Pika</b><span>Bepul kredit</span></a>
+      <a class="plat" href="https://aistudio.google.com" target="_blank"><b>Google AI Studio (Veo)</b><span>Ba'zan bepul · eksperimental</span></a>
+    </div>
+    <ol>
+      <li>Saytga Google akkaunt bilan <b>bepul</b> kiring.</li>
+      <li><b>Image to Video</b> rejimini tanlang.</li>
+      <li>1-qadamdagi eshik rasmini <b>yuklang</b>.</li>
+      <li>2-qadamdagi <b>prompt'ni</b> joylang.</li>
+      <li>Uzunlik <code>5s</code> yoki <code>10s</code>, <code>Generate</code> bosing.</li>
+      <li>Tayyor bo'lgach <b>MP4'ni yuklab oling</b>.</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2><span class="num">4</span> Videoni saytga qo'shish</h2>
+    <ol>
+      <li>Yuklab olgan videoni <code>D:\magnagroup.uz\public\</code> papkasiga tashlang.</li>
+      <li>Nomini <code>entrance.mp4</code> qo'ying.</li>
+      <li>Claude'ga <span class="ok">"video tayyor"</span> deb yozing — men uni scroll bilan boshqariladigan qilib eshik o'rniga ulayman.</li>
+    </ol>
+  </div>
+
+  <p class="foot">Barchasi bepul · karta kerak emas · MAGNA GROUP Digital Headquarters</p>
+</div>
+
+<script>
+function cp(){
+  const t=document.getElementById('prompt').innerText;
+  navigator.clipboard.writeText(t).then(()=>{
+    const c=document.getElementById('copied');c.style.display='inline';
+    setTimeout(()=>c.style.display='none',1800);
+  });
+}
+</script>
+</body>
+</html>
