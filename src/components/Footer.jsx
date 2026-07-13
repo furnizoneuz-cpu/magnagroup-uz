@@ -24,7 +24,6 @@ export default function Footer({ lang, brand, categories }) {
             <li><Link href={`/${lang}/delivery`} className="transition hover:text-[#111]">{t(lang, "nav_delivery")}</Link></li>
             <li><Link href={`/${lang}/about`} className="transition hover:text-[#111]">{t(lang, "nav_about")}</Link></li>
             <li><Link href={`/${lang}/contact`} className="transition hover:text-[#111]">{t(lang, "nav_contact")}</Link></li>
-            <li><Link href={`/${lang}/flipbook`} className="transition hover:text-[#111]">{t(lang, "nav_flipbook")}</Link></li>
           </ul>
         </div>
 
@@ -33,9 +32,13 @@ export default function Footer({ lang, brand, categories }) {
           <ul className="space-y-2.5 text-sm text-[#757575]">
             {(brand.showrooms || (brand.showroom ? [brand.showroom] : [])).map((s, i) => (
               <li key={i}>
-                <a href={`https://www.google.com/maps/dir/?api=1&destination=${s.lat},${s.lng}`} target="_blank" rel="noopener noreferrer" className="transition hover:text-[#111]">
-                  <span className="font-semibold text-[#111]">{s.label?.[lang]}:</span> {s.address[lang]}
-                </a>
+                {s.lat && s.lng ? (
+                  <a href={`https://www.google.com/maps/dir/?api=1&destination=${s.lat},${s.lng}`} target="_blank" rel="noopener noreferrer" className="transition hover:text-[#111]">
+                    <span className="font-semibold text-[#111]">{s.label?.[lang]}:</span> {s.address[lang]}
+                  </a>
+                ) : (
+                  <span><span className="font-semibold text-[#111]">{s.label?.[lang]}:</span> {s.address[lang]}</span>
+                )}
               </li>
             ))}
             {brand.phones.map((p) => (

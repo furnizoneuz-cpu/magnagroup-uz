@@ -41,9 +41,9 @@ export default function CheckoutPage({ params }) {
             <path d="M5 13l4 4L19 7" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </div>
-        <h1 className="mt-5 text-2xl font-extrabold text-ink">{t(lang, "co_success")}</h1>
+        <h1 className="mt-5 text-2xl font-extrabold text-[#111]">{t(lang, "co_success")}</h1>
         <p className="mt-2 text-black/55">{t(lang, "co_order_no")}: <b>{done}</b></p>
-        <Link href={`/${lang}/catalog`} className="mt-6 inline-block rounded-lg bg-ink px-6 py-3 text-sm font-semibold text-white hover:bg-[#3a3a3a]">
+        <Link href={`/${lang}/catalog`} className="mt-6 inline-block rounded-lg bg-[#111] px-6 py-3 text-sm font-semibold text-white hover:bg-[#3a3a3a]">
           {t(lang, "continue_shopping")}
         </Link>
       </div>
@@ -54,7 +54,7 @@ export default function CheckoutPage({ params }) {
     return (
       <div className="container-x py-20 text-center text-black/40">
         {t(lang, "cart_empty")}
-        <div><Link href={`/${lang}/catalog`} className="mt-4 inline-block rounded-lg bg-ink px-6 py-3 text-sm font-semibold text-white">{t(lang, "continue_shopping")}</Link></div>
+        <div><Link href={`/${lang}/catalog`} className="mt-4 inline-block rounded-lg bg-[#111] px-6 py-3 text-sm font-semibold text-white">{t(lang, "continue_shopping")}</Link></div>
       </div>
     );
   }
@@ -63,7 +63,7 @@ export default function CheckoutPage({ params }) {
 
   return (
     <div className="container-x py-8">
-      <h1 className="mb-6 text-2xl font-extrabold text-ink sm:text-3xl">{t(lang, "checkout_title")}</h1>
+      <h1 className="mb-6 text-2xl font-extrabold text-[#111] sm:text-3xl">{t(lang, "checkout_title")}</h1>
       <div className="grid gap-8 lg:grid-cols-3">
         <form onSubmit={submit} className="space-y-4 lg:col-span-2">
           <div>
@@ -93,7 +93,7 @@ export default function CheckoutPage({ params }) {
                 { id: "uzum", label: "Uzum" },
               ].map((p) => (
                 <button type="button" key={p.id} onClick={() => set("payment", p.id)}
-                  className={"rounded-lg border px-4 py-2 text-sm font-semibold transition " + (form.payment === p.id ? "border-gold bg-[#e5e5e5] text-ink" : "border-black/12 text-black/60 hover:border-gold")}>
+                  className={"rounded-lg border px-4 py-2 text-sm font-semibold transition " + (form.payment === p.id ? "border-[#111] bg-[#111] text-white" : "border-black/12 text-black/60 hover:border-[#111]")}>
                   {p.label}
                 </button>
               ))}
@@ -107,14 +107,14 @@ export default function CheckoutPage({ params }) {
             )}
           </div>
           {err && <div className="rounded-lg bg-red-50 px-4 py-2 text-sm text-red-600">{err}</div>}
-          <button disabled={busy} className="w-full rounded-lg bg-ink px-6 py-3 text-sm font-bold text-white hover:bg-[#3a3a3a] disabled:opacity-50 sm:w-auto">
+          <button disabled={busy} className="w-full rounded-lg bg-[#111] px-6 py-3 text-sm font-bold text-white hover:bg-[#3a3a3a] disabled:opacity-50 sm:w-auto">
             {busy ? "..." : t(lang, "co_submit")}
           </button>
         </form>
 
         <div className="lg:col-span-1">
-          <div className="rounded-2xl border border-black/5 bg-sand p-5">
-            <div className="mb-3 text-sm font-bold text-ink">{t(lang, "cart_title")} · {items.length} {t(lang, "items")}</div>
+          <div className="rounded-2xl border border-black/5 bg-[#f5f5f5] p-5">
+            <div className="mb-3 text-sm font-bold text-[#111]">{t(lang, "cart_title")} · {items.length} {t(lang, "items")}</div>
             <div className="space-y-2 text-sm">
               {items.map((it) => (
                 <div key={it.article} className="flex justify-between gap-2">
@@ -125,7 +125,7 @@ export default function CheckoutPage({ params }) {
             </div>
             <div className="mt-4 flex justify-between border-t border-black/10 pt-3">
               <span className="font-semibold">{t(lang, "cart_total")}</span>
-              <span className="font-extrabold text-ink">{hasPrices ? formatPrice(total, lang) : t(lang, "price_on_request")}</span>
+              <span className="font-extrabold text-[#111]">{hasPrices ? formatPrice(total, lang) : t(lang, "price_on_request")}</span>
             </div>
           </div>
         </div>

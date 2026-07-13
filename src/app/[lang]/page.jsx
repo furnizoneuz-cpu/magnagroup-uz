@@ -1,7 +1,19 @@
+import fs from "fs";
+import path from "path";
 import Link from "next/link";
 import { getVisibleProducts, getCategories } from "@/lib/data";
 import ProductCard from "@/components/ProductCard";
+import ShowroomGallery from "@/components/ShowroomGallery";
 import LeadForm from "@/components/LeadForm";
+
+function showroomImages() {
+  try {
+    const dir = path.join(process.cwd(), "public", "showroom");
+    return fs.readdirSync(dir).filter((f) => f.endsWith(".jpg")).sort().map((f) => `/showroom/${f}`);
+  } catch {
+    return [];
+  }
+}
 
 export const revalidate = 60;
 
@@ -62,6 +74,7 @@ export default async function Home({ params }) {
   const c = COPY[lang] || COPY.uz;
   const products = await getVisibleProducts();
   const categories = getCategories();
+  const gallery = showroomImages();
 
   const inStock = products.filter((p) => Number(p.stock) > 0 && p.image);
   const featured = inStock.slice(0, 8);
@@ -138,12 +151,15 @@ export default async function Home({ params }) {
         </div>
       </section>
 
+      {/* SHOWROOM GALLERY (real photos) */}
+      <ShowroomGallery images={gallery} lang={lang} />
+
       {/* SHOWROOM BANNER */}
       <section className="container-x py-12">
         <div className="bg-[#111] px-6 py-14 text-center text-white md:py-20">
           <h2 className="display-head text-4xl md:text-6xl">{c.banner}</h2>
           <p className="mx-auto mt-4 max-w-lg text-[15px] text-white/70">{c.bannerSub}</p>
-          <a href="https://www.google.com/maps/dir/?api=1&destination=41.246406,69.228694" target="_blank" rel="noopener noreferrer"
+          <a href="https://www.google.com/maps/dir/?api=1&destination=41.246362,69.228707" target="_blank" rel="noopener noreferrer"
             className="mt-7 inline-flex items-center justify-center gap-2 rounded-full bg-white px-6 py-2.5 text-sm font-semibold text-[#111] transition hover:bg-white/85">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="h-4 w-4"><path d="M3 11l19-9-9 19-2-8-8-2Z" strokeLinejoin="round"/></svg>
             {c.bannerCta}

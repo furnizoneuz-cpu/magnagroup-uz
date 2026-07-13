@@ -11,12 +11,12 @@ export default function CartPage({ params }) {
 
   return (
     <div className="container-x py-8">
-      <h1 className="mb-6 text-2xl font-extrabold text-ink sm:text-3xl">{t(lang, "cart_title")}</h1>
+      <h1 className="mb-6 text-2xl font-extrabold text-[#111] sm:text-3xl">{t(lang, "cart_title")}</h1>
 
       {items.length === 0 ? (
         <div className="rounded-2xl border border-dashed border-black/15 py-20 text-center">
           <p className="text-black/40">{t(lang, "cart_empty")}</p>
-          <Link href={`/${lang}/catalog`} className="mt-4 inline-block rounded-lg bg-ink px-6 py-3 text-sm font-semibold text-white hover:bg-[#3a3a3a]">
+          <Link href={`/${lang}/catalog`} className="mt-4 inline-block rounded-lg bg-[#111] px-6 py-3 text-sm font-semibold text-white hover:bg-[#3a3a3a]">
             {t(lang, "continue_shopping")}
           </Link>
         </div>
@@ -32,11 +32,11 @@ export default function CartPage({ params }) {
                       <ProductImage product={it} lang={lang} />
                     </div>
                     <div className="flex flex-1 flex-col">
-                      <Link href={`/${lang}/product/${encodeURIComponent(it.article)}`} className="text-sm font-semibold text-ink hover:text-[#111]">
+                      <Link href={`/${lang}/product/${encodeURIComponent(it.article)}`} className="text-sm font-semibold text-[#111] hover:text-[#111]">
                         {it.name[lang]}
                       </Link>
                       <div className="text-xs text-black/45">{t(lang, "article")}: {it.article}</div>
-                      <div className="mt-1 text-sm font-bold text-ink">
+                      <div className="mt-1 text-sm font-bold text-[#111]">
                         {price || <span className="font-medium text-black/40">{t(lang, "price_on_request")}</span>}
                       </div>
                       <div className="mt-auto flex items-center gap-3 pt-2">
@@ -57,14 +57,14 @@ export default function CartPage({ params }) {
           </div>
 
           <div className="lg:col-span-1">
-            <div className="rounded-2xl border border-black/5 bg-sand p-5">
+            <div className="rounded-2xl border border-black/5 bg-[#f5f5f5] p-5">
               <div className="mb-4 flex items-center justify-between">
                 <span className="text-black/60">{t(lang, "cart_total")}</span>
-                <span className="text-xl font-extrabold text-ink">
+                <span className="text-xl font-extrabold text-[#111]">
                   {hasPrices ? formatPrice(total, lang) : t(lang, "price_on_request")}
                 </span>
               </div>
-              <Link href={`/${lang}/checkout`} className="block rounded-lg bg-ink px-6 py-3 text-center text-sm font-bold text-white hover:bg-[#3a3a3a]">
+              <Link href={`/${lang}/checkout`} className="block rounded-lg bg-[#111] px-6 py-3 text-center text-sm font-bold text-white hover:bg-[#3a3a3a]">
                 {t(lang, "cart_checkout")}
               </Link>
               <Link href={`/${lang}/catalog`} className="mt-2 block text-center text-sm font-medium text-[#111] hover:underline">

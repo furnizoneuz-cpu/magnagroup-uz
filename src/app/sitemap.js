@@ -2,7 +2,7 @@ import { getVisibleProducts } from "@/lib/data";
 import { LANGS } from "@/lib/i18n";
 
 const SITE = "https://magnagroup.uz";
-const STATIC_PATHS = ["", "/catalog", "/about", "/delivery", "/contact", "/flipbook"];
+const STATIC_PATHS = ["", "/catalog", "/about", "/delivery", "/contact"];
 
 export default async function sitemap() {
   const products = await getVisibleProducts();
