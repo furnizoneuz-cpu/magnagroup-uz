@@ -3,9 +3,8 @@ import { notFound } from "next/navigation";
 import { getProduct, getVisibleProducts as getProducts, getCategories } from "@/lib/data";
 import AddToCartButton from "@/components/AddToCartButton";
 import ProductCard from "@/components/ProductCard";
-import ProductStage from "@/components/ProductStage";
-import ProductMaterials from "@/components/ProductMaterials";
-import ProductZoom from "@/components/ProductZoom";
+import ProductGallery from "@/components/ProductGallery";
+import Accordion from "@/components/Accordion";
 import { formatPrice } from "@/lib/format";
 import { t } from "@/lib/i18n";
 
@@ -30,9 +29,11 @@ export default async function ProductPage({ params }) {
   const categories = getCategories();
   const cat = categories.find((c) => c.id === product.category);
   const price = formatPrice(product.price, lang);
+  const inStock = Number(product.stock) > 0;
   const related = (await getProducts())
     .filter((p) => p.category === product.category && p.article !== product.article)
-    .slice(0, 5);
+    .slice(0, 4);
+  const L = (uz, ru, en) => (lang === "ru" ? ru : lang === "en" ? en : uz);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -44,93 +45,111 @@ export default async function ProductPage({ params }) {
     brand: { "@type": "Brand", name: "Magna Group" },
     offers: {
       "@type": "Offer",
-      availability: Number(product.stock) > 0
-        ? "https://schema.org/InStock"
-        : "https://schema.org/PreOrder",
+      availability: inStock ? "https://schema.org/InStock" : "https://schema.org/PreOrder",
       ...(product.price ? { price: String(product.price), priceCurrency: "UZS" } : {}),
     },
   };
 
+  const accordionItems = [
+    product.description?.[lang]
+      ? { title: L("Tavsif", "Описание", "Description"), body: product.description[lang] }
+      : null,
+    {
+      title: L("Xususiyatlar", "Характеристики", "Details"),
+      body: [
+        `${t(lang, "article")}: ${product.article}`,
+        cat ? `${t(lang, "category")}: ${cat.name[lang]}` : null,
+        product.dimensions ? `${t(lang, "dimensions")}: ${product.dimensions}` : null,
+        inStock
+          ? `${t(lang, "in_stock")}: ${product.stock} ${lang === "ru" ? "шт" : lang === "en" ? "pcs" : "dona"}`
+          : t(lang, "on_order"),
+      ].filter(Boolean).join("\n"),
+    },
+    {
+      title: t(lang, "nav_delivery"),
+      body: L(
+        "Toshkent bo'ylab yetkazib berish va professional yig'ish xizmati mavjud. Muddat va narx buyurtma hajmiga bog'liq — menejer aniqlashtiradi.",
+        "Доставка по Ташкенту и профессиональная сборка. Сроки и стоимость зависят от объёма заказа — уточнит менеджер.",
+        "Delivery across Tashkent with professional assembly. Timing and cost depend on order size — our manager will confirm."
+      ),
+    },
+    {
+      title: L("Showroom", "Шоу-рум", "Showroom"),
+      body: L(
+        "Mahsulotni jonli ko'rish: Toshkent, Mirobod tumani, Tong Yulduzi ko'chasi, Alfraganus savdo majmuasi, 2-qavat (Atlas mebel ichida).",
+        "Посмотреть вживую: Ташкент, Мирабадский район, ул. Тонг Юлдузи, ТЦ Alfraganus, 2 этаж (внутри Atlas mebel).",
+        "See it in person: Tashkent, Mirobod district, Tong Yulduzi street, Alfraganus trade center, 2nd floor (inside Atlas mebel)."
+      ),
+    },
+  ].filter(Boolean);
+
   return (
-    <div>
+    <div className="container-x py-6">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      {/* cinematic scroll stage */}
-      <ProductStage product={product} lang={lang} />
 
-      {/* info */}
-      <div className="container-x -mt-2 py-10">
-        <nav className="mb-6 flex flex-wrap items-center gap-1.5 text-sm text-black/45">
-          <Link href={`/${lang}`} className="hover:text-gold-dark">{t(lang, "nav_home")}</Link>
-          <span>/</span>
-          <Link href={`/${lang}/catalog`} className="hover:text-gold-dark">{t(lang, "nav_catalog")}</Link>
-          <span>/</span>
-          <Link href={`/${lang}/catalog?cat=${product.category}`} className="hover:text-gold-dark">{cat?.name[lang]}</Link>
-        </nav>
+      {/* breadcrumb */}
+      <nav className="mb-4 flex flex-wrap items-center gap-1.5 text-sm text-[#757575]">
+        <Link href={`/${lang}`} className="hover:text-[#111]">{t(lang, "nav_home")}</Link>
+        <span>/</span>
+        <Link href={`/${lang}/catalog`} className="hover:text-[#111]">{t(lang, "nav_catalog")}</Link>
+        <span>/</span>
+        <Link href={`/${lang}/catalog?cat=${product.category}`} className="hover:text-[#111]">{cat?.name[lang]}</Link>
+      </nav>
 
-        <div className="grid gap-8 md:grid-cols-2">
-          <div>
-            <div className="mb-2 flex items-center justify-between gap-3">
-              <span className="text-sm font-semibold uppercase tracking-wide text-gold-dark">
-                {t(lang, "article")}: {product.article}
-              </span>
-              {product.image && <ProductZoom src={product.image} alt={product.name[lang]} lang={lang} />}
-            </div>
-            <h2 className="text-2xl font-extrabold leading-tight text-ink sm:text-3xl">{product.name[lang]}</h2>
-            <dl className="mt-6 space-y-3 border-y border-black/5 py-5 text-sm">
-              <div className="flex justify-between">
-                <dt className="text-black/50">{t(lang, "category")}</dt>
-                <dd className="font-medium text-ink">{cat?.name[lang]}</dd>
-              </div>
-              {product.dimensions && (
-                <div className="flex justify-between">
-                  <dt className="text-black/50">{t(lang, "dimensions")}</dt>
-                  <dd className="font-medium text-ink">{product.dimensions}</dd>
-                </div>
-              )}
-            </dl>
+      <div className="grid gap-10 lg:grid-cols-[1fr_400px]">
+        {/* gallery */}
+        <ProductGallery product={product} lang={lang} />
+
+        {/* right rail */}
+        <div>
+          <div className={"text-[15px] font-semibold " + (inStock ? "text-green-700" : "text-[#9E3500]")}>
+            {inStock
+              ? `${t(lang, "in_stock")} · ${product.stock} ${lang === "ru" ? "шт" : lang === "en" ? "pcs" : "dona"}`
+              : t(lang, "on_order")}
+          </div>
+          <h1 className="mt-1 text-2xl font-bold leading-tight text-[#111]">{product.name[lang]}</h1>
+          <div className="mt-1 text-[15px] text-[#757575]">{cat?.name[lang]} · {product.article}</div>
+
+          <div className="mt-4 text-xl font-semibold text-[#111]">
+            {price || <span className="text-[#757575]">{t(lang, "price_on_request")}</span>}
           </div>
 
-          <div className="md:pt-2">
-            <div className="mb-3">
-              {Number(product.stock) > 0 ? (
-                <span className="inline-flex items-center gap-1.5 rounded-full bg-green-50 px-3 py-1 text-sm font-semibold text-green-700">
-                  ● {t(lang, "in_stock")}: {product.stock} {lang === "ru" ? "шт" : lang === "en" ? "pcs" : "dona"}
-                </span>
-              ) : (
-                <span className="inline-flex items-center gap-1.5 rounded-full bg-amber-50 px-3 py-1 text-sm font-semibold text-amber-700">
-                  {t(lang, "on_order")}
-                </span>
+          <div className="mt-6 space-y-3">
+            <AddToCartButton product={product} lang={lang} full pill />
+            <a href="tel:+998991725050" className="btn-pill-outline w-full">
+              {L("Qo'ng'iroq qilish", "Позвонить", "Call us")}
+            </a>
+          </div>
+
+          {!price && (
+            <p className="mt-3 text-[13px] text-[#757575]">
+              {L(
+                "Savatga qo'shing va so'rov qoldiring — narxni tez orada xabar qilamiz.",
+                "Добавьте в корзину и оставьте заявку — мы быстро сообщим цену.",
+                "Add to cart and send a request — we'll quote the price shortly."
               )}
-            </div>
-            <div className="mb-4 text-2xl font-extrabold text-ink">
-              {price || <span className="text-lg font-semibold text-black/45">{t(lang, "price_on_request")}</span>}
-            </div>
-            <div className="max-w-xs">
-              <AddToCartButton product={product} lang={lang} full />
-            </div>
-            {!price && (
-              <p className="mt-3 text-xs text-black/45">
-                {lang === "ru" ? "Добавьте в корзину и оставьте заявку — мы сообщим цену." :
-                 lang === "en" ? "Add to cart and send a request — we'll quote the price." :
-                 "Savatga qo'shing va so'rov qoldiring — narxni xabar qilamiz."}
-              </p>
-            )}
+            </p>
+          )}
+
+          <div className="mt-8">
+            <Accordion items={accordionItems} />
           </div>
         </div>
-
-        <ProductMaterials product={product} lang={lang} />
-
-        {related.length > 0 && (
-          <div className="mt-14">
-            <h2 className="mb-5 text-xl font-extrabold text-ink">{cat?.name[lang]}</h2>
-            <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
-              {related.map((p) => (
-                <ProductCard key={p.article} product={p} lang={lang} />
-              ))}
-            </div>
-          </div>
-        )}
       </div>
+
+      {/* related */}
+      {related.length > 0 && (
+        <div className="mt-16">
+          <h2 className="mb-5 text-xl font-bold text-[#111]">
+            {L("Sizga ham yoqishi mumkin", "Вам также может понравиться", "You might also like")}
+          </h2>
+          <div className="grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-4">
+            {related.map((p) => (
+              <ProductCard key={p.article} product={p} lang={lang} />
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

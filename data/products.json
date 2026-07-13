@@ -2456,12 +2456,13 @@
       "dimensions": "Total Size：1800*1600*750 Table Top:1800*800\nSide Return: 1600*500*750",
       "price": null,
       "stock": 0,
-      "image": "/products/ai/MG01-D0118LQ.jpg",
+      "image": "/products/real/p1_MG01-D0118LQ.png",
       "_src": "astatka-p1",
       "_costUSD": 340.9,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG01-D0118LQ.webp",
-      "_realPhoto": "/products/real/p1_MG01-D0118LQ.png"
+      "thumb": "/products/real/thumbs/p1_MG01-D0118LQ.webp",
+      "_realPhoto": "/products/real/p1_MG01-D0118LQ.png",
+      "_aiRender": "/products/ai/MG01-D0118LQ.jpg"
     },
     {
       "article": "MG01-C0124LQ",
@@ -2479,12 +2480,13 @@
       "dimensions": "2400*1200*750",
       "price": null,
       "stock": 1,
-      "image": "/products/ai/MG01-C0124LQ.jpg",
+      "image": "/products/real/p1_MG01-C0124LQ.png",
       "_src": "astatka-p1",
       "_costUSD": 305.7,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG01-C0124LQ.webp",
-      "_realPhoto": "/products/real/p1_MG01-C0124LQ.png"
+      "thumb": "/products/real/thumbs/p1_MG01-C0124LQ.webp",
+      "_realPhoto": "/products/real/p1_MG01-C0124LQ.png",
+      "_aiRender": "/products/ai/MG01-C0124LQ.jpg"
     },
     {
       "article": "MG03-D0118LW",
@@ -2502,12 +2504,13 @@
       "dimensions": "Total Size: 1800W*1600D*760H Table Top: 1800W*800D*40H",
       "price": null,
       "stock": 0,
-      "image": "/products/ai/MG03-D0118LW.jpg",
+      "image": "/products/real/p1_MG03-D0118LW.jpg",
       "_src": "astatka-p1",
       "_costUSD": 388.2,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG03-D0118LW.webp",
-      "_realPhoto": "/products/real/p1_MG03-D0118LW.jpg"
+      "thumb": "/products/real/thumbs/p1_MG03-D0118LW.webp",
+      "_realPhoto": "/products/real/p1_MG03-D0118LW.jpg",
+      "_aiRender": "/products/ai/MG03-D0118LW.jpg"
     },
     {
       "article": "MG03-D0412",
@@ -2525,12 +2528,13 @@
       "dimensions": "1200*1200*750",
       "price": null,
       "stock": 1,
-      "image": "/products/ai/MG03-D0412.jpg",
+      "image": "/products/real/p1_MG03-D0412.jpg",
       "_src": "astatka-p1",
       "_costUSD": 328.5,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG03-D0412.webp",
-      "_realPhoto": "/products/real/p1_MG03-D0412.jpg"
+      "thumb": "/products/real/thumbs/p1_MG03-D0412.webp",
+      "_realPhoto": "/products/real/p1_MG03-D0412.jpg",
+      "_aiRender": "/products/ai/MG03-D0412.jpg"
     },
     {
       "article": "MG03-D0412Y",
@@ -2548,12 +2552,13 @@
       "dimensions": "1200*1200*750",
       "price": null,
       "stock": 0,
-      "image": "/products/ai/MG03-D0412Y.jpg",
+      "image": "/products/real/p1_MG03-D0412Y.jpg",
       "_src": "astatka-p1",
       "_costUSD": 269.6,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG03-D0412Y.webp",
-      "_realPhoto": "/products/real/p1_MG03-D0412Y.jpg"
+      "thumb": "/products/real/thumbs/p1_MG03-D0412Y.webp",
+      "_realPhoto": "/products/real/p1_MG03-D0412Y.jpg",
+      "_aiRender": "/products/ai/MG03-D0412Y.jpg"
     },
     {
       "article": "MG05-D0318KW",
@@ -2571,12 +2576,13 @@
       "dimensions": "1800*1600*750",
       "price": null,
       "stock": 1,
-      "image": "/products/ai/MG05-D0318KW.jpg",
+      "image": "/products/real/p1_MG05-D0318KW.jpg",
       "_src": "astatka-p1",
       "_costUSD": 394.9,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG05-D0318KW.webp",
-      "_realPhoto": "/products/real/p1_MG05-D0318KW.jpg"
+      "thumb": "/products/real/thumbs/p1_MG05-D0318KW.webp",
+      "_realPhoto": "/products/real/p1_MG05-D0318KW.jpg",
+      "_aiRender": "/products/ai/MG05-D0318KW.jpg"
     },
     {
       "article": "MG05-D0412KW",
@@ -2594,12 +2600,13 @@
       "dimensions": "1200*1200*750",
       "price": null,
       "stock": 1,
-      "image": "/products/ai/MG05-D0412KW.jpg",
+      "image": "/products/real/p1_MG05-D0412KW.jpg",
       "_src": "astatka-p1",
       "_costUSD": 331.7,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG05-D0412KW.webp",
-      "_realPhoto": "/products/real/p1_MG05-D0412KW.jpg"
+      "thumb": "/products/real/thumbs/p1_MG05-D0412KW.webp",
+      "_realPhoto": "/products/real/p1_MG05-D0412KW.jpg",
+      "_aiRender": "/products/ai/MG05-D0412KW.jpg"
     },
     {
       "article": "MG05-D0412YW",
@@ -2617,12 +2624,13 @@
       "dimensions": "1200*1200*750",
       "price": null,
       "stock": 0,
-      "image": "/products/ai/MG05-D0412YW.jpg",
+      "image": "/products/real/p1_MG05-D0412YW.jpg",
       "_src": "astatka-p1",
       "_costUSD": 244.3,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG05-D0412YW.webp",
-      "_realPhoto": "/products/real/p1_MG05-D0412YW.jpg"
+      "thumb": "/products/real/thumbs/p1_MG05-D0412YW.webp",
+      "_realPhoto": "/products/real/p1_MG05-D0412YW.jpg",
+      "_aiRender": "/products/ai/MG05-D0412YW.jpg"
     },
     {
       "article": "MG05-D0524KW",
@@ -2640,12 +2648,13 @@
       "dimensions": "2400*1200*750",
       "price": null,
       "stock": 0,
-      "image": "/products/ai/MG05-D0524KW.jpg",
+      "image": "/products/real/p1_MG05-D0524KW.jpg",
       "_src": "astatka-p1",
       "_costUSD": 513.5,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG05-D0524KW.webp",
-      "_realPhoto": "/products/real/p1_MG05-D0524KW.jpg"
+      "thumb": "/products/real/thumbs/p1_MG05-D0524KW.webp",
+      "_realPhoto": "/products/real/p1_MG05-D0524KW.jpg",
+      "_aiRender": "/products/ai/MG05-D0524KW.jpg"
     },
     {
       "article": "MG05-C0120MW",
@@ -2663,12 +2672,13 @@
       "dimensions": "2000*1000*750",
       "price": null,
       "stock": 1,
-      "image": "/products/ai/MG05-C0120MW.jpg",
+      "image": "/products/real/p1_MG05-C0120MW.jpg",
       "_src": "astatka-p1",
       "_costUSD": 329.9,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG05-C0120MW.webp",
-      "_realPhoto": "/products/real/p1_MG05-C0120MW.jpg"
+      "thumb": "/products/real/thumbs/p1_MG05-C0120MW.webp",
+      "_realPhoto": "/products/real/p1_MG05-C0120MW.jpg",
+      "_aiRender": "/products/ai/MG05-C0120MW.jpg"
     },
     {
       "article": "MG05- D0112MEG",
@@ -2686,12 +2696,13 @@
       "dimensions": "1200*600*750",
       "price": null,
       "stock": 1,
-      "image": "/products/ai/MG05-_D0112MEG.jpg",
+      "image": "/products/real/p1_MG05-_D0112MEG.jpg",
       "_src": "astatka-p1",
       "_costUSD": 179,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG05-_D0112MEG.webp",
-      "_realPhoto": "/products/real/p1_MG05-_D0112MEG.jpg"
+      "thumb": "/products/real/thumbs/p1_MG05-_D0112MEG.webp",
+      "_realPhoto": "/products/real/p1_MG05-_D0112MEG.jpg",
+      "_aiRender": "/products/ai/MG05-_D0112MEG.jpg"
     },
     {
       "article": "MG05- D0218MEG",
@@ -2709,12 +2720,13 @@
       "dimensions": "1800*800*750",
       "price": null,
       "stock": 1,
-      "image": "/products/ai/MG05-_D0218MEG.jpg",
+      "image": "/products/real/p1_MG05-_D0218MEG.jpg",
       "_src": "astatka-p1",
       "_costUSD": 216.2,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG05-_D0218MEG.webp",
-      "_realPhoto": "/products/real/p1_MG05-_D0218MEG.jpg"
+      "thumb": "/products/real/thumbs/p1_MG05-_D0218MEG.webp",
+      "_realPhoto": "/products/real/p1_MG05-_D0218MEG.jpg",
+      "_aiRender": "/products/ai/MG05-_D0218MEG.jpg"
     },
     {
       "article": "MG05- D0218MEG DG05-S0610EG",
@@ -2732,12 +2744,13 @@
       "dimensions": "1800*1800*750",
       "price": null,
       "stock": 0,
-      "image": "/products/ai/MG05-_D0218MEG_DG05-S0610EG.jpg",
+      "image": "/products/real/p1_MG05-_D0218MEG_DG05-S0610EG.jpg",
       "_src": "astatka-p1",
       "_costUSD": 332.9,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG05-_D0218MEG_DG05-S0610EG.webp",
-      "_realPhoto": "/products/real/p1_MG05-_D0218MEG_DG05-S0610EG.jpg"
+      "thumb": "/products/real/thumbs/p1_MG05-_D0218MEG_DG05-S0610EG.webp",
+      "_realPhoto": "/products/real/p1_MG05-_D0218MEG_DG05-S0610EG.jpg",
+      "_aiRender": "/products/ai/MG05-_D0218MEG_DG05-S0610EG.jpg"
     },
     {
       "article": "MG07-D0118",
@@ -2755,12 +2768,13 @@
       "dimensions": "Total Size: 1800*1600*760 Table Top:1800*800*50 Extension Size: 1600*500*630",
       "price": null,
       "stock": 0,
-      "image": "/products/ai/MG07-D0118.jpg",
+      "image": "/products/real/p1_MG07-D0118.jpg",
       "_src": "astatka-p1",
       "_costUSD": 432.7,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG07-D0118.webp",
-      "_realPhoto": "/products/real/p1_MG07-D0118.jpg"
+      "thumb": "/products/real/thumbs/p1_MG07-D0118.webp",
+      "_realPhoto": "/products/real/p1_MG07-D0118.jpg",
+      "_aiRender": "/products/ai/MG07-D0118.jpg"
     },
     {
       "article": "MG08-D0118",
@@ -2778,12 +2792,13 @@
       "dimensions": "Total Size: 1800*1400*750 Table Top:1600*760*25",
       "price": null,
       "stock": 0,
-      "image": "/products/ai/MG08-D0118.jpg",
+      "image": "/products/real/p1_MG08-D0118.jpg",
       "_src": "astatka-p1",
       "_costUSD": 304,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG08-D0118.webp",
-      "_realPhoto": "/products/real/p1_MG08-D0118.jpg"
+      "thumb": "/products/real/thumbs/p1_MG08-D0118.webp",
+      "_realPhoto": "/products/real/p1_MG08-D0118.jpg",
+      "_aiRender": "/products/ai/MG08-D0118.jpg"
     },
     {
       "article": "MG08-D0312\n(с настольным экраном)",
@@ -2801,12 +2816,13 @@
       "dimensions": "1200*1200*750",
       "price": null,
       "stock": 1,
-      "image": "/products/ai/MG08-D0312__с_настольным_экраном_.jpg",
+      "image": "/products/real/p1_MG08-D0312_с_настольным_экраном_.jpg",
       "_src": "astatka-p1",
       "_costUSD": 279.5,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG08-D0312__с_настольным_экраном_.webp",
-      "_realPhoto": "/products/real/p1_MG08-D0312_с_настольным_экраном_.jpg"
+      "thumb": "/products/real/thumbs/p1_MG08-D0312_с_настольным_экраном_.webp",
+      "_realPhoto": "/products/real/p1_MG08-D0312_с_настольным_экраном_.jpg",
+      "_aiRender": "/products/ai/MG08-D0312__с_настольным_экраном_.jpg"
     },
     {
       "article": "MG08-D0312Y\n(с настольным экраном)",
@@ -2824,12 +2840,13 @@
       "dimensions": "1200*1200*750",
       "price": null,
       "stock": 0,
-      "image": "/products/ai/MG08-D0312Y__с_настольным_экраном_.jpg",
+      "image": "/products/real/p1_MG08-D0312Y_с_настольным_экраном_.jpg",
       "_src": "astatka-p1",
       "_costUSD": 237.2,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG08-D0312Y__с_настольным_экраном_.webp",
-      "_realPhoto": "/products/real/p1_MG08-D0312Y_с_настольным_экраном_.jpg"
+      "thumb": "/products/real/thumbs/p1_MG08-D0312Y_с_настольным_экраном_.webp",
+      "_realPhoto": "/products/real/p1_MG08-D0312Y_с_настольным_экраном_.jpg",
+      "_aiRender": "/products/ai/MG08-D0312Y__с_настольным_экраном_.jpg"
     },
     {
       "article": "MG11-D0218",
@@ -2847,12 +2864,13 @@
       "dimensions": "1800*1500*750\ntabletop: 1620*800",
       "price": null,
       "stock": 0,
-      "image": "/products/ai/MG11-D0218.jpg",
+      "image": "/products/real/p1_MG11-D0218.jpg",
       "_src": "astatka-p1",
       "_costUSD": 352.3,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG11-D0218.webp",
-      "_realPhoto": "/products/real/p1_MG11-D0218.jpg"
+      "thumb": "/products/real/thumbs/p1_MG11-D0218.webp",
+      "_realPhoto": "/products/real/p1_MG11-D0218.jpg",
+      "_aiRender": "/products/ai/MG11-D0218.jpg"
     },
     {
       "article": "MG11-D0412",
@@ -2870,12 +2888,13 @@
       "dimensions": "1200*1200*750",
       "price": null,
       "stock": 1,
-      "image": "/products/ai/MG11-D0412.jpg",
+      "image": "/products/real/p1_MG11-D0412.jpg",
       "_src": "astatka-p1",
       "_costUSD": 301.5,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG11-D0412.webp",
-      "_realPhoto": "/products/real/p1_MG11-D0412.jpg"
+      "thumb": "/products/real/thumbs/p1_MG11-D0412.webp",
+      "_realPhoto": "/products/real/p1_MG11-D0412.jpg",
+      "_aiRender": "/products/ai/MG11-D0412.jpg"
     },
     {
       "article": "MG11-D0412Y",
@@ -2893,12 +2912,13 @@
       "dimensions": "1200*1200*750",
       "price": null,
       "stock": 0,
-      "image": "/products/ai/MG11-D0412Y.jpg",
+      "image": "/products/real/p1_MG11-D0412Y.jpg",
       "_src": "astatka-p1",
       "_costUSD": 239.3,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG11-D0412Y.webp",
-      "_realPhoto": "/products/real/p1_MG11-D0412Y.jpg"
+      "thumb": "/products/real/thumbs/p1_MG11-D0412Y.webp",
+      "_realPhoto": "/products/real/p1_MG11-D0412Y.jpg",
+      "_aiRender": "/products/ai/MG11-D0412Y.jpg"
     },
     {
       "article": "MG15-D0118T",
@@ -2916,12 +2936,13 @@
       "dimensions": "1800*1500*760\nTable top:1600W*800D",
       "price": null,
       "stock": 0,
-      "image": "/products/ai/MG15-D0118T.jpg",
+      "image": "/products/real/p1_MG15-D0118T.jpg",
       "_src": "astatka-p1",
       "_costUSD": 403,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG15-D0118T.webp",
-      "_realPhoto": "/products/real/p1_MG15-D0118T.jpg"
+      "thumb": "/products/real/thumbs/p1_MG15-D0118T.webp",
+      "_realPhoto": "/products/real/p1_MG15-D0118T.jpg",
+      "_aiRender": "/products/ai/MG15-D0118T.jpg"
     },
     {
       "article": "MG15-C0132",
@@ -2939,12 +2960,13 @@
       "dimensions": "3200*1200*760",
       "price": null,
       "stock": 0,
-      "image": "/products/ai/MG15-C0132.jpg",
+      "image": "/products/real/p1_MG15-C0132.jpg",
       "_src": "astatka-p1",
       "_costUSD": 675.9,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG15-C0132.webp",
-      "_realPhoto": "/products/real/p1_MG15-C0132.jpg"
+      "thumb": "/products/real/thumbs/p1_MG15-C0132.webp",
+      "_realPhoto": "/products/real/p1_MG15-C0132.jpg",
+      "_aiRender": "/products/ai/MG15-C0132.jpg"
     },
     {
       "article": "MG15-D0214",
@@ -2962,12 +2984,13 @@
       "dimensions": "1400*600*760\nTable top: 1200W*600D",
       "price": null,
       "stock": 0,
-      "image": "/products/ai/MG15-D0214.jpg",
+      "image": "/products/real/p1_MG15-D0214.jpg",
       "_src": "astatka-p1",
       "_costUSD": 267.4,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG15-D0214.webp",
-      "_realPhoto": "/products/real/p1_MG15-D0214.jpg"
+      "thumb": "/products/real/thumbs/p1_MG15-D0214.webp",
+      "_realPhoto": "/products/real/p1_MG15-D0214.jpg",
+      "_aiRender": "/products/ai/MG15-D0214.jpg"
     },
     {
       "article": "MG15-F0212",
@@ -2985,12 +3008,13 @@
       "dimensions": "1200*600*450",
       "price": null,
       "stock": 0,
-      "image": "/products/ai/MG15-F0212.jpg",
+      "image": "/products/real/p1_MG15-F0212.jpg",
       "_src": "astatka-p1",
       "_costUSD": 113.1,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG15-F0212.webp",
-      "_realPhoto": "/products/real/p1_MG15-F0212.jpg"
+      "thumb": "/products/real/thumbs/p1_MG15-F0212.webp",
+      "_realPhoto": "/products/real/p1_MG15-F0212.jpg",
+      "_aiRender": "/products/ai/MG15-F0212.jpg"
     },
     {
       "article": "MG16-D0814",
@@ -3008,12 +3032,13 @@
       "dimensions": "1400*600*750",
       "price": null,
       "stock": 1,
-      "image": "/products/ai/MG16-D0814.jpg",
+      "image": "/products/real/p1_MG16-D0814.jpg",
       "_src": "astatka-p1",
       "_costUSD": 226.9,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG16-D0814.webp",
-      "_realPhoto": "/products/real/p1_MG16-D0814.jpg"
+      "thumb": "/products/real/thumbs/p1_MG16-D0814.webp",
+      "_realPhoto": "/products/real/p1_MG16-D0814.jpg",
+      "_aiRender": "/products/ai/MG16-D0814.jpg"
     },
     {
       "article": "MG16-D0218",
@@ -3031,12 +3056,13 @@
       "dimensions": "1800*1600*750",
       "price": null,
       "stock": 1,
-      "image": "/products/ai/MG16-D0218.jpg",
+      "image": "/products/real/p1_MG16-D0218.jpg",
       "_src": "astatka-p1",
       "_costUSD": 379.8,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG16-D0218.webp",
-      "_realPhoto": "/products/real/p1_MG16-D0218.jpg"
+      "thumb": "/products/real/thumbs/p1_MG16-D0218.webp",
+      "_realPhoto": "/products/real/p1_MG16-D0218.jpg",
+      "_aiRender": "/products/ai/MG16-D0218.jpg"
     },
     {
       "article": "MG16-C0124",
@@ -3054,12 +3080,13 @@
       "dimensions": "2400*1200*760",
       "price": null,
       "stock": 0,
-      "image": "/products/ai/MG16-C0124.jpg",
+      "image": "/products/real/p1_MG16-C0124.jpg",
       "_src": "astatka-p1",
       "_costUSD": 413.5,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG16-C0124.webp",
-      "_realPhoto": "/products/real/p1_MG16-C0124.jpg"
+      "thumb": "/products/real/thumbs/p1_MG16-C0124.webp",
+      "_realPhoto": "/products/real/p1_MG16-C0124.jpg",
+      "_aiRender": "/products/ai/MG16-C0124.jpg"
     },
     {
       "article": "MXH-311",
@@ -3077,12 +3104,13 @@
       "dimensions": "340*115*180",
       "price": null,
       "stock": 0,
-      "image": "/products/ai/MXH-311.jpg",
+      "image": "/products/real/p1_MXH-311.png",
       "_src": "astatka-p1",
       "_costUSD": 17,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MXH-311.webp",
-      "_realPhoto": "/products/real/p1_MXH-311.png"
+      "thumb": "/products/real/thumbs/p1_MXH-311.webp",
+      "_realPhoto": "/products/real/p1_MXH-311.png",
+      "_aiRender": "/products/ai/MXH-311.jpg"
     },
     {
       "article": "MG19-D0118",
@@ -3100,12 +3128,13 @@
       "dimensions": "1800*1600*760",
       "price": null,
       "stock": 0,
-      "image": "/products/ai/MG19-D0118.jpg",
+      "image": "/products/real/p1_MG19-D0118.jpg",
       "_src": "astatka-p1",
       "_costUSD": 399.9,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG19-D0118.webp",
-      "_realPhoto": "/products/real/p1_MG19-D0118.jpg"
+      "thumb": "/products/real/thumbs/p1_MG19-D0118.webp",
+      "_realPhoto": "/products/real/p1_MG19-D0118.jpg",
+      "_aiRender": "/products/ai/MG19-D0118.jpg"
     },
     {
       "article": "MG19-C0124",
@@ -3123,12 +3152,13 @@
       "dimensions": "2400*1200*750",
       "price": null,
       "stock": 1,
-      "image": "/products/ai/MG19-C0124.jpg",
+      "image": "/products/real/p1_MG19-C0124.jpg",
       "_src": "astatka-p1",
       "_costUSD": 443.5,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG19-C0124.webp",
-      "_realPhoto": "/products/real/p1_MG19-C0124.jpg"
+      "thumb": "/products/real/thumbs/p1_MG19-C0124.webp",
+      "_realPhoto": "/products/real/p1_MG19-C0124.jpg",
+      "_aiRender": "/products/ai/MG19-C0124.jpg"
     },
     {
       "article": "MG19-S0408",
@@ -3146,12 +3176,13 @@
       "dimensions": "800*400*2000",
       "price": null,
       "stock": 1,
-      "image": "/products/ai/MG19-S0408.jpg",
+      "image": "/products/real/p1_MG19-S0408.jpg",
       "_src": "astatka-p1",
       "_costUSD": 243.3,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG19-S0408.webp",
-      "_realPhoto": "/products/real/p1_MG19-S0408.jpg"
+      "thumb": "/products/real/thumbs/p1_MG19-S0408.webp",
+      "_realPhoto": "/products/real/p1_MG19-S0408.jpg",
+      "_aiRender": "/products/ai/MG19-S0408.jpg"
     },
     {
       "article": "MG18-D0118W",
@@ -3169,12 +3200,13 @@
       "dimensions": "1800*1600*750",
       "price": null,
       "stock": 0,
-      "image": "/products/ai/MG18-D0118W.jpg",
+      "image": "/products/real/p1_MG18-D0118W.jpg",
       "_src": "astatka-p1",
       "_costUSD": 394.6,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG18-D0118W.webp",
-      "_realPhoto": "/products/real/p1_MG18-D0118W.jpg"
+      "thumb": "/products/real/thumbs/p1_MG18-D0118W.webp",
+      "_realPhoto": "/products/real/p1_MG18-D0118W.jpg",
+      "_aiRender": "/products/ai/MG18-D0118W.jpg"
     },
     {
       "article": "MG18-S0120W",
@@ -3214,12 +3246,13 @@
       "dimensions": "1400*1200*750",
       "price": null,
       "stock": 1,
-      "image": "/products/ai/MG18-D0414W.jpg",
+      "image": "/products/real/p1_MG18-D0414W.jpg",
       "_src": "astatka-p1",
       "_costUSD": 412.9,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG18-D0414W.webp",
-      "_realPhoto": "/products/real/p1_MG18-D0414W.jpg"
+      "thumb": "/products/real/thumbs/p1_MG18-D0414W.webp",
+      "_realPhoto": "/products/real/p1_MG18-D0414W.jpg",
+      "_aiRender": "/products/ai/MG18-D0414W.jpg"
     },
     {
       "article": "MG18-D0414WY",
@@ -3237,12 +3270,13 @@
       "dimensions": "1400*1200*750",
       "price": null,
       "stock": 0,
-      "image": "/products/ai/MG18-D0414WY.jpg",
+      "image": "/products/real/p1_MG18-D0414WY.jpg",
       "_src": "astatka-p1",
       "_costUSD": 266,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG18-D0414WY.webp",
-      "_realPhoto": "/products/real/p1_MG18-D0414WY.jpg"
+      "thumb": "/products/real/thumbs/p1_MG18-D0414WY.webp",
+      "_realPhoto": "/products/real/p1_MG18-D0414WY.jpg",
+      "_aiRender": "/products/ai/MG18-D0414WY.jpg"
     },
     {
       "article": "MGSY-05D24",
@@ -3260,12 +3294,13 @@
       "dimensions": "2400W*1975D*750H",
       "price": null,
       "stock": 0,
-      "image": "/products/ai/MGSY-05D24.jpg",
+      "image": "/products/real/p1_MGSY-05D24.jpg",
       "_src": "astatka-p1",
       "_costUSD": 644.5,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MGSY-05D24.webp",
-      "_realPhoto": "/products/real/p1_MGSY-05D24.jpg"
+      "thumb": "/products/real/thumbs/p1_MGSY-05D24.webp",
+      "_realPhoto": "/products/real/p1_MGSY-05D24.jpg",
+      "_aiRender": "/products/ai/MGSY-05D24.jpg"
     },
     {
       "article": "MGSY-01S25",
@@ -3283,12 +3318,13 @@
       "dimensions": "2500W*425D*2000H",
       "price": null,
       "stock": 1,
-      "image": "/products/ai/MGSY-01S25.jpg",
+      "image": "/products/real/p1_MGSY-01S25.jpg",
       "_src": "astatka-p1",
       "_costUSD": 685.3,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MGSY-01S25.webp",
-      "_realPhoto": "/products/real/p1_MGSY-01S25.jpg"
+      "thumb": "/products/real/thumbs/p1_MGSY-01S25.webp",
+      "_realPhoto": "/products/real/p1_MGSY-01S25.jpg",
+      "_aiRender": "/products/ai/MGSY-01S25.jpg"
     },
     {
       "article": "MGSY-01F12",
@@ -3306,12 +3342,13 @@
       "dimensions": "1200W*600D*450H",
       "price": null,
       "stock": 0,
-      "image": "/products/ai/MGSY-01F12.jpg",
+      "image": "/products/real/p1_MGSY-01F12.jpg",
       "_src": "astatka-p1",
       "_costUSD": 137.2,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MGSY-01F12.webp",
-      "_realPhoto": "/products/real/p1_MGSY-01F12.jpg"
+      "thumb": "/products/real/thumbs/p1_MGSY-01F12.webp",
+      "_realPhoto": "/products/real/p1_MGSY-01F12.jpg",
+      "_aiRender": "/products/ai/MGSY-01F12.jpg"
     },
     {
       "article": "MGSY-03D28",
@@ -3329,12 +3366,13 @@
       "dimensions": "2800W*1975D*750H",
       "price": null,
       "stock": 0,
-      "image": "/products/ai/MGSY-03D28.jpg",
+      "image": "/products/real/p1_MGSY-03D28.jpg",
       "_src": "astatka-p1",
       "_costUSD": 780.3,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MGSY-03D28.webp",
-      "_realPhoto": "/products/real/p1_MGSY-03D28.jpg"
+      "thumb": "/products/real/thumbs/p1_MGSY-03D28.webp",
+      "_realPhoto": "/products/real/p1_MGSY-03D28.jpg",
+      "_aiRender": "/products/ai/MGSY-03D28.jpg"
     },
     {
       "article": "MGSY-05D28",
@@ -3352,12 +3390,13 @@
       "dimensions": "2800W*1975D*750H",
       "price": null,
       "stock": 0,
-      "image": "/products/ai/MGSY-05D28.jpg",
+      "image": "/products/real/p1_MGSY-05D28.jpg",
       "_src": "astatka-p1",
       "_costUSD": 737.9,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MGSY-05D28.webp",
-      "_realPhoto": "/products/real/p1_MGSY-05D28.jpg"
+      "thumb": "/products/real/thumbs/p1_MGSY-05D28.webp",
+      "_realPhoto": "/products/real/p1_MGSY-05D28.jpg",
+      "_aiRender": "/products/ai/MGSY-05D28.jpg"
     },
     {
       "article": "MGSY-02D14",
@@ -3375,12 +3414,13 @@
       "dimensions": "Main desk: 1400*700*750 Mobile pedestal: 400*450*650",
       "price": null,
       "stock": 1,
-      "image": "/products/ai/MGSY-02D14.jpg",
+      "image": "/products/real/p1_MGSY-02D14.jpg",
       "_src": "astatka-p1",
       "_costUSD": 340.5,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MGSY-02D14.webp",
-      "_realPhoto": "/products/real/p1_MGSY-02D14.jpg"
+      "thumb": "/products/real/thumbs/p1_MGSY-02D14.webp",
+      "_realPhoto": "/products/real/p1_MGSY-02D14.jpg",
+      "_aiRender": "/products/ai/MGSY-02D14.jpg"
     },
     {
       "article": "MGSY-01S34",
@@ -3398,12 +3438,13 @@
       "dimensions": "3400*425*2000",
       "price": null,
       "stock": 0,
-      "image": "/products/ai/MGSY-01S34.jpg",
+      "image": "/products/real/p1_MGSY-01S34.jpg",
       "_src": "astatka-p1",
       "_costUSD": 964.3,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MGSY-01S34.webp",
-      "_realPhoto": "/products/real/p1_MGSY-01S34.jpg"
+      "thumb": "/products/real/thumbs/p1_MGSY-01S34.webp",
+      "_realPhoto": "/products/real/p1_MGSY-01S34.jpg",
+      "_aiRender": "/products/ai/MGSY-01S34.jpg"
     },
     {
       "article": "MGSY-01C48",
@@ -3421,12 +3462,13 @@
       "dimensions": "4800*1600*750",
       "price": null,
       "stock": 0,
-      "image": "/products/ai/MGSY-01C48.jpg",
+      "image": "/products/real/p1_MGSY-01C48.jpg",
       "_src": "astatka-p1",
       "_costUSD": 1221.9,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MGSY-01C48.webp",
-      "_realPhoto": "/products/real/p1_MGSY-01C48.jpg"
+      "thumb": "/products/real/thumbs/p1_MGSY-01C48.webp",
+      "_realPhoto": "/products/real/p1_MGSY-01C48.jpg",
+      "_aiRender": "/products/ai/MGSY-01C48.jpg"
     },
     {
       "article": "MGSY-01C36",
@@ -3444,12 +3486,13 @@
       "dimensions": "3600*1500*750",
       "price": null,
       "stock": 0,
-      "image": "/products/ai/MGSY-01C36.jpg",
+      "image": "/products/real/p1_MGSY-01C36.jpg",
       "_src": "astatka-p1",
       "_costUSD": 812.6,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MGSY-01C36.webp",
-      "_realPhoto": "/products/real/p1_MGSY-01C36.jpg"
+      "thumb": "/products/real/thumbs/p1_MGSY-01C36.webp",
+      "_realPhoto": "/products/real/p1_MGSY-01C36.jpg",
+      "_aiRender": "/products/ai/MGSY-01C36.jpg"
     },
     {
       "article": "MGSY-01F12",
@@ -3467,12 +3510,13 @@
       "dimensions": "1200*600*450",
       "price": null,
       "stock": 0,
-      "image": "/products/ai/MGSY-01F12.jpg",
+      "image": "/products/real/p1_MGSY-01F12.jpg",
       "_src": "astatka-p1",
       "_costUSD": 137.2,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MGSY-01F12.webp",
-      "_realPhoto": "/products/real/p1_MGSY-01F12.jpg"
+      "thumb": "/products/real/thumbs/p1_MGSY-01F12.webp",
+      "_realPhoto": "/products/real/p1_MGSY-01F12.jpg",
+      "_aiRender": "/products/ai/MGSY-01F12.jpg"
     },
     {
       "article": "MGSY-01F06",
@@ -3490,12 +3534,13 @@
       "dimensions": "600*600*450",
       "price": null,
       "stock": 1,
-      "image": "/products/ai/MGSY-01F06.jpg",
+      "image": "/products/real/p1_MGSY-01F06.jpg",
       "_src": "astatka-p1",
       "_costUSD": 88.1,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MGSY-01F06.webp",
-      "_realPhoto": "/products/real/p1_MGSY-01F06.jpg"
+      "thumb": "/products/real/thumbs/p1_MGSY-01F06.webp",
+      "_realPhoto": "/products/real/p1_MGSY-01F06.jpg",
+      "_aiRender": "/products/ai/MGSY-01F06.jpg"
     },
     {
       "article": "MG-LB-H2B12",
@@ -3513,12 +3558,13 @@
       "dimensions": "1260*1230*1100",
       "price": null,
       "stock": 0,
-      "image": "/products/ai/MG-LB-H2B12.jpg",
+      "image": "/products/real/p1_MG-LB-H2B12.jpg",
       "_src": "astatka-p1",
       "_costUSD": 329,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG-LB-H2B12.webp",
-      "_realPhoto": "/products/real/p1_MG-LB-H2B12.jpg"
+      "thumb": "/products/real/thumbs/p1_MG-LB-H2B12.webp",
+      "_realPhoto": "/products/real/p1_MG-LB-H2B12.jpg",
+      "_aiRender": "/products/ai/MG-LB-H2B12.jpg"
     },
     {
       "article": "MG-LB-H2B14",
@@ -3536,12 +3582,13 @@
       "dimensions": "1460*1230*1100",
       "price": null,
       "stock": 0,
-      "image": "/products/ai/MG-LB-H2B14.jpg",
+      "image": "/products/real/p1_MG-LB-H2B14.jpg",
       "_src": "astatka-p1",
       "_costUSD": 355,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG-LB-H2B14.webp",
-      "_realPhoto": "/products/real/p1_MG-LB-H2B14.jpg"
+      "thumb": "/products/real/thumbs/p1_MG-LB-H2B14.webp",
+      "_realPhoto": "/products/real/p1_MG-LB-H2B14.jpg",
+      "_aiRender": "/products/ai/MG-LB-H2B14.jpg"
     },
     {
       "article": "MG-LB-E2B12E",
@@ -3559,12 +3606,13 @@
       "dimensions": "2490*630*1100",
       "price": null,
       "stock": 0,
-      "image": "/products/ai/MG-LB-E2B12E.jpg",
+      "image": "/products/real/p1_MG-LB-E2B12E.jpg",
       "_src": "astatka-p1",
       "_costUSD": 364.5,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG-LB-E2B12E.webp",
-      "_realPhoto": "/products/real/p1_MG-LB-E2B12E.jpg"
+      "thumb": "/products/real/thumbs/p1_MG-LB-E2B12E.webp",
+      "_realPhoto": "/products/real/p1_MG-LB-E2B12E.jpg",
+      "_aiRender": "/products/ai/MG-LB-E2B12E.jpg"
     },
     {
       "article": "MG-LB-E2B14E",
@@ -3582,12 +3630,13 @@
       "dimensions": "2890*630*1100",
       "price": null,
       "stock": 0,
-      "image": "/products/ai/MG-LB-E2B14E.jpg",
+      "image": "/products/real/p1_MG-LB-E2B14E.jpg",
       "_src": "astatka-p1",
       "_costUSD": 404.2,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG-LB-E2B14E.webp",
-      "_realPhoto": "/products/real/p1_MG-LB-E2B14E.jpg"
+      "thumb": "/products/real/thumbs/p1_MG-LB-E2B14E.webp",
+      "_realPhoto": "/products/real/p1_MG-LB-E2B14E.jpg",
+      "_aiRender": "/products/ai/MG-LB-E2B14E.jpg"
     },
     {
       "article": "MG-LB-L1B12L",
@@ -3605,12 +3654,13 @@
       "dimensions": "1430*1230*1100",
       "price": null,
       "stock": 0,
-      "image": "/products/ai/MG-LB-L1B12L.jpg",
+      "image": "/products/real/p1_MG-LB-L1B12L.jpg",
       "_src": "astatka-p1",
       "_costUSD": 315.3,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG-LB-L1B12L.webp",
-      "_realPhoto": "/products/real/p1_MG-LB-L1B12L.jpg"
+      "thumb": "/products/real/thumbs/p1_MG-LB-L1B12L.webp",
+      "_realPhoto": "/products/real/p1_MG-LB-L1B12L.jpg",
+      "_aiRender": "/products/ai/MG-LB-L1B12L.jpg"
     },
     {
       "article": "MG-LB-L1B14L",
@@ -3628,12 +3678,13 @@
       "dimensions": "1430*1430*1100",
       "price": null,
       "stock": 0,
-      "image": "/products/ai/MG-LB-L1B14L.jpg",
+      "image": "/products/real/p1_MG-LB-L1B14L.jpg",
       "_src": "astatka-p1",
       "_costUSD": 340.5,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/MG-LB-L1B14L.webp",
-      "_realPhoto": "/products/real/p1_MG-LB-L1B14L.jpg"
+      "thumb": "/products/real/thumbs/p1_MG-LB-L1B14L.webp",
+      "_realPhoto": "/products/real/p1_MG-LB-L1B14L.jpg",
+      "_aiRender": "/products/ai/MG-LB-L1B14L.jpg"
     },
     {
       "article": "DSN-01D27",
@@ -3651,11 +3702,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 1,
-      "image": "/products/ai/DSN-01D27.jpg",
+      "image": "/products/real/p2m_DSN-01D27_2.png",
       "_src": "astatka-p2m",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/DSN-01D27.webp",
-      "_realPhoto": "/products/real/p2m_DSN-01D27_2.png"
+      "thumb": "/products/real/thumbs/p2m_DSN-01D27_2.webp",
+      "_realPhoto": "/products/real/p2m_DSN-01D27_2.png",
+      "_aiRender": "/products/ai/DSN-01D27.jpg"
     },
     {
       "article": "DSN-01H15",
@@ -3673,11 +3725,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 1,
-      "image": "/products/ai/DSN-01H15.jpg",
+      "image": "/products/real/p2m_DSN-01H15_4.jpg",
       "_src": "astatka-p2m",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/DSN-01H15.webp",
-      "_realPhoto": "/products/real/p2m_DSN-01H15_4.jpg"
+      "thumb": "/products/real/thumbs/p2m_DSN-01H15_4.webp",
+      "_realPhoto": "/products/real/p2m_DSN-01H15_4.jpg",
+      "_aiRender": "/products/ai/DSN-01H15.jpg"
     },
     {
       "article": "ASY-05D28",
@@ -3695,11 +3748,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 1,
-      "image": "/products/ai/ASY-05D28.jpg",
+      "image": "/products/real/p2m_ASY-05D28_5.jpg",
       "_src": "astatka-p2m",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/ASY-05D28.webp",
-      "_realPhoto": "/products/real/p2m_ASY-05D28_5.jpg"
+      "thumb": "/products/real/thumbs/p2m_ASY-05D28_5.webp",
+      "_realPhoto": "/products/real/p2m_ASY-05D28_5.jpg",
+      "_aiRender": "/products/ai/ASY-05D28.jpg"
     },
     {
       "article": "ASY-01S34",
@@ -3717,11 +3771,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 1,
-      "image": "/products/ai/ASY-01S34.jpg",
+      "image": "/products/real/p2m_ASY-01S34_6.jpg",
       "_src": "astatka-p2m",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/ASY-01S34.webp",
-      "_realPhoto": "/products/real/p2m_ASY-01S34_6.jpg"
+      "thumb": "/products/real/thumbs/p2m_ASY-01S34_6.webp",
+      "_realPhoto": "/products/real/p2m_ASY-01S34_6.jpg",
+      "_aiRender": "/products/ai/ASY-01S34.jpg"
     },
     {
       "article": "ASY-01F12",
@@ -3739,11 +3794,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 0,
-      "image": "/products/ai/ASY-01F12.jpg",
+      "image": "/products/real/p2m_ASY-01F12_7.jpg",
       "_src": "astatka-p2m",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/ASY-01F12.webp",
-      "_realPhoto": "/products/real/p2m_ASY-01F12_7.jpg"
+      "thumb": "/products/real/thumbs/p2m_ASY-01F12_7.webp",
+      "_realPhoto": "/products/real/p2m_ASY-01F12_7.jpg",
+      "_aiRender": "/products/ai/ASY-01F12.jpg"
     },
     {
       "article": "ASY-05D20",
@@ -3761,11 +3817,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 1,
-      "image": "/products/ai/ASY-05D20.jpg",
+      "image": "/products/real/p2m_ASY-05D20_8.jpg",
       "_src": "astatka-p2m",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/ASY-05D20.webp",
-      "_realPhoto": "/products/real/p2m_ASY-05D20_8.jpg"
+      "thumb": "/products/real/thumbs/p2m_ASY-05D20_8.webp",
+      "_realPhoto": "/products/real/p2m_ASY-05D20_8.jpg",
+      "_aiRender": "/products/ai/ASY-05D20.jpg"
     },
     {
       "article": "ASY-01C36",
@@ -3783,11 +3840,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 0,
-      "image": "/products/ai/ASY-01C36.jpg",
+      "image": "/products/real/p2m_ASY-01C36_9.jpg",
       "_src": "astatka-p2m",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/ASY-01C36.webp",
-      "_realPhoto": "/products/real/p2m_ASY-01C36_9.jpg"
+      "thumb": "/products/real/thumbs/p2m_ASY-01C36_9.webp",
+      "_realPhoto": "/products/real/p2m_ASY-01C36_9.jpg",
+      "_aiRender": "/products/ai/ASY-01C36.jpg"
     },
     {
       "article": "DL939A",
@@ -3805,11 +3863,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 0,
-      "image": "/products/ai/DL939A.jpg",
+      "image": "/products/real/p2m_DL939A_10.jpg",
       "_src": "astatka-p2m",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/DL939A.webp",
-      "_realPhoto": "/products/real/p2m_DL939A_10.jpg"
+      "thumb": "/products/real/thumbs/p2m_DL939A_10.webp",
+      "_realPhoto": "/products/real/p2m_DL939A_10.jpg",
+      "_aiRender": "/products/ai/DL939A.jpg"
     },
     {
       "article": "DL939B",
@@ -3827,11 +3886,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 1,
-      "image": "/products/ai/DL939B.jpg",
+      "image": "/products/real/p2m_DL939B_11.jpg",
       "_src": "astatka-p2m",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/DL939B.webp",
-      "_realPhoto": "/products/real/p2m_DL939B_11.jpg"
+      "thumb": "/products/real/thumbs/p2m_DL939B_11.webp",
+      "_realPhoto": "/products/real/p2m_DL939B_11.jpg",
+      "_aiRender": "/products/ai/DL939B.jpg"
     },
     {
       "article": "DL939C",
@@ -3849,11 +3909,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 10,
-      "image": "/products/ai/DL939C.jpg",
+      "image": "/products/real/p2m_DL939C_12.jpg",
       "_src": "astatka-p2m",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/DL939C.webp",
-      "_realPhoto": "/products/real/p2m_DL939C_12.jpg"
+      "thumb": "/products/real/thumbs/p2m_DL939C_12.webp",
+      "_realPhoto": "/products/real/p2m_DL939C_12.jpg",
+      "_aiRender": "/products/ai/DL939C.jpg"
     },
     {
       "article": "JY-008-A",
@@ -3871,11 +3932,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 1,
-      "image": "/products/ai/JY-008-A.jpg",
+      "image": "/products/real/p2m_JY-008-A_13.jpg",
       "_src": "astatka-p2m",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/JY-008-A.webp",
-      "_realPhoto": "/products/real/p2m_JY-008-A_13.jpg"
+      "thumb": "/products/real/thumbs/p2m_JY-008-A_13.webp",
+      "_realPhoto": "/products/real/p2m_JY-008-A_13.jpg",
+      "_aiRender": "/products/ai/JY-008-A.jpg"
     },
     {
       "article": "JY-008-B",
@@ -3893,11 +3955,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 1,
-      "image": "/products/ai/JY-008-B.jpg",
+      "image": "/products/real/p2m_JY-008-B_14.jpg",
       "_src": "astatka-p2m",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/JY-008-B.webp",
-      "_realPhoto": "/products/real/p2m_JY-008-B_14.jpg"
+      "thumb": "/products/real/thumbs/p2m_JY-008-B_14.webp",
+      "_realPhoto": "/products/real/p2m_JY-008-B_14.jpg",
+      "_aiRender": "/products/ai/JY-008-B.jpg"
     },
     {
       "article": "DX7106A",
@@ -3915,11 +3978,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 1,
-      "image": "/products/ai/DX7106A.jpg",
+      "image": "/products/real/p2m_DX7106A_15.jpg",
       "_src": "astatka-p2m",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/DX7106A.webp",
-      "_realPhoto": "/products/real/p2m_DX7106A_15.jpg"
+      "thumb": "/products/real/thumbs/p2m_DX7106A_15.webp",
+      "_realPhoto": "/products/real/p2m_DX7106A_15.jpg",
+      "_aiRender": "/products/ai/DX7106A.jpg"
     },
     {
       "article": "GB28",
@@ -3937,11 +4001,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 2,
-      "image": "/products/ai/GB28.jpg",
+      "image": "/products/real/p2m_GB28_16.jpg",
       "_src": "astatka-p2m",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GB28.webp",
-      "_realPhoto": "/products/real/p2m_GB28_16.jpg"
+      "thumb": "/products/real/thumbs/p2m_GB28_16.webp",
+      "_realPhoto": "/products/real/p2m_GB28_16.jpg",
+      "_aiRender": "/products/ai/GB28.jpg"
     },
     {
       "article": "GA91",
@@ -3958,12 +4023,13 @@
       },
       "price": null,
       "stock": 3,
-      "image": "/products/ai/GA91.jpg",
+      "image": "/products/real/g_GA91_2.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 180,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GA91.webp",
-      "_realPhoto": "/products/real/g_GA91_2.jpg"
+      "thumb": "/products/real/thumbs/g_GA91_2.webp",
+      "_realPhoto": "/products/real/g_GA91_2.jpg",
+      "_aiRender": "/products/ai/GA91.jpg"
     },
     {
       "article": "GA92",
@@ -3980,12 +4046,13 @@
       },
       "price": null,
       "stock": 0,
-      "image": "/products/ai/GA92.jpg",
+      "image": "/products/real/g_GA92_5.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 136,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GA92.webp",
-      "_realPhoto": "/products/real/g_GA92_5.jpg"
+      "thumb": "/products/real/thumbs/g_GA92_5.webp",
+      "_realPhoto": "/products/real/g_GA92_5.jpg",
+      "_aiRender": "/products/ai/GA92.jpg"
     },
     {
       "article": "GD92",
@@ -4002,12 +4069,13 @@
       },
       "price": null,
       "stock": 1,
-      "image": "/products/ai/GD92.jpg",
+      "image": "/products/real/g_GD92_6.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 99,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GD92.webp",
-      "_realPhoto": "/products/real/g_GD92_6.jpg"
+      "thumb": "/products/real/thumbs/g_GD92_6.webp",
+      "_realPhoto": "/products/real/g_GD92_6.jpg",
+      "_aiRender": "/products/ai/GD92.jpg"
     },
     {
       "article": "GE92",
@@ -4024,12 +4092,13 @@
       },
       "price": null,
       "stock": 4,
-      "image": "/products/ai/GE92.jpg",
+      "image": "/products/real/g_GE92_7.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 110,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GE92.webp",
-      "_realPhoto": "/products/real/g_GE92_7.jpg"
+      "thumb": "/products/real/thumbs/g_GE92_7.webp",
+      "_realPhoto": "/products/real/g_GE92_7.jpg",
+      "_aiRender": "/products/ai/GE92.jpg"
     },
     {
       "article": "GA92-2",
@@ -4046,12 +4115,13 @@
       },
       "price": null,
       "stock": 1,
-      "image": "/products/ai/GA92-2.jpg",
+      "image": "/products/real/g_GA92-2_8.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 157,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GA92-2.webp",
-      "_realPhoto": "/products/real/g_GA92-2_8.jpg"
+      "thumb": "/products/real/thumbs/g_GA92-2_8.webp",
+      "_realPhoto": "/products/real/g_GA92-2_8.jpg",
+      "_aiRender": "/products/ai/GA92-2.jpg"
     },
     {
       "article": "GE92-2",
@@ -4068,12 +4138,13 @@
       },
       "price": null,
       "stock": 5,
-      "image": "/products/ai/GE92-2.jpg",
+      "image": "/products/real/g_GE92-2_10.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 121,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GE92-2.webp",
-      "_realPhoto": "/products/real/g_GE92-2_10.jpg"
+      "thumb": "/products/real/thumbs/g_GE92-2_10.webp",
+      "_realPhoto": "/products/real/g_GE92-2_10.jpg",
+      "_aiRender": "/products/ai/GE92-2.jpg"
     },
     {
       "article": "GB93",
@@ -4090,12 +4161,13 @@
       },
       "price": null,
       "stock": 3,
-      "image": "/products/ai/GB93.jpg",
+      "image": "/products/real/g_GB93_11.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 69,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GB93.webp",
-      "_realPhoto": "/products/real/g_GB93_11.jpg"
+      "thumb": "/products/real/thumbs/g_GB93_11.webp",
+      "_realPhoto": "/products/real/g_GB93_11.jpg",
+      "_aiRender": "/products/ai/GB93.jpg"
     },
     {
       "article": "GD93",
@@ -4112,12 +4184,13 @@
       },
       "price": null,
       "stock": 5,
-      "image": "/products/ai/GD93.jpg",
+      "image": "/products/real/g_GD93_12.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 52,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GD93.webp",
-      "_realPhoto": "/products/real/g_GD93_12.jpg"
+      "thumb": "/products/real/thumbs/g_GD93_12.webp",
+      "_realPhoto": "/products/real/g_GD93_12.jpg",
+      "_aiRender": "/products/ai/GD93.jpg"
     },
     {
       "article": "GE93",
@@ -4134,12 +4207,13 @@
       },
       "price": null,
       "stock": 4,
-      "image": "/products/ai/GE93.jpg",
+      "image": "/products/real/g_GE93_13.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 59,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GE93.webp",
-      "_realPhoto": "/products/real/g_GE93_13.jpg"
+      "thumb": "/products/real/thumbs/g_GE93_13.webp",
+      "_realPhoto": "/products/real/g_GE93_13.jpg",
+      "_aiRender": "/products/ai/GE93.jpg"
     },
     {
       "article": "GB93-2",
@@ -4156,12 +4230,13 @@
       },
       "price": null,
       "stock": 1,
-      "image": "/products/ai/GB93-2.jpg",
+      "image": "/products/real/g_GB93-2_17.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 79,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GB93-2.webp",
-      "_realPhoto": "/products/real/g_GB93-2_17.jpg"
+      "thumb": "/products/real/thumbs/g_GB93-2_17.webp",
+      "_realPhoto": "/products/real/g_GB93-2_17.jpg",
+      "_aiRender": "/products/ai/GB93-2.jpg"
     },
     {
       "article": "GD93-2",
@@ -4178,12 +4253,13 @@
       },
       "price": null,
       "stock": 3,
-      "image": "/products/ai/GD93-2.jpg",
+      "image": "/products/real/g_GD93-2_18.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 60.5,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GD93-2.webp",
-      "_realPhoto": "/products/real/g_GD93-2_18.jpg"
+      "thumb": "/products/real/thumbs/g_GD93-2_18.webp",
+      "_realPhoto": "/products/real/g_GD93-2_18.jpg",
+      "_aiRender": "/products/ai/GD93-2.jpg"
     },
     {
       "article": "GE93-2",
@@ -4200,12 +4276,13 @@
       },
       "price": null,
       "stock": 5,
-      "image": "/products/ai/GE93-2.jpg",
+      "image": "/products/real/g_GE93-2_19.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 67,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GE93-2.webp",
-      "_realPhoto": "/products/real/g_GE93-2_19.jpg"
+      "thumb": "/products/real/thumbs/g_GE93-2_19.webp",
+      "_realPhoto": "/products/real/g_GE93-2_19.jpg",
+      "_aiRender": "/products/ai/GE93-2.jpg"
     },
     {
       "article": "GA96",
@@ -4222,12 +4299,13 @@
       },
       "price": null,
       "stock": 0,
-      "image": "/products/ai/GA96.jpg",
+      "image": "/products/real/g_GA96_20.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 122,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GA96.webp",
-      "_realPhoto": "/products/real/g_GA96_20.jpg"
+      "thumb": "/products/real/thumbs/g_GA96_20.webp",
+      "_realPhoto": "/products/real/g_GA96_20.jpg",
+      "_aiRender": "/products/ai/GA96.jpg"
     },
     {
       "article": "GB96",
@@ -4265,12 +4343,13 @@
       },
       "price": null,
       "stock": 3,
-      "image": "/products/ai/GD96.jpg",
+      "image": "/products/real/g_GD96_22.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 85,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GD96.webp",
-      "_realPhoto": "/products/real/g_GD96_22.jpg"
+      "thumb": "/products/real/thumbs/g_GD96_22.webp",
+      "_realPhoto": "/products/real/g_GD96_22.jpg",
+      "_aiRender": "/products/ai/GD96.jpg"
     },
     {
       "article": "GA96-1",
@@ -4287,12 +4366,13 @@
       },
       "price": null,
       "stock": 3,
-      "image": "/products/ai/GA96-1.jpg",
+      "image": "/products/real/g_GA96-1_23.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 140,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GA96-1.webp",
-      "_realPhoto": "/products/real/g_GA96-1_23.jpg"
+      "thumb": "/products/real/thumbs/g_GA96-1_23.webp",
+      "_realPhoto": "/products/real/g_GA96-1_23.jpg",
+      "_aiRender": "/products/ai/GA96-1.jpg"
     },
     {
       "article": "GB96-1",
@@ -4309,12 +4389,13 @@
       },
       "price": null,
       "stock": 2,
-      "image": "/products/ai/GB96-1.jpg",
+      "image": "/products/real/g_GB96-1_25.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 130,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GB96-1.webp",
-      "_realPhoto": "/products/real/g_GB96-1_25.jpg"
+      "thumb": "/products/real/thumbs/g_GB96-1_25.webp",
+      "_realPhoto": "/products/real/g_GB96-1_25.jpg",
+      "_aiRender": "/products/ai/GB96-1.jpg"
     },
     {
       "article": "GD96-1",
@@ -4331,12 +4412,13 @@
       },
       "price": null,
       "stock": 6,
-      "image": "/products/ai/GD96-1.jpg",
+      "image": "/products/real/g_GD96-1_27.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 93.5,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GD96-1.webp",
-      "_realPhoto": "/products/real/g_GD96-1_27.jpg"
+      "thumb": "/products/real/thumbs/g_GD96-1_27.webp",
+      "_realPhoto": "/products/real/g_GD96-1_27.jpg",
+      "_aiRender": "/products/ai/GD96-1.jpg"
     },
     {
       "article": "GA98",
@@ -4353,12 +4435,13 @@
       },
       "price": null,
       "stock": 1,
-      "image": "/products/ai/GA98.jpg",
+      "image": "/products/real/g_GA98_29.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 116,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GA98.webp",
-      "_realPhoto": "/products/real/g_GA98_29.jpg"
+      "thumb": "/products/real/thumbs/g_GA98_29.webp",
+      "_realPhoto": "/products/real/g_GA98_29.jpg",
+      "_aiRender": "/products/ai/GA98.jpg"
     },
     {
       "article": "GB98",
@@ -4375,12 +4458,13 @@
       },
       "price": null,
       "stock": 1,
-      "image": "/products/ai/GB98.jpg",
+      "image": "/products/real/g_GB98_30.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 107,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GB98.webp",
-      "_realPhoto": "/products/real/g_GB98_30.jpg"
+      "thumb": "/products/real/thumbs/g_GB98_30.webp",
+      "_realPhoto": "/products/real/g_GB98_30.jpg",
+      "_aiRender": "/products/ai/GB98.jpg"
     },
     {
       "article": "GD98",
@@ -4397,12 +4481,13 @@
       },
       "price": null,
       "stock": 0,
-      "image": "/products/ai/GD98.jpg",
+      "image": "/products/real/g_GD98_31.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 88,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GD98.webp",
-      "_realPhoto": "/products/real/g_GD98_31.jpg"
+      "thumb": "/products/real/thumbs/g_GD98_31.webp",
+      "_realPhoto": "/products/real/g_GD98_31.jpg",
+      "_aiRender": "/products/ai/GD98.jpg"
     },
     {
       "article": "GA109",
@@ -4419,12 +4504,13 @@
       },
       "price": null,
       "stock": 0,
-      "image": "/products/ai/GA109.jpg",
+      "image": "/products/real/g_GA109_32.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 121,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GA109.webp",
-      "_realPhoto": "/products/real/g_GA109_32.jpg"
+      "thumb": "/products/real/thumbs/g_GA109_32.webp",
+      "_realPhoto": "/products/real/g_GA109_32.jpg",
+      "_aiRender": "/products/ai/GA109.jpg"
     },
     {
       "article": "GA109-DP",
@@ -4441,12 +4527,13 @@
       },
       "price": null,
       "stock": 0,
-      "image": "/products/ai/GA109-DP.jpg",
+      "image": "/products/real/g_GA109-DP_33.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 106,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GA109-DP.webp",
-      "_realPhoto": "/products/real/g_GA109-DP_33.jpg"
+      "thumb": "/products/real/thumbs/g_GA109-DP_33.webp",
+      "_realPhoto": "/products/real/g_GA109-DP_33.jpg",
+      "_aiRender": "/products/ai/GA109-DP.jpg"
     },
     {
       "article": "GA109-2",
@@ -4463,12 +4550,13 @@
       },
       "price": null,
       "stock": 2,
-      "image": "/products/ai/GA109-2.jpg",
+      "image": "/products/real/g_GA109-2_34.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 106,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GA109-2.webp",
-      "_realPhoto": "/products/real/g_GA109-2_34.jpg"
+      "thumb": "/products/real/thumbs/g_GA109-2_34.webp",
+      "_realPhoto": "/products/real/g_GA109-2_34.jpg",
+      "_aiRender": "/products/ai/GA109-2.jpg"
     },
     {
       "article": "GA115",
@@ -4485,12 +4573,13 @@
       },
       "price": null,
       "stock": 0,
-      "image": "/products/ai/GA115.jpg",
+      "image": "/products/real/g_GA115_35.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 118,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GA115.webp",
-      "_realPhoto": "/products/real/g_GA115_35.jpg"
+      "thumb": "/products/real/thumbs/g_GA115_35.webp",
+      "_realPhoto": "/products/real/g_GA115_35.jpg",
+      "_aiRender": "/products/ai/GA115.jpg"
     },
     {
       "article": "GA115-DP",
@@ -4507,12 +4596,13 @@
       },
       "price": null,
       "stock": 0,
-      "image": "/products/ai/GA115-DP.jpg",
+      "image": "/products/real/g_GA115-DP_36.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 108,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GA115-DP.webp",
-      "_realPhoto": "/products/real/g_GA115-DP_36.jpg"
+      "thumb": "/products/real/thumbs/g_GA115-DP_36.webp",
+      "_realPhoto": "/products/real/g_GA115-DP_36.jpg",
+      "_aiRender": "/products/ai/GA115-DP.jpg"
     },
     {
       "article": "GB115-DP",
@@ -4529,12 +4619,13 @@
       },
       "price": null,
       "stock": 1,
-      "image": "/products/ai/GB115-DP.jpg",
+      "image": "/products/real/g_GB115-DP_37.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 96,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GB115-DP.webp",
-      "_realPhoto": "/products/real/g_GB115-DP_37.jpg"
+      "thumb": "/products/real/thumbs/g_GB115-DP_37.webp",
+      "_realPhoto": "/products/real/g_GB115-DP_37.jpg",
+      "_aiRender": "/products/ai/GB115-DP.jpg"
     },
     {
       "article": "GA115-2-DP",
@@ -4551,12 +4642,13 @@
       },
       "price": null,
       "stock": 1,
-      "image": "/products/ai/GA115-2-DP.jpg",
+      "image": "/products/real/g_GA115-2-DP_38.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 115,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GA115-2-DP.webp",
-      "_realPhoto": "/products/real/g_GA115-2-DP_38.jpg"
+      "thumb": "/products/real/thumbs/g_GA115-2-DP_38.webp",
+      "_realPhoto": "/products/real/g_GA115-2-DP_38.jpg",
+      "_aiRender": "/products/ai/GA115-2-DP.jpg"
     },
     {
       "article": "GB115-2-DP",
@@ -4573,12 +4665,13 @@
       },
       "price": null,
       "stock": 4,
-      "image": "/products/ai/GB115-2-DP.jpg",
+      "image": "/products/real/g_GB115-2-DP_39.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 108,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GB115-2-DP.webp",
-      "_realPhoto": "/products/real/g_GB115-2-DP_39.jpg"
+      "thumb": "/products/real/thumbs/g_GB115-2-DP_39.webp",
+      "_realPhoto": "/products/real/g_GB115-2-DP_39.jpg",
+      "_aiRender": "/products/ai/GB115-2-DP.jpg"
     },
     {
       "article": "GD107FOURLEGS",
@@ -4595,12 +4688,13 @@
       },
       "price": null,
       "stock": 1,
-      "image": "/products/ai/GD107FOURLEGS.jpg",
+      "image": "/products/real/g_GD107_FOUR_LEGS_40.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 51,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GD107FOURLEGS.webp",
-      "_realPhoto": "/products/real/g_GD107_FOUR_LEGS_40.jpg"
+      "thumb": "/products/real/thumbs/g_GD107_FOUR_LEGS_40.webp",
+      "_realPhoto": "/products/real/g_GD107_FOUR_LEGS_40.jpg",
+      "_aiRender": "/products/ai/GD107FOURLEGS.jpg"
     },
     {
       "article": "GD107-2FOURLEGS",
@@ -4617,12 +4711,13 @@
       },
       "price": null,
       "stock": 1,
-      "image": "/products/ai/GD107-2FOURLEGS.jpg",
+      "image": "/products/real/g_GD107-2_FOUR_LEGS_41.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 65,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GD107-2FOURLEGS.webp",
-      "_realPhoto": "/products/real/g_GD107-2_FOUR_LEGS_41.jpg"
+      "thumb": "/products/real/thumbs/g_GD107-2_FOUR_LEGS_41.webp",
+      "_realPhoto": "/products/real/g_GD107-2_FOUR_LEGS_41.jpg",
+      "_aiRender": "/products/ai/GD107-2FOURLEGS.jpg"
     },
     {
       "article": "GD107-F",
@@ -4639,12 +4734,13 @@
       },
       "price": null,
       "stock": 1,
-      "image": "/products/ai/GD107-F.jpg",
+      "image": "/products/real/g_GD107_FOLDING__42.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 71.5,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GD107-F.webp",
-      "_realPhoto": "/products/real/g_GD107_FOLDING__42.jpg"
+      "thumb": "/products/real/thumbs/g_GD107_FOLDING__42.webp",
+      "_realPhoto": "/products/real/g_GD107_FOLDING__42.jpg",
+      "_aiRender": "/products/ai/GD107-F.jpg"
     },
     {
       "article": "GA198",
@@ -4661,12 +4757,13 @@
       },
       "price": null,
       "stock": 1,
-      "image": "/products/ai/GA198.jpg",
+      "image": "/products/real/g_GA198_43.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 580,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GA198.webp",
-      "_realPhoto": "/products/real/g_GA198_43.jpg"
+      "thumb": "/products/real/thumbs/g_GA198_43.webp",
+      "_realPhoto": "/products/real/g_GA198_43.jpg",
+      "_aiRender": "/products/ai/GA198.jpg"
     },
     {
       "article": "A3030-1",
@@ -4683,12 +4780,13 @@
       },
       "price": null,
       "stock": 1,
-      "image": "/products/ai/A3030-1.jpg",
+      "image": "/products/real/g_A3030-1_44.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 224,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/A3030-1.webp",
-      "_realPhoto": "/products/real/g_A3030-1_44.jpg"
+      "thumb": "/products/real/thumbs/g_A3030-1_44.webp",
+      "_realPhoto": "/products/real/g_A3030-1_44.jpg",
+      "_aiRender": "/products/ai/A3030-1.jpg"
     },
     {
       "article": "D3030-1",
@@ -4705,12 +4803,13 @@
       },
       "price": null,
       "stock": 1,
-      "image": "/products/ai/D3030-1.jpg",
+      "image": "/products/real/g_D3030-1_45.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 129,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/D3030-1.webp",
-      "_realPhoto": "/products/real/g_D3030-1_45.jpg"
+      "thumb": "/products/real/thumbs/g_D3030-1_45.webp",
+      "_realPhoto": "/products/real/g_D3030-1_45.jpg",
+      "_aiRender": "/products/ai/D3030-1.jpg"
     },
     {
       "article": "GA18",
@@ -4727,12 +4826,13 @@
       },
       "price": null,
       "stock": 2,
-      "image": "/products/ai/GA18.jpg",
+      "image": "/products/real/g_GA18_46.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 217,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GA18.webp",
-      "_realPhoto": "/products/real/g_GA18_46.jpg"
+      "thumb": "/products/real/thumbs/g_GA18_46.webp",
+      "_realPhoto": "/products/real/g_GA18_46.jpg",
+      "_aiRender": "/products/ai/GA18.jpg"
     },
     {
       "article": "GA19",
@@ -4749,12 +4849,13 @@
       },
       "price": null,
       "stock": 1,
-      "image": "/products/ai/GA19.jpg",
+      "image": "/products/real/g_GA19_48.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 217,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GA19.webp",
-      "_realPhoto": "/products/real/g_GA19_48.jpg"
+      "thumb": "/products/real/thumbs/g_GA19_48.webp",
+      "_realPhoto": "/products/real/g_GA19_48.jpg",
+      "_aiRender": "/products/ai/GA19.jpg"
     },
     {
       "article": "GA32",
@@ -4771,12 +4872,13 @@
       },
       "price": null,
       "stock": 1,
-      "image": "/products/ai/GA32.jpg",
+      "image": "/products/real/g_GA32_49.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 202,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GA32.webp",
-      "_realPhoto": "/products/real/g_GA32_49.jpg"
+      "thumb": "/products/real/thumbs/g_GA32_49.webp",
+      "_realPhoto": "/products/real/g_GA32_49.jpg",
+      "_aiRender": "/products/ai/GA32.jpg"
     },
     {
       "article": "GD32",
@@ -4793,12 +4895,13 @@
       },
       "price": null,
       "stock": 1,
-      "image": "/products/ai/GD32.jpg",
+      "image": "/products/real/g_GD32_50.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 168,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GD32.webp",
-      "_realPhoto": "/products/real/g_GD32_50.jpg"
+      "thumb": "/products/real/thumbs/g_GD32_50.webp",
+      "_realPhoto": "/products/real/g_GD32_50.jpg",
+      "_aiRender": "/products/ai/GD32.jpg"
     },
     {
       "article": "GA39",
@@ -4815,12 +4918,13 @@
       },
       "price": null,
       "stock": 1,
-      "image": "/products/ai/GA39.jpg",
+      "image": "/products/real/g_GA39_51.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 173,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GA39.webp",
-      "_realPhoto": "/products/real/g_GA39_51.jpg"
+      "thumb": "/products/real/thumbs/g_GA39_51.webp",
+      "_realPhoto": "/products/real/g_GA39_51.jpg",
+      "_aiRender": "/products/ai/GA39.jpg"
     },
     {
       "article": "GB39",
@@ -4837,12 +4941,13 @@
       },
       "price": null,
       "stock": 1,
-      "image": "/products/ai/GB39.jpg",
+      "image": "/products/real/g_GB39_52.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 161,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GB39.webp",
-      "_realPhoto": "/products/real/g_GB39_52.jpg"
+      "thumb": "/products/real/thumbs/g_GB39_52.webp",
+      "_realPhoto": "/products/real/g_GB39_52.jpg",
+      "_aiRender": "/products/ai/GB39.jpg"
     },
     {
       "article": "GD39",
@@ -4859,12 +4964,13 @@
       },
       "price": null,
       "stock": 2,
-      "image": "/products/ai/GD39.jpg",
+      "image": "/products/real/g_GD39_53.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 93.5,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GD39.webp",
-      "_realPhoto": "/products/real/g_GD39_53.jpg"
+      "thumb": "/products/real/thumbs/g_GD39_53.webp",
+      "_realPhoto": "/products/real/g_GD39_53.jpg",
+      "_aiRender": "/products/ai/GD39.jpg"
     },
     {
       "article": "GA69",
@@ -4881,12 +4987,13 @@
       },
       "price": null,
       "stock": 0,
-      "image": "/products/ai/GA69.jpg",
+      "image": "/products/real/g_GA69_54.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 338,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GA69.webp",
-      "_realPhoto": "/products/real/g_GA69_54.jpg"
+      "thumb": "/products/real/thumbs/g_GA69_54.webp",
+      "_realPhoto": "/products/real/g_GA69_54.jpg",
+      "_aiRender": "/products/ai/GA69.jpg"
     },
     {
       "article": "GD69",
@@ -4903,12 +5010,13 @@
       },
       "price": null,
       "stock": 1,
-      "image": "/products/ai/GD69.jpg",
+      "image": "/products/real/g_GD69_55.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 206,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GD69.webp",
-      "_realPhoto": "/products/real/g_GD69_55.jpg"
+      "thumb": "/products/real/thumbs/g_GD69_55.webp",
+      "_realPhoto": "/products/real/g_GD69_55.jpg",
+      "_aiRender": "/products/ai/GD69.jpg"
     },
     {
       "article": "GA83",
@@ -4925,12 +5033,13 @@
       },
       "price": null,
       "stock": 1,
-      "image": "/products/ai/GA83.jpg",
+      "image": "/products/real/g_GA83_56.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 304,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GA83.webp",
-      "_realPhoto": "/products/real/g_GA83_56.jpg"
+      "thumb": "/products/real/thumbs/g_GA83_56.webp",
+      "_realPhoto": "/products/real/g_GA83_56.jpg",
+      "_aiRender": "/products/ai/GA83.jpg"
     },
     {
       "article": "GA86",
@@ -4947,12 +5056,13 @@
       },
       "price": null,
       "stock": 0,
-      "image": "/products/ai/GA86.jpg",
+      "image": "/products/real/g_GA86_57.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 205,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GA86.webp",
-      "_realPhoto": "/products/real/g_GA86_57.jpg"
+      "thumb": "/products/real/thumbs/g_GA86_57.webp",
+      "_realPhoto": "/products/real/g_GA86_57.jpg",
+      "_aiRender": "/products/ai/GA86.jpg"
     },
     {
       "article": "GB86",
@@ -4969,12 +5079,13 @@
       },
       "price": null,
       "stock": 1,
-      "image": "/products/ai/GB86.jpg",
+      "image": "/products/real/g_GB86_58.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 186,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GB86.webp",
-      "_realPhoto": "/products/real/g_GB86_58.jpg"
+      "thumb": "/products/real/thumbs/g_GB86_58.webp",
+      "_realPhoto": "/products/real/g_GB86_58.jpg",
+      "_aiRender": "/products/ai/GB86.jpg"
     },
     {
       "article": "GD86",
@@ -4991,12 +5102,13 @@
       },
       "price": null,
       "stock": 3,
-      "image": "/products/ai/GD86.jpg",
+      "image": "/products/real/g_GD86_59.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 166,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/GD86.webp",
-      "_realPhoto": "/products/real/g_GD86_59.jpg"
+      "thumb": "/products/real/thumbs/g_GD86_59.webp",
+      "_realPhoto": "/products/real/g_GD86_59.jpg",
+      "_aiRender": "/products/ai/GD86.jpg"
     },
     {
       "article": "A3009",
@@ -5013,12 +5125,13 @@
       },
       "price": null,
       "stock": 1,
-      "image": "/products/ai/A3009.jpg",
+      "image": "/products/real/g_A3009_60.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 201,
       "hidden": false,
-      "thumb": "/products/ai/thumbs/A3009.webp",
-      "_realPhoto": "/products/real/g_A3009_60.jpg"
+      "thumb": "/products/real/thumbs/g_A3009_60.webp",
+      "_realPhoto": "/products/real/g_A3009_60.jpg",
+      "_aiRender": "/products/ai/A3009.jpg"
     },
     {
       "article": "Номи",
@@ -5057,11 +5170,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 0,
-      "image": "/products/ai/A337-8-Q.jpg",
+      "image": "/products/real/ost_А337-8_кора.png",
       "_src": "astatka-ost",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/A337-8-Q.webp",
-      "_realPhoto": "/products/real/ost_А337-8_кора.png"
+      "thumb": "/products/real/thumbs/ost_А337-8_кора.webp",
+      "_realPhoto": "/products/real/ost_А337-8_кора.png",
+      "_aiRender": "/products/ai/A337-8-Q.jpg"
     },
     {
       "article": "A337-8-J",
@@ -5079,11 +5193,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 0,
-      "image": "/products/ai/A337-8-J.jpg",
+      "image": "/products/real/ost_А337-8_кора.png",
       "_src": "astatka-ost",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/A337-8-J.webp",
-      "_realPhoto": "/products/real/ost_А337-8_кора.png"
+      "thumb": "/products/real/thumbs/ost_А337-8_кора.webp",
+      "_realPhoto": "/products/real/ost_А337-8_кора.png",
+      "_aiRender": "/products/ai/A337-8-J.jpg"
     },
     {
       "article": "B313-8-Q",
@@ -5101,11 +5216,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 0,
-      "image": "/products/ai/B313-8-Q.jpg",
+      "image": "/products/real/ost_В313-8_кора.jpg",
       "_src": "astatka-ost",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/B313-8-Q.webp",
-      "_realPhoto": "/products/real/ost_В313-8_кора.jpg"
+      "thumb": "/products/real/thumbs/ost_В313-8_кора.webp",
+      "_realPhoto": "/products/real/ost_В313-8_кора.jpg",
+      "_aiRender": "/products/ai/B313-8-Q.jpg"
     },
     {
       "article": "B313-8-J",
@@ -5123,11 +5239,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 0,
-      "image": "/products/ai/B313-8-J.jpg",
+      "image": "/products/real/ost_В313-8_кора.jpg",
       "_src": "astatka-ost",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/B313-8-J.webp",
-      "_realPhoto": "/products/real/ost_В313-8_кора.jpg"
+      "thumb": "/products/real/thumbs/ost_В313-8_кора.webp",
+      "_realPhoto": "/products/real/ost_В313-8_кора.jpg",
+      "_aiRender": "/products/ai/B313-8-J.jpg"
     },
     {
       "article": "B315-8-Q",
@@ -5145,11 +5262,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 1,
-      "image": "/products/ai/B315-8-Q.jpg",
+      "image": "/products/real/ost_В315-8_кора.jpg",
       "_src": "astatka-ost",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/B315-8-Q.webp",
-      "_realPhoto": "/products/real/ost_В315-8_кора.jpg"
+      "thumb": "/products/real/thumbs/ost_В315-8_кора.webp",
+      "_realPhoto": "/products/real/ost_В315-8_кора.jpg",
+      "_aiRender": "/products/ai/B315-8-Q.jpg"
     },
     {
       "article": "B315-8-J",
@@ -5167,11 +5285,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 1,
-      "image": "/products/ai/B315-8-J.jpg",
+      "image": "/products/real/ost_В315-8_кора.jpg",
       "_src": "astatka-ost",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/B315-8-J.webp",
-      "_realPhoto": "/products/real/ost_В315-8_кора.jpg"
+      "thumb": "/products/real/thumbs/ost_В315-8_кора.webp",
+      "_realPhoto": "/products/real/ost_В315-8_кора.jpg",
+      "_aiRender": "/products/ai/B315-8-J.jpg"
     },
     {
       "article": "A276-8-Q",
@@ -5189,11 +5308,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 0,
-      "image": "/products/ai/A276-8-Q.jpg",
+      "image": "/products/real/ost_А276-8_кора.jpg",
       "_src": "astatka-ost",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/A276-8-Q.webp",
-      "_realPhoto": "/products/real/ost_А276-8_кора.jpg"
+      "thumb": "/products/real/thumbs/ost_А276-8_кора.webp",
+      "_realPhoto": "/products/real/ost_А276-8_кора.jpg",
+      "_aiRender": "/products/ai/A276-8-Q.jpg"
     },
     {
       "article": "A276-8-J",
@@ -5211,11 +5331,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 0,
-      "image": "/products/ai/A276-8-J.jpg",
+      "image": "/products/real/ost_А276-8_кора.jpg",
       "_src": "astatka-ost",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/A276-8-J.webp",
-      "_realPhoto": "/products/real/ost_А276-8_кора.jpg"
+      "thumb": "/products/real/thumbs/ost_А276-8_кора.webp",
+      "_realPhoto": "/products/real/ost_А276-8_кора.jpg",
+      "_aiRender": "/products/ai/A276-8-J.jpg"
     },
     {
       "article": "B152-8-Q",
@@ -5233,11 +5354,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 1,
-      "image": "/products/ai/B152-8-Q.jpg",
+      "image": "/products/real/ost_В152-8_кора.jpg",
       "_src": "astatka-ost",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/B152-8-Q.webp",
-      "_realPhoto": "/products/real/ost_В152-8_кора.jpg"
+      "thumb": "/products/real/thumbs/ost_В152-8_кора.webp",
+      "_realPhoto": "/products/real/ost_В152-8_кора.jpg",
+      "_aiRender": "/products/ai/B152-8-Q.jpg"
     },
     {
       "article": "B152-8-J",
@@ -5255,11 +5377,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 0,
-      "image": "/products/ai/B152-8-J.jpg",
+      "image": "/products/real/ost_В152-8_кора.jpg",
       "_src": "astatka-ost",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/B152-8-J.webp",
-      "_realPhoto": "/products/real/ost_В152-8_кора.jpg"
+      "thumb": "/products/real/thumbs/ost_В152-8_кора.webp",
+      "_realPhoto": "/products/real/ost_В152-8_кора.jpg",
+      "_aiRender": "/products/ai/B152-8-J.jpg"
     },
     {
       "article": "C320-Q",
@@ -5277,11 +5400,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 0,
-      "image": "/products/ai/C320-Q.jpg",
+      "image": "/products/real/ost_С320_кора.jpg",
       "_src": "astatka-ost",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/C320-Q.webp",
-      "_realPhoto": "/products/real/ost_С320_кора.jpg"
+      "thumb": "/products/real/thumbs/ost_С320_кора.webp",
+      "_realPhoto": "/products/real/ost_С320_кора.jpg",
+      "_aiRender": "/products/ai/C320-Q.jpg"
     },
     {
       "article": "C320-J",
@@ -5299,11 +5423,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 2,
-      "image": "/products/ai/C320-J.jpg",
+      "image": "/products/real/ost_С320_кора.jpg",
       "_src": "astatka-ost",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/C320-J.webp",
-      "_realPhoto": "/products/real/ost_С320_кора.jpg"
+      "thumb": "/products/real/thumbs/ost_С320_кора.webp",
+      "_realPhoto": "/products/real/ost_С320_кора.jpg",
+      "_aiRender": "/products/ai/C320-J.jpg"
     },
     {
       "article": "SF-092-Q",
@@ -5321,11 +5446,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 0,
-      "image": "/products/ai/SF-092-Q.jpg",
+      "image": "/products/real/ost_SF-092_див_кора.jpg",
       "_src": "astatka-ost",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/SF-092-Q.webp",
-      "_realPhoto": "/products/real/ost_SF-092_див_кора.jpg"
+      "thumb": "/products/real/thumbs/ost_SF-092_див_кора.webp",
+      "_realPhoto": "/products/real/ost_SF-092_див_кора.jpg",
+      "_aiRender": "/products/ai/SF-092-Q.jpg"
     },
     {
       "article": "SF-092-J",
@@ -5343,11 +5469,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 0,
-      "image": "/products/ai/SF-092-J.jpg",
+      "image": "/products/real/ost_SF-092_див_кора.jpg",
       "_src": "astatka-ost",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/SF-092-J.webp",
-      "_realPhoto": "/products/real/ost_SF-092_див_кора.jpg"
+      "thumb": "/products/real/thumbs/ost_SF-092_див_кора.webp",
+      "_realPhoto": "/products/real/ost_SF-092_див_кора.jpg",
+      "_aiRender": "/products/ai/SF-092-J.jpg"
     },
     {
       "article": "SF-107",
@@ -5365,11 +5492,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 0,
-      "image": "/products/ai/SF-107.jpg",
+      "image": "/products/real/ost_SF-107_див_зелён.png",
       "_src": "astatka-ost",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/SF-107.webp",
-      "_realPhoto": "/products/real/ost_SF-107_див_зелён.png"
+      "thumb": "/products/real/thumbs/ost_SF-107_див_зелён.webp",
+      "_realPhoto": "/products/real/ost_SF-107_див_зелён.png",
+      "_aiRender": "/products/ai/SF-107.jpg"
     },
     {
       "article": "RX-838-Q",
@@ -5387,11 +5515,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 1,
-      "image": "/products/ai/RX-838-Q.jpg",
+      "image": "/products/real/ost_RX-838_кора.jpg",
       "_src": "astatka-ost",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/RX-838-Q.webp",
-      "_realPhoto": "/products/real/ost_RX-838_кора.jpg"
+      "thumb": "/products/real/thumbs/ost_RX-838_кора.webp",
+      "_realPhoto": "/products/real/ost_RX-838_кора.jpg",
+      "_aiRender": "/products/ai/RX-838-Q.jpg"
     },
     {
       "article": "RX-834-Q",
@@ -5409,11 +5538,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 1,
-      "image": "/products/ai/RX-834-Q.jpg",
+      "image": "/products/real/ost_RX-834_кора.jpg",
       "_src": "astatka-ost",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/RX-834-Q.webp",
-      "_realPhoto": "/products/real/ost_RX-834_кора.jpg"
+      "thumb": "/products/real/thumbs/ost_RX-834_кора.webp",
+      "_realPhoto": "/products/real/ost_RX-834_кора.jpg",
+      "_aiRender": "/products/ai/RX-834-Q.jpg"
     },
     {
       "article": "RX-612-Q",
@@ -5431,11 +5561,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 1,
-      "image": "/products/ai/RX-612-Q.jpg",
+      "image": "/products/real/ost_RX-612_кора.jpg",
       "_src": "astatka-ost",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/RX-612-Q.webp",
-      "_realPhoto": "/products/real/ost_RX-612_кора.jpg"
+      "thumb": "/products/real/thumbs/ost_RX-612_кора.webp",
+      "_realPhoto": "/products/real/ost_RX-612_кора.jpg",
+      "_aiRender": "/products/ai/RX-612-Q.jpg"
     },
     {
       "article": "RX-617-Q",
@@ -5453,11 +5584,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 0,
-      "image": "/products/ai/RX-617-Q.jpg",
+      "image": "/products/real/ost_RX-617_кора.jpg",
       "_src": "astatka-ost",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/RX-617-Q.webp",
-      "_realPhoto": "/products/real/ost_RX-617_кора.jpg"
+      "thumb": "/products/real/thumbs/ost_RX-617_кора.webp",
+      "_realPhoto": "/products/real/ost_RX-617_кора.jpg",
+      "_aiRender": "/products/ai/RX-617-Q.jpg"
     },
     {
       "article": "Aеропорт",
@@ -5475,11 +5607,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 0,
-      "image": "/products/ai/Aеропорт.jpg",
+      "image": "/products/real/ost_Аеропорт.jpg",
       "_src": "astatka-ost",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/Aеропорт.webp",
-      "_realPhoto": "/products/real/ost_Аеропорт.jpg"
+      "thumb": "/products/real/thumbs/ost_Аеропорт.webp",
+      "_realPhoto": "/products/real/ost_Аеропорт.jpg",
+      "_aiRender": "/products/ai/Aеропорт.jpg"
     },
     {
       "article": "DL920A",
@@ -5497,11 +5630,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 0,
-      "image": "/products/ai/DL920A.jpg",
+      "image": "/products/real/ost_DL920A_PU.jpg",
       "_src": "astatka-ost",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/DL920A.webp",
-      "_realPhoto": "/products/real/ost_DL920A_PU.jpg"
+      "thumb": "/products/real/thumbs/ost_DL920A_PU.webp",
+      "_realPhoto": "/products/real/ost_DL920A_PU.jpg",
+      "_aiRender": "/products/ai/DL920A.jpg"
     },
     {
       "article": "DL920C",
@@ -5519,11 +5653,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 2,
-      "image": "/products/ai/DL920C.jpg",
+      "image": "/products/real/ost_DL920C_PU.jpg",
       "_src": "astatka-ost",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/DL920C.webp",
-      "_realPhoto": "/products/real/ost_DL920C_PU.jpg"
+      "thumb": "/products/real/thumbs/ost_DL920C_PU.webp",
+      "_realPhoto": "/products/real/ost_DL920C_PU.jpg",
+      "_aiRender": "/products/ai/DL920C.jpg"
     },
     {
       "article": "DE1825C-PU",
@@ -5541,11 +5676,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 0,
-      "image": "/products/ai/DE1825C-PU.jpg",
+      "image": "/products/real/ost_DE1825C-PU.jpg",
       "_src": "astatka-ost",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/DE1825C-PU.webp",
-      "_realPhoto": "/products/real/ost_DE1825C-PU.jpg"
+      "thumb": "/products/real/thumbs/ost_DE1825C-PU.webp",
+      "_realPhoto": "/products/real/ost_DE1825C-PU.jpg",
+      "_aiRender": "/products/ai/DE1825C-PU.jpg"
     },
     {
       "article": "DE1868C-PU",
@@ -5563,11 +5699,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 2,
-      "image": "/products/ai/DE1868C-PU.jpg",
+      "image": "/products/real/ost_DE1868C-PU.jpg",
       "_src": "astatka-ost",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/DE1868C-PU.webp",
-      "_realPhoto": "/products/real/ost_DE1868C-PU.jpg"
+      "thumb": "/products/real/thumbs/ost_DE1868C-PU.webp",
+      "_realPhoto": "/products/real/ost_DE1868C-PU.jpg",
+      "_aiRender": "/products/ai/DE1868C-PU.jpg"
     },
     {
       "article": "DE3903C-PU",
@@ -5585,11 +5722,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 1,
-      "image": "/products/ai/DE3903C-PU.jpg",
+      "image": "/products/real/ost_DE3903C-PU.jpg",
       "_src": "astatka-ost",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/DE3903C-PU.webp",
-      "_realPhoto": "/products/real/ost_DE3903C-PU.jpg"
+      "thumb": "/products/real/thumbs/ost_DE3903C-PU.webp",
+      "_realPhoto": "/products/real/ost_DE3903C-PU.jpg",
+      "_aiRender": "/products/ai/DE3903C-PU.jpg"
     },
     {
       "article": "SF-106-8",
@@ -5607,11 +5745,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 1,
-      "image": "/products/ai/SF-106-8.jpg",
+      "image": "/products/real/sf_SF-106-8.png",
       "_src": "astatka-sf",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/SF-106-8.webp",
-      "_realPhoto": "/products/real/sf_SF-106-8.png"
+      "thumb": "/products/real/thumbs/sf_SF-106-8.webp",
+      "_realPhoto": "/products/real/sf_SF-106-8.png",
+      "_aiRender": "/products/ai/SF-106-8.jpg"
     },
     {
       "article": "SF-087",
@@ -5629,11 +5768,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 1,
-      "image": "/products/ai/SF-087.jpg",
+      "image": "/products/real/sf_SF-087.jpg",
       "_src": "astatka-sf",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/SF-087.webp",
-      "_realPhoto": "/products/real/sf_SF-087.jpg"
+      "thumb": "/products/real/thumbs/sf_SF-087.webp",
+      "_realPhoto": "/products/real/sf_SF-087.jpg",
+      "_aiRender": "/products/ai/SF-087.jpg"
     },
     {
       "article": "SF-107",
@@ -5651,11 +5791,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 1,
-      "image": "/products/ai/SF-107.jpg",
+      "image": "/products/real/sf_SF-107.jpg",
       "_src": "astatka-sf",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/SF-107.webp",
-      "_realPhoto": "/products/real/sf_SF-107.jpg"
+      "thumb": "/products/real/thumbs/sf_SF-107.webp",
+      "_realPhoto": "/products/real/sf_SF-107.jpg",
+      "_aiRender": "/products/ai/SF-107.jpg"
     },
     {
       "article": "SF-102",
@@ -5673,11 +5814,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 1,
-      "image": "/products/ai/SF-102.jpg",
+      "image": "/products/real/sf3_SF-102.jpg",
       "_src": "astatka-sf",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/SF-102.webp",
-      "_realPhoto": "/products/real/sf3_SF-102.jpg"
+      "thumb": "/products/real/thumbs/sf3_SF-102.webp",
+      "_realPhoto": "/products/real/sf3_SF-102.jpg",
+      "_aiRender": "/products/ai/SF-102.jpg"
     },
     {
       "article": "SF-093",
@@ -5695,11 +5837,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 1,
-      "image": "/products/ai/SF-093.jpg",
+      "image": "/products/real/sf_SF-093.jpg",
       "_src": "astatka-sf",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/SF-093.webp",
-      "_realPhoto": "/products/real/sf_SF-093.jpg"
+      "thumb": "/products/real/thumbs/sf_SF-093.webp",
+      "_realPhoto": "/products/real/sf_SF-093.jpg",
+      "_aiRender": "/products/ai/SF-093.jpg"
     },
     {
       "article": "SF-109",
@@ -5717,11 +5860,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 1,
-      "image": "/products/ai/SF-109.jpg",
+      "image": "/products/real/sf_SF-109.jpg",
       "_src": "astatka-sf",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/SF-109.webp",
-      "_realPhoto": "/products/real/sf_SF-109.jpg"
+      "thumb": "/products/real/thumbs/sf_SF-109.webp",
+      "_realPhoto": "/products/real/sf_SF-109.jpg",
+      "_aiRender": "/products/ai/SF-109.jpg"
     },
     {
       "article": "SF-092",
@@ -5739,11 +5883,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 1,
-      "image": "/products/ai/SF-092.jpg",
+      "image": "/products/real/sf_SF-092.png",
       "_src": "astatka-sf",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/SF-092.webp",
-      "_realPhoto": "/products/real/sf_SF-092.png"
+      "thumb": "/products/real/thumbs/sf_SF-092.webp",
+      "_realPhoto": "/products/real/sf_SF-092.png",
+      "_aiRender": "/products/ai/SF-092.jpg"
     },
     {
       "article": "SF-052",
@@ -5761,11 +5906,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 1,
-      "image": "/products/ai/SF-052.jpg",
+      "image": "/products/real/sf_SF-052.jpg",
       "_src": "astatka-sf",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/SF-052.webp",
-      "_realPhoto": "/products/real/sf_SF-052.jpg"
+      "thumb": "/products/real/thumbs/sf_SF-052.webp",
+      "_realPhoto": "/products/real/sf_SF-052.jpg",
+      "_aiRender": "/products/ai/SF-052.jpg"
     },
     {
       "article": "SF-210",
@@ -5783,11 +5929,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 0,
-      "image": "/products/ai/SF-210.jpg",
+      "image": "/products/real/sf_SF-210.jpg",
       "_src": "astatka-sf",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/SF-210.webp",
-      "_realPhoto": "/products/real/sf_SF-210.jpg"
+      "thumb": "/products/real/thumbs/sf_SF-210.webp",
+      "_realPhoto": "/products/real/sf_SF-210.jpg",
+      "_aiRender": "/products/ai/SF-210.jpg"
     },
     {
       "article": "SF-095",
@@ -5805,11 +5952,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 1,
-      "image": "/products/ai/SF-095.jpg",
+      "image": "/products/real/sf_SF-095.jpg",
       "_src": "astatka-sf",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/SF-095.webp",
-      "_realPhoto": "/products/real/sf_SF-095.jpg"
+      "thumb": "/products/real/thumbs/sf_SF-095.webp",
+      "_realPhoto": "/products/real/sf_SF-095.jpg",
+      "_aiRender": "/products/ai/SF-095.jpg"
     },
     {
       "article": "A301-8",
@@ -5827,11 +5975,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 1,
-      "image": "/products/ai/A301-8.jpg",
+      "image": "/products/real/sf_A301-8.jpg",
       "_src": "astatka-sf",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/A301-8.webp",
-      "_realPhoto": "/products/real/sf_A301-8.jpg"
+      "thumb": "/products/real/thumbs/sf_A301-8.webp",
+      "_realPhoto": "/products/real/sf_A301-8.jpg",
+      "_aiRender": "/products/ai/A301-8.jpg"
     },
     {
       "article": "LS-277A",
@@ -5849,11 +5998,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 1,
-      "image": "/products/ai/LS-277A.jpg",
+      "image": "/products/real/sf_LS-277A.jpg",
       "_src": "astatka-sf",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/LS-277A.webp",
-      "_realPhoto": "/products/real/sf_LS-277A.jpg"
+      "thumb": "/products/real/thumbs/sf_LS-277A.webp",
+      "_realPhoto": "/products/real/sf_LS-277A.jpg",
+      "_aiRender": "/products/ai/LS-277A.jpg"
     },
     {
       "article": "LS-280C",
@@ -5871,11 +6021,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 1,
-      "image": "/products/ai/LS-280C.jpg",
+      "image": "/products/real/sf_LS-280C.jpg",
       "_src": "astatka-sf",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/LS-280C.webp",
-      "_realPhoto": "/products/real/sf_LS-280C.jpg"
+      "thumb": "/products/real/thumbs/sf_LS-280C.webp",
+      "_realPhoto": "/products/real/sf_LS-280C.jpg",
+      "_aiRender": "/products/ai/LS-280C.jpg"
     },
     {
       "article": "LS-300C",
@@ -5893,11 +6044,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 1,
-      "image": "/products/ai/LS-300C.jpg",
+      "image": "/products/real/sf_LS-300C.jpg",
       "_src": "astatka-sf",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/LS-300C.webp",
-      "_realPhoto": "/products/real/sf_LS-300C.jpg"
+      "thumb": "/products/real/thumbs/sf_LS-300C.webp",
+      "_realPhoto": "/products/real/sf_LS-300C.jpg",
+      "_aiRender": "/products/ai/LS-300C.jpg"
     },
     {
       "article": "C259",
@@ -5915,11 +6067,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 1,
-      "image": "/products/ai/C259.jpg",
+      "image": "/products/real/sf_C259.jpg",
       "_src": "astatka-sf",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/C259.webp",
-      "_realPhoto": "/products/real/sf_C259.jpg"
+      "thumb": "/products/real/thumbs/sf_C259.webp",
+      "_realPhoto": "/products/real/sf_C259.jpg",
+      "_aiRender": "/products/ai/C259.jpg"
     },
     {
       "article": "LS-231C",
@@ -5937,11 +6090,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 1,
-      "image": "/products/ai/LS-231C.jpg",
+      "image": "/products/real/sf_LS-231C.jpg",
       "_src": "astatka-sf",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/LS-231C.webp",
-      "_realPhoto": "/products/real/sf_LS-231C.jpg"
+      "thumb": "/products/real/thumbs/sf_LS-231C.webp",
+      "_realPhoto": "/products/real/sf_LS-231C.jpg",
+      "_aiRender": "/products/ai/LS-231C.jpg"
     },
     {
       "article": "LS-237C",
@@ -5959,11 +6113,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 3,
-      "image": "/products/ai/LS-237C.jpg",
+      "image": "/products/real/sf_LS-237C.jpg",
       "_src": "astatka-sf",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/LS-237C.webp",
-      "_realPhoto": "/products/real/sf_LS-237C.jpg"
+      "thumb": "/products/real/thumbs/sf_LS-237C.webp",
+      "_realPhoto": "/products/real/sf_LS-237C.jpg",
+      "_aiRender": "/products/ai/LS-237C.jpg"
     },
     {
       "article": "LS-178B",
@@ -5981,11 +6136,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 2,
-      "image": "/products/ai/LS-178B.jpg",
+      "image": "/products/real/sf_LS-178B.jpg",
       "_src": "astatka-sf",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/LS-178B.webp",
-      "_realPhoto": "/products/real/sf_LS-178B.jpg"
+      "thumb": "/products/real/thumbs/sf_LS-178B.webp",
+      "_realPhoto": "/products/real/sf_LS-178B.jpg",
+      "_aiRender": "/products/ai/LS-178B.jpg"
     },
     {
       "article": "LS-505A",
@@ -6003,11 +6159,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 0,
-      "image": "/products/ai/LS-505A.jpg",
+      "image": "/products/real/sf_LS-505A.jpg",
       "_src": "astatka-sf",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/LS-505A.webp",
-      "_realPhoto": "/products/real/sf_LS-505A.jpg"
+      "thumb": "/products/real/thumbs/sf_LS-505A.webp",
+      "_realPhoto": "/products/real/sf_LS-505A.jpg",
+      "_aiRender": "/products/ai/LS-505A.jpg"
     },
     {
       "article": "A377",
@@ -6046,11 +6203,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 1,
-      "image": "/products/ai/A378-8.jpg",
+      "image": "/products/real/sf3_A378-8.jpg",
       "_src": "astatka-sf",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/A378-8.webp",
-      "_realPhoto": "/products/real/sf3_A378-8.jpg"
+      "thumb": "/products/real/thumbs/sf3_A378-8.webp",
+      "_realPhoto": "/products/real/sf3_A378-8.jpg",
+      "_aiRender": "/products/ai/A378-8.jpg"
     },
     {
       "article": "LS-339A",
@@ -6068,11 +6226,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 1,
-      "image": "/products/ai/LS-339A.jpg",
+      "image": "/products/real/sf3_LS-339A.jpg",
       "_src": "astatka-sf",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/LS-339A.webp",
-      "_realPhoto": "/products/real/sf3_LS-339A.jpg"
+      "thumb": "/products/real/thumbs/sf3_LS-339A.webp",
+      "_realPhoto": "/products/real/sf3_LS-339A.jpg",
+      "_aiRender": "/products/ai/LS-339A.jpg"
     },
     {
       "article": "LS-339C",
@@ -6090,11 +6249,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 2,
-      "image": "/products/ai/LS-339C.jpg",
+      "image": "/products/real/sf3_LS-339C.jpg",
       "_src": "astatka-sf",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/LS-339C.webp",
-      "_realPhoto": "/products/real/sf3_LS-339C.jpg"
+      "thumb": "/products/real/thumbs/sf3_LS-339C.webp",
+      "_realPhoto": "/products/real/sf3_LS-339C.jpg",
+      "_aiRender": "/products/ai/LS-339C.jpg"
     },
     {
       "article": "LS-277C",
@@ -6112,11 +6272,12 @@
       "price": null,
       "priceUSD": null,
       "stock": 2,
-      "image": "/products/ai/LS-277C.jpg",
+      "image": "/products/real/sf3_LS-277C.png",
       "_src": "astatka-sf",
       "hidden": false,
-      "thumb": "/products/ai/thumbs/LS-277C.webp",
-      "_realPhoto": "/products/real/sf3_LS-277C.png"
+      "thumb": "/products/real/thumbs/sf3_LS-277C.webp",
+      "_realPhoto": "/products/real/sf3_LS-277C.png",
+      "_aiRender": "/products/ai/LS-277C.jpg"
     }
   ]
 }

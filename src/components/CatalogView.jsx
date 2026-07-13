@@ -11,6 +11,7 @@ export default function CatalogView({ lang, products, categories }) {
 
   const [cat, setCat] = useState(searchParams.get("cat") || "");
   const [q, setQ] = useState(searchParams.get("q") || "");
+  const [stockOnly, setStockOnly] = useState(false);
 
   useEffect(() => {
     setCat(searchParams.get("cat") || "");
@@ -28,59 +29,62 @@ export default function CatalogView({ lang, products, categories }) {
     const needle = q.trim().toLowerCase();
     return products.filter((p) => {
       if (cat && p.category !== cat) return false;
+      if (stockOnly && !(Number(p.stock) > 0)) return false;
       if (!needle) return true;
-      const hay = [
-        p.article,
-        p.name.uz, p.name.ru, p.name.en,
-        p.dimensions || "",
-      ].join(" ").toLowerCase();
+      const hay = [p.article, p.name.uz, p.name.ru, p.name.en, p.dimensions || ""].join(" ").toLowerCase();
       return hay.includes(needle);
     });
-  }, [products, cat, q]);
+  }, [products, cat, q, stockOnly]);
+
+  const activeCat = categories.find((c) => c.id === cat);
 
   return (
-    <div className="container-x py-8">
-      {/* search */}
-      <div className="mb-5">
-        <div className="relative max-w-xl">
+    <div className="container-x py-6">
+      {/* toolbar */}
+      <div className="mb-5 flex flex-wrap items-center gap-3">
+        <h1 className="text-xl font-bold text-[#111] sm:text-2xl">
+          {activeCat ? activeCat.name[lang] : t(lang, "all_categories")}
+          <span className="ml-2 font-normal text-[#757575]">({filtered.length})</span>
+        </h1>
+        <div className="ml-auto flex items-center gap-2">
+          <button
+            onClick={() => setStockOnly((v) => !v)}
+            className={"rounded-full border px-4 py-1.5 text-sm font-semibold transition " +
+              (stockOnly ? "border-[#111] bg-[#111] text-white" : "border-[#cacacb] bg-white text-[#111] hover:border-[#111]")}>
+            {t(lang, "in_stock")}
+          </button>
           <input
             value={q}
             onChange={(e) => { setQ(e.target.value); updateUrl(cat, e.target.value); }}
             placeholder={t(lang, "search_ph")}
-            className="w-full rounded-full border border-black/10 bg-sand px-5 py-2.5 text-sm outline-none focus:border-gold"
+            className="w-44 rounded-full bg-[#f5f5f5] px-4 py-1.5 text-sm outline-none transition focus:bg-[#e5e5e5] sm:w-64"
           />
         </div>
       </div>
 
-      {/* category chips */}
-      <div className="mb-6 flex flex-wrap gap-2">
+      {/* category rail */}
+      <div className="no-scrollbar mb-6 flex gap-2 overflow-x-auto pb-1">
         <button
           onClick={() => { setCat(""); updateUrl("", q); }}
-          className={"rounded-full px-4 py-1.5 text-sm font-semibold transition " + (!cat ? "bg-ink text-white" : "bg-sand text-black/70 hover:bg-gold-light")}
-        >
+          className={"shrink-0 rounded-full px-4 py-1.5 text-sm font-semibold transition " +
+            (!cat ? "bg-[#111] text-white" : "bg-[#f5f5f5] text-[#111] hover:bg-[#e5e5e5]")}>
           {t(lang, "all_categories")}
         </button>
         {categories.map((c) => (
           <button
             key={c.id}
             onClick={() => { const nc = cat === c.id ? "" : c.id; setCat(nc); updateUrl(nc, q); }}
-            className={"rounded-full px-4 py-1.5 text-sm font-semibold transition " + (cat === c.id ? "bg-ink text-white" : "bg-sand text-black/70 hover:bg-gold-light")}
-          >
+            className={"shrink-0 rounded-full px-4 py-1.5 text-sm font-semibold transition " +
+              (cat === c.id ? "bg-[#111] text-white" : "bg-[#f5f5f5] text-[#111] hover:bg-[#e5e5e5]")}>
             {c.name[lang]}
           </button>
         ))}
       </div>
 
-      <div className="mb-4 text-sm text-black/50">
-        {filtered.length} {t(lang, "catalog_count")}
-      </div>
-
       {filtered.length === 0 ? (
-        <div className="rounded-xl border border-dashed border-black/15 py-20 text-center text-black/40">
-          {t(lang, "no_results")}
-        </div>
+        <div className="py-24 text-center text-[#757575]">{t(lang, "no_results")}</div>
       ) : (
-        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+        <div className="grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 xl:grid-cols-4">
           {filtered.map((p) => (
             <ProductCard key={p.article} product={p} lang={lang} />
           ))}

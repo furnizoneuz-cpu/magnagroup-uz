@@ -15,8 +15,8 @@ html { scroll-behavior: smooth; }
 html, body {
   padding: 0;
   margin: 0;
-  background: #f8f9fa;
-  color: #1e2229;
+  background: #ffffff;
+  color: #111111;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
@@ -32,11 +32,36 @@ h1, h2, h3, h4, .font-head {
 
 .container-x {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1440px;
   margin: 0 auto;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
+
+/* ---------- Commerce design language (big-brand sportswear style) ---------- */
+.display-head {
+  font-family: var(--font-montserrat), system-ui, sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: -0.03em;
+  line-height: 0.92;
+}
+.btn-pill {
+  display: inline-flex; align-items: center; justify-content: center;
+  border-radius: 9999px; background: #111; color: #fff;
+  padding: 0.65rem 1.5rem; font-size: 0.95rem; font-weight: 600;
+  transition: background 0.2s ease;
+}
+.btn-pill:hover { background: #3a3a3a; }
+.btn-pill-outline {
+  display: inline-flex; align-items: center; justify-content: center;
+  border-radius: 9999px; border: 1.5px solid #cacacb; background: #fff; color: #111;
+  padding: 0.65rem 1.5rem; font-size: 0.95rem; font-weight: 600;
+  transition: border-color 0.2s ease;
+}
+.btn-pill-outline:hover { border-color: #111; }
+.tile { background: #f6f6f6; }
+.link-hover:hover { color: #757575; }
 
 /* ---------- Scroll reveal ---------- */
 .reveal {

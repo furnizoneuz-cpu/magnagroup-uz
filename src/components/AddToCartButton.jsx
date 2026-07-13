@@ -3,7 +3,7 @@ import { useCart } from "@/components/CartProvider";
 import { t } from "@/lib/i18n";
 import { useState } from "react";
 
-export default function AddToCartButton({ product, lang, full = false }) {
+export default function AddToCartButton({ product, lang, full = false, pill = false }) {
   const { add } = useCart();
   const [added, setAdded] = useState(false);
   return (
@@ -20,7 +20,9 @@ export default function AddToCartButton({ product, lang, full = false }) {
       }}
       className={
         (full ? "w-full " : "") +
-        "inline-flex items-center justify-center gap-2 rounded-lg bg-ink px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-gold-dark active:scale-95"
+        (pill
+          ? "btn-pill gap-2 !py-3"
+          : "inline-flex items-center justify-center gap-2 rounded-lg bg-ink px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-gold-dark active:scale-95")
       }
     >
       {added ? (
