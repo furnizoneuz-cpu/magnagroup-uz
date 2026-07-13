@@ -98,7 +98,11 @@ const PARTS = {
   ],
 };
 
-const HINT = { uz: "Ochish uchun pastga suring", ru: "Прокрутите вниз", en: "Scroll to reveal" };
+const HINT = {
+  uz: "Suring — aylantirish uchun torting, zoom uchun g'ildirak",
+  ru: "Листайте — тяните для вращения, колесо для зума",
+  en: "Scroll — drag to rotate, wheel to zoom",
+};
 
 export default function ProductStage({ product, lang }) {
   const accent = "#0F4C81"; // brand blue — consistent B2B accent
@@ -108,6 +112,7 @@ export default function ProductStage({ product, lang }) {
   const rootRef = useRef(null);
   const wrapRef = useRef(null);
   const imgRef = useRef(null);
+  const glareRef = useRef(null);
   const expRef = useRef(null);
   const mistRef = useRef(null);
   const hintRef = useRef(null);
@@ -126,20 +131,37 @@ export default function ProductStage({ product, lang }) {
       return t * t * (3 - 2 * t);
     };
 
+    // user interaction state: drag adds yaw/pitch, wheel/pinch zooms, all with inertia
+    const ui = { yaw: 0, pitch: 0, zoom: 1, vyaw: 0, dragging: false, lx: 0, ly: 0, pinch: 0 };
+
     function render() {
       const total = root.offsetHeight - wrap.offsetHeight;
       const p = total > 0 ? clamp(-root.getBoundingClientRect().top / total) : 0;
 
+      // 3D turntable: scroll sweeps the product through a perspective rotation,
+      // and the visitor can grab it — drag to rotate, wheel/pinch to zoom.
+      const yaw = clamp(-28 + p * 56 + ui.yaw, -75, 75);
+      const pitch = clamp(6 - p * 9 + ui.pitch, -25, 25);
+      const sc = (1 + smooth(0, 1, p) * 0.28) * ui.zoom;
       if (imgRef.current) {
-        const sc = 1 + p * 0.18;
-        imgRef.current.style.transform = `scale(${sc})`;
+        imgRef.current.style.transform =
+          `perspective(1200px) rotateY(${yaw}deg) rotateX(${pitch}deg) scale(${sc})`;
         imgRef.current.style.opacity = exploded ? String(1 - smooth(0.25, 0.6, p)) : "1";
+      }
+      if (glareRef.current) {
+        // moving highlight tracks the rotation → reads as real light on a turning object
+        const gx = 50 - yaw * 1.4;
+        glareRef.current.style.background =
+          `linear-gradient(${105 + yaw}deg, transparent ${gx - 22}%, rgba(255,255,255,0.35) ${gx}%, transparent ${gx + 22}%)`;
       }
       if (expRef.current) {
         expRef.current.style.opacity = String(smooth(0.3, 0.65, p));
-        expRef.current.style.transform = `scale(${1 + p * 0.1})`;
+        expRef.current.style.transform = `perspective(1200px) rotateY(${yaw * 0.6}deg) scale(${1 + p * 0.12})`;
       }
-      if (mistRef.current) mistRef.current.style.opacity = String(0.35 + 0.5 * Math.sin(p * Math.PI));
+      if (mistRef.current) {
+        mistRef.current.style.opacity = String(0.35 + 0.5 * Math.sin(p * Math.PI));
+        mistRef.current.style.transform = `translateX(${-50 + yaw * 0.9}%) scaleX(${1 + Math.abs(yaw) / 90})`;
+      }
       if (hintRef.current) hintRef.current.style.opacity = String(clamp(1 - p * 6));
       if (barRef.current) barRef.current.style.transform = `scaleX(${p})`;
 
@@ -156,33 +178,105 @@ export default function ProductStage({ product, lang }) {
       if (raf) return;
       raf = requestAnimationFrame(() => { raf = 0; render(); });
     }
+
+    /* -------- grab / spin / zoom (mouse + touch), with inertia -------- */
+    function onDown(e) {
+      if (e.touches && e.touches.length === 2) {
+        ui.pinch = Math.hypot(
+          e.touches[0].clientX - e.touches[1].clientX,
+          e.touches[0].clientY - e.touches[1].clientY
+        );
+        return;
+      }
+      const t = e.touches ? e.touches[0] : e;
+      ui.dragging = true; ui.vyaw = 0; ui.lx = t.clientX; ui.ly = t.clientY;
+    }
+    function onMove(e) {
+      if (e.touches && e.touches.length === 2 && ui.pinch) {
+        const d = Math.hypot(
+          e.touches[0].clientX - e.touches[1].clientX,
+          e.touches[0].clientY - e.touches[1].clientY
+        );
+        ui.zoom = clamp(ui.zoom * (d / ui.pinch), 1, 3);
+        ui.pinch = d; onScroll(); e.preventDefault();
+        return;
+      }
+      if (!ui.dragging) return;
+      const t = e.touches ? e.touches[0] : e;
+      const dx = t.clientX - ui.lx, dy = t.clientY - ui.ly;
+      ui.yaw += dx * 0.35; ui.vyaw = dx * 0.35;
+      ui.pitch = clamp(ui.pitch - dy * 0.12, -25, 25);
+      ui.lx = t.clientX; ui.ly = t.clientY;
+      onScroll();
+      if (e.cancelable) e.preventDefault();
+    }
+    function onUp() {
+      ui.dragging = false; ui.pinch = 0;
+      // inertia: the spin keeps gliding, slowly braking
+      function glide() {
+        if (ui.dragging || Math.abs(ui.vyaw) < 0.05) return;
+        ui.yaw += ui.vyaw; ui.vyaw *= 0.94;
+        render();
+        requestAnimationFrame(glide);
+      }
+      glide();
+    }
+    function onWheel(e) {
+      // zoom only while holding over the stage; keep page scroll natural otherwise
+      if (ui.zoom === 1 && e.deltaY > 0) return;
+      ui.zoom = clamp(ui.zoom - e.deltaY * 0.0016, 1, 3);
+      onScroll();
+      if (ui.zoom > 1) e.preventDefault();
+    }
+    function onDbl() { ui.yaw = 0; ui.pitch = 0; ui.zoom = 1; ui.vyaw = 0; onScroll(); }
+
     render();
     window.addEventListener("scroll", onScroll, { passive: true });
     window.addEventListener("resize", render);
+    wrap.addEventListener("mousedown", onDown);
+    window.addEventListener("mousemove", onMove);
+    window.addEventListener("mouseup", onUp);
+    wrap.addEventListener("touchstart", onDown, { passive: true });
+    wrap.addEventListener("touchmove", onMove, { passive: false });
+    wrap.addEventListener("touchend", onUp);
+    wrap.addEventListener("wheel", onWheel, { passive: false });
+    wrap.addEventListener("dblclick", onDbl);
     return () => {
       window.removeEventListener("scroll", onScroll);
       window.removeEventListener("resize", render);
+      wrap.removeEventListener("mousedown", onDown);
+      window.removeEventListener("mousemove", onMove);
+      window.removeEventListener("mouseup", onUp);
+      wrap.removeEventListener("touchstart", onDown);
+      wrap.removeEventListener("touchmove", onMove);
+      wrap.removeEventListener("touchend", onUp);
+      wrap.removeEventListener("wheel", onWheel);
+      wrap.removeEventListener("dblclick", onDbl);
       if (raf) cancelAnimationFrame(raf);
     };
   }, [exploded, parts]);
 
   return (
     <section ref={rootRef} className="relative" style={{ height: "300vh" }}>
-      <div ref={wrapRef} className="sticky top-0 h-screen w-full overflow-hidden border-b border-black/5"
-        style={{ background: "radial-gradient(120% 90% at 50% 0%, #ffffff 0%, #f1f3f6 55%, #e7eaef 100%)" }}>
+      <div ref={wrapRef} className="sticky top-0 h-screen w-full cursor-grab overflow-hidden border-b border-black/5 active:cursor-grabbing"
+        style={{ background: "radial-gradient(120% 90% at 50% 0%, #ffffff 0%, #f1f3f6 55%, #e7eaef 100%)", touchAction: "pan-y" }}>
         {/* soft top light */}
         <div className="pointer-events-none absolute inset-x-0 top-0 h-2/3" style={{ background: "radial-gradient(55% 70% at 50% 0%, rgba(255,255,255,0.9), transparent 70%)" }} />
-        {/* soft floor shadow */}
-        <div ref={mistRef} className="pointer-events-none absolute bottom-[14%] left-1/2 h-8 w-[55%] -translate-x-1/2 rounded-[50%] blur-xl"
-          style={{ background: "rgba(30,34,41,0.12)" }} />
+        {/* soft floor shadow — shifts with the rotation */}
+        <div ref={mistRef} className="pointer-events-none absolute bottom-[14%] left-1/2 h-8 w-[55%] rounded-[50%] blur-xl will-change-transform"
+          style={{ background: "rgba(30,34,41,0.12)", transform: "translateX(-50%)" }} />
 
         {/* product images */}
         <div className="absolute inset-0 flex items-center justify-center p-8">
           <div className="relative h-[68vh] w-[68vh] max-w-[90vw]">
             {product.image ? (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img ref={imgRef} src={product.image} alt={product.name[lang]}
-                className="absolute inset-0 h-full w-full object-contain will-change-transform" />
+              <div ref={imgRef} className="absolute inset-0 will-change-transform" style={{ transformStyle: "preserve-3d" }}>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={product.image} alt={product.name[lang]}
+                  className="absolute inset-0 h-full w-full object-contain" />
+                {/* rotating light sweep */}
+                <div ref={glareRef} className="pointer-events-none absolute inset-0 mix-blend-soft-light" />
+              </div>
             ) : (
               <div ref={imgRef} className="absolute inset-0 flex items-center justify-center will-change-transform">
                 <svg viewBox="0 0 48 48" className="h-40 w-40 text-brand/50" fill="none" stroke="currentColor" strokeWidth="1.1">

@@ -8,10 +8,10 @@ export default function ProductImage({ product, lang = "uz", className = "", rat
       {product.image ? (
         // eslint-disable-next-line @next/next/no-img-element
         <img
-          src={product.image}
+          src={product.thumb || product.image}
           alt={product.name?.[lang] || product.article}
           loading="lazy"
-          className="absolute inset-0 h-full w-full bg-white object-cover"
+          className="absolute inset-0 h-full w-full bg-white object-contain"
         />
       ) : (
         <div className="absolute inset-0" style={{ background: "linear-gradient(160deg, #ffffff 0%, #f1f3f6 100%)" }}>
