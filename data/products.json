@@ -2459,7 +2459,8 @@
       "image": "/products/real/p1_MG01-D0118LQ.png",
       "_src": "astatka-p1",
       "_costUSD": 340.9,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG01-D0118LQ.webp"
     },
     {
       "article": "MG01-C0124LQ",
@@ -2480,7 +2481,8 @@
       "image": "/products/real/p1_MG01-C0124LQ.png",
       "_src": "astatka-p1",
       "_costUSD": 305.7,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG01-C0124LQ.webp"
     },
     {
       "article": "MG03-D0118LW",
@@ -2501,7 +2503,8 @@
       "image": "/products/real/p1_MG03-D0118LW.jpg",
       "_src": "astatka-p1",
       "_costUSD": 388.2,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG03-D0118LW.webp"
     },
     {
       "article": "MG03-D0412",
@@ -2522,7 +2525,8 @@
       "image": "/products/real/p1_MG03-D0412.jpg",
       "_src": "astatka-p1",
       "_costUSD": 328.5,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG03-D0412.webp"
     },
     {
       "article": "MG03-D0412Y",
@@ -2543,7 +2547,8 @@
       "image": "/products/real/p1_MG03-D0412Y.jpg",
       "_src": "astatka-p1",
       "_costUSD": 269.6,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG03-D0412Y.webp"
     },
     {
       "article": "MG05-D0318KW",
@@ -2564,7 +2569,8 @@
       "image": "/products/real/p1_MG05-D0318KW.jpg",
       "_src": "astatka-p1",
       "_costUSD": 394.9,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG05-D0318KW.webp"
     },
     {
       "article": "MG05-D0412KW",
@@ -2585,7 +2591,8 @@
       "image": "/products/real/p1_MG05-D0412KW.jpg",
       "_src": "astatka-p1",
       "_costUSD": 331.7,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG05-D0412KW.webp"
     },
     {
       "article": "MG05-D0412YW",
@@ -2606,7 +2613,8 @@
       "image": "/products/real/p1_MG05-D0412YW.jpg",
       "_src": "astatka-p1",
       "_costUSD": 244.3,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG05-D0412YW.webp"
     },
     {
       "article": "MG05-D0524KW",
@@ -2627,7 +2635,8 @@
       "image": "/products/real/p1_MG05-D0524KW.jpg",
       "_src": "astatka-p1",
       "_costUSD": 513.5,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG05-D0524KW.webp"
     },
     {
       "article": "MG05-C0120MW",
@@ -2648,7 +2657,8 @@
       "image": "/products/real/p1_MG05-C0120MW.jpg",
       "_src": "astatka-p1",
       "_costUSD": 329.9,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG05-C0120MW.webp"
     },
     {
       "article": "MG05- D0112MEG",
@@ -2669,7 +2679,8 @@
       "image": "/products/real/p1_MG05-_D0112MEG.jpg",
       "_src": "astatka-p1",
       "_costUSD": 179,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG05-_D0112MEG.webp"
     },
     {
       "article": "MG05- D0218MEG",
@@ -2690,7 +2701,8 @@
       "image": "/products/real/p1_MG05-_D0218MEG.jpg",
       "_src": "astatka-p1",
       "_costUSD": 216.2,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG05-_D0218MEG.webp"
     },
     {
       "article": "MG05- D0218MEG DG05-S0610EG",
@@ -2711,7 +2723,8 @@
       "image": "/products/real/p1_MG05-_D0218MEG_DG05-S0610EG.jpg",
       "_src": "astatka-p1",
       "_costUSD": 332.9,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG05-_D0218MEG_DG05-S0610EG.webp"
     },
     {
       "article": "MG07-D0118",
@@ -2732,7 +2745,8 @@
       "image": "/products/real/p1_MG07-D0118.jpg",
       "_src": "astatka-p1",
       "_costUSD": 432.7,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG07-D0118.webp"
     },
     {
       "article": "MG08-D0118",
@@ -2753,7 +2767,8 @@
       "image": "/products/real/p1_MG08-D0118.jpg",
       "_src": "astatka-p1",
       "_costUSD": 304,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG08-D0118.webp"
     },
     {
       "article": "MG08-D0312\n(с настольным экраном)",
@@ -2774,7 +2789,8 @@
       "image": "/products/real/p1_MG08-D0312_с_настольным_экраном_.jpg",
       "_src": "astatka-p1",
       "_costUSD": 279.5,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG08-D0312_с_настольным_экраном_.webp"
     },
     {
       "article": "MG08-D0312Y\n(с настольным экраном)",
@@ -2795,7 +2811,8 @@
       "image": "/products/real/p1_MG08-D0312Y_с_настольным_экраном_.jpg",
       "_src": "astatka-p1",
       "_costUSD": 237.2,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG08-D0312Y_с_настольным_экраном_.webp"
     },
     {
       "article": "MG11-D0218",
@@ -2816,7 +2833,8 @@
       "image": "/products/real/p1_MG11-D0218.jpg",
       "_src": "astatka-p1",
       "_costUSD": 352.3,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG11-D0218.webp"
     },
     {
       "article": "MG11-D0412",
@@ -2837,7 +2855,8 @@
       "image": "/products/real/p1_MG11-D0412.jpg",
       "_src": "astatka-p1",
       "_costUSD": 301.5,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG11-D0412.webp"
     },
     {
       "article": "MG11-D0412Y",
@@ -2858,7 +2877,8 @@
       "image": "/products/real/p1_MG11-D0412Y.jpg",
       "_src": "astatka-p1",
       "_costUSD": 239.3,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG11-D0412Y.webp"
     },
     {
       "article": "MG15-D0118T",
@@ -2879,7 +2899,8 @@
       "image": "/products/real/p1_MG15-D0118T.jpg",
       "_src": "astatka-p1",
       "_costUSD": 403,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG15-D0118T.webp"
     },
     {
       "article": "MG15-C0132",
@@ -2900,7 +2921,8 @@
       "image": "/products/real/p1_MG15-C0132.jpg",
       "_src": "astatka-p1",
       "_costUSD": 675.9,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG15-C0132.webp"
     },
     {
       "article": "MG15-D0214",
@@ -2921,7 +2943,8 @@
       "image": "/products/real/p1_MG15-D0214.jpg",
       "_src": "astatka-p1",
       "_costUSD": 267.4,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG15-D0214.webp"
     },
     {
       "article": "MG15-F0212",
@@ -2942,7 +2965,8 @@
       "image": "/products/real/p1_MG15-F0212.jpg",
       "_src": "astatka-p1",
       "_costUSD": 113.1,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG15-F0212.webp"
     },
     {
       "article": "MG16-D0814",
@@ -2963,7 +2987,8 @@
       "image": "/products/real/p1_MG16-D0814.jpg",
       "_src": "astatka-p1",
       "_costUSD": 226.9,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG16-D0814.webp"
     },
     {
       "article": "MG16-D0218",
@@ -2984,7 +3009,8 @@
       "image": "/products/real/p1_MG16-D0218.jpg",
       "_src": "astatka-p1",
       "_costUSD": 379.8,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG16-D0218.webp"
     },
     {
       "article": "MG16-C0124",
@@ -3005,7 +3031,8 @@
       "image": "/products/real/p1_MG16-C0124.jpg",
       "_src": "astatka-p1",
       "_costUSD": 413.5,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG16-C0124.webp"
     },
     {
       "article": "MXH-311",
@@ -3026,7 +3053,8 @@
       "image": "/products/real/p1_MXH-311.png",
       "_src": "astatka-p1",
       "_costUSD": 17,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MXH-311.webp"
     },
     {
       "article": "MG19-D0118",
@@ -3047,7 +3075,8 @@
       "image": "/products/real/p1_MG19-D0118.jpg",
       "_src": "astatka-p1",
       "_costUSD": 399.9,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG19-D0118.webp"
     },
     {
       "article": "MG19-C0124",
@@ -3068,7 +3097,8 @@
       "image": "/products/real/p1_MG19-C0124.jpg",
       "_src": "astatka-p1",
       "_costUSD": 443.5,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG19-C0124.webp"
     },
     {
       "article": "MG19-S0408",
@@ -3089,7 +3119,8 @@
       "image": "/products/real/p1_MG19-S0408.jpg",
       "_src": "astatka-p1",
       "_costUSD": 243.3,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG19-S0408.webp"
     },
     {
       "article": "MG18-D0118W",
@@ -3110,7 +3141,8 @@
       "image": "/products/real/p1_MG18-D0118W.jpg",
       "_src": "astatka-p1",
       "_costUSD": 394.6,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG18-D0118W.webp"
     },
     {
       "article": "MG18-S0120W",
@@ -3152,7 +3184,8 @@
       "image": "/products/real/p1_MG18-D0414W.jpg",
       "_src": "astatka-p1",
       "_costUSD": 412.9,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG18-D0414W.webp"
     },
     {
       "article": "MG18-D0414WY",
@@ -3173,7 +3206,8 @@
       "image": "/products/real/p1_MG18-D0414WY.jpg",
       "_src": "astatka-p1",
       "_costUSD": 266,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG18-D0414WY.webp"
     },
     {
       "article": "MGSY-05D24",
@@ -3194,7 +3228,8 @@
       "image": "/products/real/p1_MGSY-05D24.jpg",
       "_src": "astatka-p1",
       "_costUSD": 644.5,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MGSY-05D24.webp"
     },
     {
       "article": "MGSY-01S25",
@@ -3215,7 +3250,8 @@
       "image": "/products/real/p1_MGSY-01S25.jpg",
       "_src": "astatka-p1",
       "_costUSD": 685.3,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MGSY-01S25.webp"
     },
     {
       "article": "MGSY-01F12",
@@ -3236,7 +3272,8 @@
       "image": "/products/real/p1_MGSY-01F12.jpg",
       "_src": "astatka-p1",
       "_costUSD": 137.2,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MGSY-01F12.webp"
     },
     {
       "article": "MGSY-03D28",
@@ -3257,7 +3294,8 @@
       "image": "/products/real/p1_MGSY-03D28.jpg",
       "_src": "astatka-p1",
       "_costUSD": 780.3,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MGSY-03D28.webp"
     },
     {
       "article": "MGSY-05D28",
@@ -3278,7 +3316,8 @@
       "image": "/products/real/p1_MGSY-05D28.jpg",
       "_src": "astatka-p1",
       "_costUSD": 737.9,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MGSY-05D28.webp"
     },
     {
       "article": "MGSY-02D14",
@@ -3299,7 +3338,8 @@
       "image": "/products/real/p1_MGSY-02D14.jpg",
       "_src": "astatka-p1",
       "_costUSD": 340.5,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MGSY-02D14.webp"
     },
     {
       "article": "MGSY-01S34",
@@ -3320,7 +3360,8 @@
       "image": "/products/real/p1_MGSY-01S34.jpg",
       "_src": "astatka-p1",
       "_costUSD": 964.3,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MGSY-01S34.webp"
     },
     {
       "article": "MGSY-01C48",
@@ -3341,7 +3382,8 @@
       "image": "/products/real/p1_MGSY-01C48.jpg",
       "_src": "astatka-p1",
       "_costUSD": 1221.9,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MGSY-01C48.webp"
     },
     {
       "article": "MGSY-01C36",
@@ -3362,7 +3404,8 @@
       "image": "/products/real/p1_MGSY-01C36.jpg",
       "_src": "astatka-p1",
       "_costUSD": 812.6,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MGSY-01C36.webp"
     },
     {
       "article": "MGSY-01F12",
@@ -3383,7 +3426,8 @@
       "image": "/products/real/p1_MGSY-01F12.jpg",
       "_src": "astatka-p1",
       "_costUSD": 137.2,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MGSY-01F12.webp"
     },
     {
       "article": "MGSY-01F06",
@@ -3404,7 +3448,8 @@
       "image": "/products/real/p1_MGSY-01F06.jpg",
       "_src": "astatka-p1",
       "_costUSD": 88.1,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MGSY-01F06.webp"
     },
     {
       "article": "MG-LB-H2B12",
@@ -3425,7 +3470,8 @@
       "image": "/products/real/p1_MG-LB-H2B12.jpg",
       "_src": "astatka-p1",
       "_costUSD": 329,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG-LB-H2B12.webp"
     },
     {
       "article": "MG-LB-H2B14",
@@ -3446,7 +3492,8 @@
       "image": "/products/real/p1_MG-LB-H2B14.jpg",
       "_src": "astatka-p1",
       "_costUSD": 355,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG-LB-H2B14.webp"
     },
     {
       "article": "MG-LB-E2B12E",
@@ -3467,7 +3514,8 @@
       "image": "/products/real/p1_MG-LB-E2B12E.jpg",
       "_src": "astatka-p1",
       "_costUSD": 364.5,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG-LB-E2B12E.webp"
     },
     {
       "article": "MG-LB-E2B14E",
@@ -3488,7 +3536,8 @@
       "image": "/products/real/p1_MG-LB-E2B14E.jpg",
       "_src": "astatka-p1",
       "_costUSD": 404.2,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG-LB-E2B14E.webp"
     },
     {
       "article": "MG-LB-L1B12L",
@@ -3509,7 +3558,8 @@
       "image": "/products/real/p1_MG-LB-L1B12L.jpg",
       "_src": "astatka-p1",
       "_costUSD": 315.3,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG-LB-L1B12L.webp"
     },
     {
       "article": "MG-LB-L1B14L",
@@ -3530,7 +3580,8 @@
       "image": "/products/real/p1_MG-LB-L1B14L.jpg",
       "_src": "astatka-p1",
       "_costUSD": 340.5,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p1_MG-LB-L1B14L.webp"
     },
     {
       "article": "DSN-01D27",
@@ -3541,16 +3592,17 @@
         "en": "Executive desk (premium) DSN-01D27"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Rahbar kabinetlari uchun mebel. Alfraganus ko'rgazma zalida namunasi mavjud.",
+        "ru": "Мебель для кабинетов руководителей. Образец представлен в шоу-руме Alfraganus.",
+        "en": "Furniture for executive offices. Sample available at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 1,
       "image": "/products/real/p2m_DSN-01D27_2.png",
       "_src": "astatka-p2m",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p2m_DSN-01D27_2.webp"
     },
     {
       "article": "DSN-01H15",
@@ -3561,16 +3613,17 @@
         "en": "Credenza cabinet DSN-01H15"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Saqlash va arxiv uchun yechim. Turli o'lcham va konfiguratsiyada buyurtma qilinadi.",
+        "ru": "Решение для хранения и архива. Изготавливается в разных размерах и конфигурациях.",
+        "en": "Storage and filing solution. Available in various sizes and configurations."
       },
       "price": null,
       "priceUSD": null,
       "stock": 1,
       "image": "/products/real/p2m_DSN-01H15_4.jpg",
       "_src": "astatka-p2m",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p2m_DSN-01H15_4.webp"
     },
     {
       "article": "ASY-05D28",
@@ -3581,16 +3634,17 @@
         "en": "Executive desk 2800 mm ASY-05D28"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Rahbar kabinetlari uchun mebel. Alfraganus ko'rgazma zalida namunasi mavjud.",
+        "ru": "Мебель для кабинетов руководителей. Образец представлен в шоу-руме Alfraganus.",
+        "en": "Furniture for executive offices. Sample available at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 1,
       "image": "/products/real/p2m_ASY-05D28_5.jpg",
       "_src": "astatka-p2m",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p2m_ASY-05D28_5.webp"
     },
     {
       "article": "ASY-01S34",
@@ -3601,16 +3655,17 @@
         "en": "Wall cabinet system ASY-01S34"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Saqlash va arxiv uchun yechim. Turli o'lcham va konfiguratsiyada buyurtma qilinadi.",
+        "ru": "Решение для хранения и архива. Изготавливается в разных размерах и конфигурациях.",
+        "en": "Storage and filing solution. Available in various sizes and configurations."
       },
       "price": null,
       "priceUSD": null,
       "stock": 1,
       "image": "/products/real/p2m_ASY-01S34_6.jpg",
       "_src": "astatka-p2m",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p2m_ASY-01S34_6.webp"
     },
     {
       "article": "ASY-01F12",
@@ -3621,16 +3676,17 @@
         "en": "Coffee table ASY-01F12"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Universal stol. Interyerga mos rang va o'lchamda buyurtma qilish mumkin.",
+        "ru": "Универсальный стол. Возможен заказ в цвете и размере под ваш интерьер.",
+        "en": "Versatile table. Can be ordered in a color and size to match your interior."
       },
       "price": null,
       "priceUSD": null,
       "stock": 0,
       "image": "/products/real/p2m_ASY-01F12_7.jpg",
       "_src": "astatka-p2m",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p2m_ASY-01F12_7.webp"
     },
     {
       "article": "ASY-05D20",
@@ -3641,16 +3697,17 @@
         "en": "Executive desk 2000 mm ASY-05D20"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Rahbar kabinetlari uchun mebel. Alfraganus ko'rgazma zalida namunasi mavjud.",
+        "ru": "Мебель для кабинетов руководителей. Образец представлен в шоу-руме Alfraganus.",
+        "en": "Furniture for executive offices. Sample available at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 1,
       "image": "/products/real/p2m_ASY-05D20_8.jpg",
       "_src": "astatka-p2m",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p2m_ASY-05D20_8.webp"
     },
     {
       "article": "ASY-01C36",
@@ -3661,16 +3718,17 @@
         "en": "Conference table ASY-01C36"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Majlislar va muzokaralar xonasi uchun stol. O'lchash va yetkazib berish xizmati bor.",
+        "ru": "Стол для переговорных и конференц-залов. Есть замер и доставка.",
+        "en": "Table for meeting and conference rooms. Measuring and delivery available."
       },
       "price": null,
       "priceUSD": null,
       "stock": 0,
       "image": "/products/real/p2m_ASY-01C36_9.jpg",
       "_src": "astatka-p2m",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p2m_ASY-01C36_9.webp"
     },
     {
       "article": "DL939A",
@@ -3681,16 +3739,17 @@
         "en": "Visitor chair DL939A"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 0,
       "image": "/products/real/p2m_DL939A_10.jpg",
       "_src": "astatka-p2m",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p2m_DL939A_10.webp"
     },
     {
       "article": "DL939B",
@@ -3701,16 +3760,17 @@
         "en": "Visitor chair DL939B"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 1,
       "image": "/products/real/p2m_DL939B_11.jpg",
       "_src": "astatka-p2m",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p2m_DL939B_11.webp"
     },
     {
       "article": "DL939C",
@@ -3721,16 +3781,17 @@
         "en": "Visitor chair DL939C"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 10,
       "image": "/products/real/p2m_DL939C_12.jpg",
       "_src": "astatka-p2m",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p2m_DL939C_12.webp"
     },
     {
       "article": "JY-008-A",
@@ -3741,16 +3802,17 @@
         "en": "Executive chair JY-008-A"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 1,
       "image": "/products/real/p2m_JY-008-A_13.jpg",
       "_src": "astatka-p2m",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p2m_JY-008-A_13.webp"
     },
     {
       "article": "JY-008-B",
@@ -3761,16 +3823,17 @@
         "en": "Executive chair JY-008-B"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 1,
       "image": "/products/real/p2m_JY-008-B_14.jpg",
       "_src": "astatka-p2m",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p2m_JY-008-B_14.webp"
     },
     {
       "article": "DX7106A",
@@ -3781,16 +3844,17 @@
         "en": "Ergonomic office chair DX7106A"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 1,
       "image": "/products/real/p2m_DX7106A_15.jpg",
       "_src": "astatka-p2m",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p2m_DX7106A_15.webp"
     },
     {
       "article": "GB28",
@@ -3801,16 +3865,17 @@
         "en": "Office chair GB28"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 2,
       "image": "/products/real/p2m_GB28_16.jpg",
       "_src": "astatka-p2m",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/p2m_GB28_16.webp"
     },
     {
       "article": "GA91",
@@ -3821,16 +3886,17 @@
         "en": "Office chair GA91"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 3,
       "image": "/products/real/g_GA91_2.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 180,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GA91_2.webp"
     },
     {
       "article": "GA92",
@@ -3841,16 +3907,17 @@
         "en": "Office chair GA92"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 0,
       "image": "/products/real/g_GA92_5.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 136,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GA92_5.webp"
     },
     {
       "article": "GD92",
@@ -3861,16 +3928,17 @@
         "en": "Office chair GD92"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 1,
       "image": "/products/real/g_GD92_6.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 99,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GD92_6.webp"
     },
     {
       "article": "GE92",
@@ -3881,16 +3949,17 @@
         "en": "Office chair GE92"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 4,
       "image": "/products/real/g_GE92_7.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 110,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GE92_7.webp"
     },
     {
       "article": "GA92-2",
@@ -3901,16 +3970,17 @@
         "en": "Office chair GA92-2"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 1,
       "image": "/products/real/g_GA92-2_8.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 157,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GA92-2_8.webp"
     },
     {
       "article": "GE92-2",
@@ -3921,16 +3991,17 @@
         "en": "Office chair GE92-2"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 5,
       "image": "/products/real/g_GE92-2_10.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 121,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GE92-2_10.webp"
     },
     {
       "article": "GB93",
@@ -3941,16 +4012,17 @@
         "en": "Office chair GB93"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 3,
       "image": "/products/real/g_GB93_11.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 69,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GB93_11.webp"
     },
     {
       "article": "GD93",
@@ -3961,16 +4033,17 @@
         "en": "Office chair GD93"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 5,
       "image": "/products/real/g_GD93_12.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 52,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GD93_12.webp"
     },
     {
       "article": "GE93",
@@ -3981,16 +4054,17 @@
         "en": "Office chair GE93"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 4,
       "image": "/products/real/g_GE93_13.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 59,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GE93_13.webp"
     },
     {
       "article": "GB93-2",
@@ -4001,16 +4075,17 @@
         "en": "Office chair GB93-2"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 1,
       "image": "/products/real/g_GB93-2_17.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 79,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GB93-2_17.webp"
     },
     {
       "article": "GD93-2",
@@ -4021,16 +4096,17 @@
         "en": "Office chair GD93-2"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 3,
       "image": "/products/real/g_GD93-2_18.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 60.5,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GD93-2_18.webp"
     },
     {
       "article": "GE93-2",
@@ -4041,16 +4117,17 @@
         "en": "Office chair GE93-2"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 5,
       "image": "/products/real/g_GE93-2_19.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 67,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GE93-2_19.webp"
     },
     {
       "article": "GA96",
@@ -4061,16 +4138,17 @@
         "en": "Office chair GA96"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 0,
       "image": "/products/real/g_GA96_20.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 122,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GA96_20.webp"
     },
     {
       "article": "GB96",
@@ -4081,9 +4159,9 @@
         "en": "Office chair GB96"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 1,
@@ -4101,16 +4179,17 @@
         "en": "Office chair GD96"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 3,
       "image": "/products/real/g_GD96_22.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 85,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GD96_22.webp"
     },
     {
       "article": "GA96-1",
@@ -4121,16 +4200,17 @@
         "en": "Office chair GA96-1"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 3,
       "image": "/products/real/g_GA96-1_23.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 140,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GA96-1_23.webp"
     },
     {
       "article": "GB96-1",
@@ -4141,16 +4221,17 @@
         "en": "Office chair GB96-1"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 2,
       "image": "/products/real/g_GB96-1_25.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 130,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GB96-1_25.webp"
     },
     {
       "article": "GD96-1",
@@ -4161,16 +4242,17 @@
         "en": "Office chair GD96-1"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 6,
       "image": "/products/real/g_GD96-1_27.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 93.5,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GD96-1_27.webp"
     },
     {
       "article": "GA98",
@@ -4181,16 +4263,17 @@
         "en": "Office chair GA98"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 1,
       "image": "/products/real/g_GA98_29.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 116,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GA98_29.webp"
     },
     {
       "article": "GB98",
@@ -4201,16 +4284,17 @@
         "en": "Office chair GB98"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 1,
       "image": "/products/real/g_GB98_30.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 107,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GB98_30.webp"
     },
     {
       "article": "GD98",
@@ -4221,16 +4305,17 @@
         "en": "Office chair GD98"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 0,
       "image": "/products/real/g_GD98_31.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 88,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GD98_31.webp"
     },
     {
       "article": "GA109",
@@ -4241,16 +4326,17 @@
         "en": "Office chair GA109"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 0,
       "image": "/products/real/g_GA109_32.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 121,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GA109_32.webp"
     },
     {
       "article": "GA109-DP",
@@ -4261,16 +4347,17 @@
         "en": "Office chair GA109-DP"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 0,
       "image": "/products/real/g_GA109-DP_33.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 106,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GA109-DP_33.webp"
     },
     {
       "article": "GA109-2",
@@ -4281,16 +4368,17 @@
         "en": "Office chair GA109-2"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 2,
       "image": "/products/real/g_GA109-2_34.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 106,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GA109-2_34.webp"
     },
     {
       "article": "GA115",
@@ -4301,16 +4389,17 @@
         "en": "Office chair GA115"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 0,
       "image": "/products/real/g_GA115_35.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 118,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GA115_35.webp"
     },
     {
       "article": "GA115-DP",
@@ -4321,16 +4410,17 @@
         "en": "Office chair GA115-DP"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 0,
       "image": "/products/real/g_GA115-DP_36.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 108,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GA115-DP_36.webp"
     },
     {
       "article": "GB115-DP",
@@ -4341,16 +4431,17 @@
         "en": "Office chair GB115-DP"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 1,
       "image": "/products/real/g_GB115-DP_37.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 96,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GB115-DP_37.webp"
     },
     {
       "article": "GA115-2-DP",
@@ -4361,16 +4452,17 @@
         "en": "Office chair GA115-2-DP"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 1,
       "image": "/products/real/g_GA115-2-DP_38.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 115,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GA115-2-DP_38.webp"
     },
     {
       "article": "GB115-2-DP",
@@ -4381,16 +4473,17 @@
         "en": "Office chair GB115-2-DP"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 4,
       "image": "/products/real/g_GB115-2-DP_39.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 108,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GB115-2-DP_39.webp"
     },
     {
       "article": "GD107FOURLEGS",
@@ -4401,16 +4494,17 @@
         "en": "Office chair GD107FOURLEGS"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 1,
       "image": "/products/real/g_GD107_FOUR_LEGS_40.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 51,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GD107_FOUR_LEGS_40.webp"
     },
     {
       "article": "GD107-2FOURLEGS",
@@ -4421,16 +4515,17 @@
         "en": "Office chair GD107-2FOURLEGS"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 1,
       "image": "/products/real/g_GD107-2_FOUR_LEGS_41.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 65,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GD107-2_FOUR_LEGS_41.webp"
     },
     {
       "article": "GD107-F",
@@ -4441,16 +4536,17 @@
         "en": "Office chair GD107-F"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 1,
       "image": "/products/real/g_GD107_FOLDING__42.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 71.5,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GD107_FOLDING__42.webp"
     },
     {
       "article": "GA198",
@@ -4461,16 +4557,17 @@
         "en": "Office chair GA198"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 1,
       "image": "/products/real/g_GA198_43.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 580,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GA198_43.webp"
     },
     {
       "article": "A3030-1",
@@ -4481,16 +4578,17 @@
         "en": "Office chair A3030-1"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 1,
       "image": "/products/real/g_A3030-1_44.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 224,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_A3030-1_44.webp"
     },
     {
       "article": "D3030-1",
@@ -4501,16 +4599,17 @@
         "en": "Office chair D3030-1"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 1,
       "image": "/products/real/g_D3030-1_45.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 129,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_D3030-1_45.webp"
     },
     {
       "article": "GA18",
@@ -4521,16 +4620,17 @@
         "en": "Office chair GA18"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 2,
       "image": "/products/real/g_GA18_46.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 217,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GA18_46.webp"
     },
     {
       "article": "GA19",
@@ -4541,16 +4641,17 @@
         "en": "Office chair GA19"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 1,
       "image": "/products/real/g_GA19_48.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 217,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GA19_48.webp"
     },
     {
       "article": "GA32",
@@ -4561,16 +4662,17 @@
         "en": "Office chair GA32"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 1,
       "image": "/products/real/g_GA32_49.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 202,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GA32_49.webp"
     },
     {
       "article": "GD32",
@@ -4581,16 +4683,17 @@
         "en": "Office chair GD32"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 1,
       "image": "/products/real/g_GD32_50.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 168,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GD32_50.webp"
     },
     {
       "article": "GA39",
@@ -4601,16 +4704,17 @@
         "en": "Office chair GA39"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 1,
       "image": "/products/real/g_GA39_51.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 173,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GA39_51.webp"
     },
     {
       "article": "GB39",
@@ -4621,16 +4725,17 @@
         "en": "Office chair GB39"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 1,
       "image": "/products/real/g_GB39_52.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 161,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GB39_52.webp"
     },
     {
       "article": "GD39",
@@ -4641,16 +4746,17 @@
         "en": "Office chair GD39"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 2,
       "image": "/products/real/g_GD39_53.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 93.5,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GD39_53.webp"
     },
     {
       "article": "GA69",
@@ -4661,16 +4767,17 @@
         "en": "Office chair GA69"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 0,
       "image": "/products/real/g_GA69_54.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 338,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GA69_54.webp"
     },
     {
       "article": "GD69",
@@ -4681,16 +4788,17 @@
         "en": "Office chair GD69"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 1,
       "image": "/products/real/g_GD69_55.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 206,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GD69_55.webp"
     },
     {
       "article": "GA83",
@@ -4701,16 +4809,17 @@
         "en": "Office chair GA83"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 1,
       "image": "/products/real/g_GA83_56.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 304,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GA83_56.webp"
     },
     {
       "article": "GA86",
@@ -4721,16 +4830,17 @@
         "en": "Office chair GA86"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 0,
       "image": "/products/real/g_GA86_57.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 205,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GA86_57.webp"
     },
     {
       "article": "GB86",
@@ -4741,16 +4851,17 @@
         "en": "Office chair GB86"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 1,
       "image": "/products/real/g_GB86_58.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 186,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GB86_58.webp"
     },
     {
       "article": "GD86",
@@ -4761,16 +4872,17 @@
         "en": "Office chair GD86"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 3,
       "image": "/products/real/g_GD86_59.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 166,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_GD86_59.webp"
     },
     {
       "article": "A3009",
@@ -4781,16 +4893,17 @@
         "en": "Office chair A3009"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "stock": 1,
       "image": "/products/real/g_A3009_60.jpg",
       "_src": "astatka-p2k",
       "_costUSD": 201,
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/g_A3009_60.webp"
     },
     {
       "article": "Номи",
@@ -4801,9 +4914,9 @@
         "en": "Armchair Номи"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
@@ -4821,16 +4934,17 @@
         "en": "Armchair A337-8 (black)"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 0,
       "image": "/products/real/ost_А337-8_кора.png",
       "_src": "astatka-ost",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/ost_А337-8_кора.webp"
     },
     {
       "article": "A337-8-J",
@@ -4841,16 +4955,17 @@
         "en": "Armchair A337-8 (brown)"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 0,
       "image": "/products/real/ost_А337-8_кора.png",
       "_src": "astatka-ost",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/ost_А337-8_кора.webp"
     },
     {
       "article": "B313-8-Q",
@@ -4861,16 +4976,17 @@
         "en": "Armchair B313-8 (black)"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 0,
       "image": "/products/real/ost_В313-8_кора.jpg",
       "_src": "astatka-ost",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/ost_В313-8_кора.webp"
     },
     {
       "article": "B313-8-J",
@@ -4881,16 +4997,17 @@
         "en": "Armchair B313-8 (brown)"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 0,
       "image": "/products/real/ost_В313-8_кора.jpg",
       "_src": "astatka-ost",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/ost_В313-8_кора.webp"
     },
     {
       "article": "B315-8-Q",
@@ -4901,16 +5018,17 @@
         "en": "Armchair B315-8 (black)"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 1,
       "image": "/products/real/ost_В315-8_кора.jpg",
       "_src": "astatka-ost",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/ost_В315-8_кора.webp"
     },
     {
       "article": "B315-8-J",
@@ -4921,16 +5039,17 @@
         "en": "Armchair B315-8 (brown)"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 1,
       "image": "/products/real/ost_В315-8_кора.jpg",
       "_src": "astatka-ost",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/ost_В315-8_кора.webp"
     },
     {
       "article": "A276-8-Q",
@@ -4941,16 +5060,17 @@
         "en": "Armchair A276-8 (black)"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 0,
       "image": "/products/real/ost_А276-8_кора.jpg",
       "_src": "astatka-ost",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/ost_А276-8_кора.webp"
     },
     {
       "article": "A276-8-J",
@@ -4961,16 +5081,17 @@
         "en": "Armchair A276-8 (brown)"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 0,
       "image": "/products/real/ost_А276-8_кора.jpg",
       "_src": "astatka-ost",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/ost_А276-8_кора.webp"
     },
     {
       "article": "B152-8-Q",
@@ -4981,16 +5102,17 @@
         "en": "Armchair B152-8 (black)"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 1,
       "image": "/products/real/ost_В152-8_кора.jpg",
       "_src": "astatka-ost",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/ost_В152-8_кора.webp"
     },
     {
       "article": "B152-8-J",
@@ -5001,16 +5123,17 @@
         "en": "Armchair B152-8 (brown)"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 0,
       "image": "/products/real/ost_В152-8_кора.jpg",
       "_src": "astatka-ost",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/ost_В152-8_кора.webp"
     },
     {
       "article": "C320-Q",
@@ -5021,16 +5144,17 @@
         "en": "Armchair C320 (black)"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 0,
       "image": "/products/real/ost_С320_кора.jpg",
       "_src": "astatka-ost",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/ost_С320_кора.webp"
     },
     {
       "article": "C320-J",
@@ -5041,16 +5165,17 @@
         "en": "Armchair C320 (brown)"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 2,
       "image": "/products/real/ost_С320_кора.jpg",
       "_src": "astatka-ost",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/ost_С320_кора.webp"
     },
     {
       "article": "SF-092-Q",
@@ -5061,16 +5186,17 @@
         "en": "Armchair SF-092 (black)"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 0,
       "image": "/products/real/ost_SF-092_див_кора.jpg",
       "_src": "astatka-ost",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/ost_SF-092_див_кора.webp"
     },
     {
       "article": "SF-092-J",
@@ -5081,16 +5207,17 @@
         "en": "Armchair SF-092 (brown)"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 0,
       "image": "/products/real/ost_SF-092_див_кора.jpg",
       "_src": "astatka-ost",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/ost_SF-092_див_кора.webp"
     },
     {
       "article": "SF-107",
@@ -5101,16 +5228,17 @@
         "en": "Armchair SF-107"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 0,
       "image": "/products/real/ost_SF-107_див_зелён.png",
       "_src": "astatka-ost",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/ost_SF-107_див_зелён.webp"
     },
     {
       "article": "RX-838-Q",
@@ -5121,16 +5249,17 @@
         "en": "Armchair RX-838 (black)"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 1,
       "image": "/products/real/ost_RX-838_кора.jpg",
       "_src": "astatka-ost",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/ost_RX-838_кора.webp"
     },
     {
       "article": "RX-834-Q",
@@ -5141,16 +5270,17 @@
         "en": "Armchair RX-834 (black)"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 1,
       "image": "/products/real/ost_RX-834_кора.jpg",
       "_src": "astatka-ost",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/ost_RX-834_кора.webp"
     },
     {
       "article": "RX-612-Q",
@@ -5161,16 +5291,17 @@
         "en": "Armchair RX-612 (black)"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 1,
       "image": "/products/real/ost_RX-612_кора.jpg",
       "_src": "astatka-ost",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/ost_RX-612_кора.webp"
     },
     {
       "article": "RX-617-Q",
@@ -5181,16 +5312,17 @@
         "en": "Armchair RX-617 (black)"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 0,
       "image": "/products/real/ost_RX-617_кора.jpg",
       "_src": "astatka-ost",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/ost_RX-617_кора.webp"
     },
     {
       "article": "Aеропорт",
@@ -5201,16 +5333,17 @@
         "en": "Armchair Aеропорт"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 0,
       "image": "/products/real/ost_Аеропорт.jpg",
       "_src": "astatka-ost",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/ost_Аеропорт.webp"
     },
     {
       "article": "DL920A",
@@ -5221,16 +5354,17 @@
         "en": "Armchair DL920A"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 0,
       "image": "/products/real/ost_DL920A_PU.jpg",
       "_src": "astatka-ost",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/ost_DL920A_PU.webp"
     },
     {
       "article": "DL920C",
@@ -5241,16 +5375,17 @@
         "en": "Armchair DL920C"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 2,
       "image": "/products/real/ost_DL920C_PU.jpg",
       "_src": "astatka-ost",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/ost_DL920C_PU.webp"
     },
     {
       "article": "DE1825C-PU",
@@ -5261,16 +5396,17 @@
         "en": "Armchair DE1825C-PU"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 0,
       "image": "/products/real/ost_DE1825C-PU.jpg",
       "_src": "astatka-ost",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/ost_DE1825C-PU.webp"
     },
     {
       "article": "DE1868C-PU",
@@ -5281,16 +5417,17 @@
         "en": "Armchair DE1868C-PU"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 2,
       "image": "/products/real/ost_DE1868C-PU.jpg",
       "_src": "astatka-ost",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/ost_DE1868C-PU.webp"
     },
     {
       "article": "DE3903C-PU",
@@ -5301,16 +5438,17 @@
         "en": "Armchair DE3903C-PU"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 1,
       "image": "/products/real/ost_DE3903C-PU.jpg",
       "_src": "astatka-ost",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/ost_DE3903C-PU.webp"
     },
     {
       "article": "SF-106-8",
@@ -5330,7 +5468,8 @@
       "stock": 1,
       "image": "/products/real/sf_SF-106-8.png",
       "_src": "astatka-sf",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/sf_SF-106-8.webp"
     },
     {
       "article": "SF-087",
@@ -5350,7 +5489,8 @@
       "stock": 1,
       "image": "/products/real/sf_SF-087.jpg",
       "_src": "astatka-sf",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/sf_SF-087.webp"
     },
     {
       "article": "SF-107",
@@ -5370,7 +5510,8 @@
       "stock": 1,
       "image": "/products/real/sf_SF-107.jpg",
       "_src": "astatka-sf",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/sf_SF-107.webp"
     },
     {
       "article": "SF-102",
@@ -5390,7 +5531,8 @@
       "stock": 1,
       "image": "/products/real/sf3_SF-102.jpg",
       "_src": "astatka-sf",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/sf3_SF-102.webp"
     },
     {
       "article": "SF-093",
@@ -5410,7 +5552,8 @@
       "stock": 1,
       "image": "/products/real/sf_SF-093.jpg",
       "_src": "astatka-sf",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/sf_SF-093.webp"
     },
     {
       "article": "SF-109",
@@ -5430,7 +5573,8 @@
       "stock": 1,
       "image": "/products/real/sf_SF-109.jpg",
       "_src": "astatka-sf",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/sf_SF-109.webp"
     },
     {
       "article": "SF-092",
@@ -5450,7 +5594,8 @@
       "stock": 1,
       "image": "/products/real/sf_SF-092.png",
       "_src": "astatka-sf",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/sf_SF-092.webp"
     },
     {
       "article": "SF-052",
@@ -5470,7 +5615,8 @@
       "stock": 1,
       "image": "/products/real/sf_SF-052.jpg",
       "_src": "astatka-sf",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/sf_SF-052.webp"
     },
     {
       "article": "SF-210",
@@ -5490,7 +5636,8 @@
       "stock": 0,
       "image": "/products/real/sf_SF-210.jpg",
       "_src": "astatka-sf",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/sf_SF-210.webp"
     },
     {
       "article": "SF-095",
@@ -5510,7 +5657,8 @@
       "stock": 1,
       "image": "/products/real/sf_SF-095.jpg",
       "_src": "astatka-sf",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/sf_SF-095.webp"
     },
     {
       "article": "A301-8",
@@ -5530,7 +5678,8 @@
       "stock": 1,
       "image": "/products/real/sf_A301-8.jpg",
       "_src": "astatka-sf",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/sf_A301-8.webp"
     },
     {
       "article": "LS-277A",
@@ -5550,7 +5699,8 @@
       "stock": 1,
       "image": "/products/real/sf_LS-277A.jpg",
       "_src": "astatka-sf",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/sf_LS-277A.webp"
     },
     {
       "article": "LS-280C",
@@ -5570,7 +5720,8 @@
       "stock": 1,
       "image": "/products/real/sf_LS-280C.jpg",
       "_src": "astatka-sf",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/sf_LS-280C.webp"
     },
     {
       "article": "LS-300C",
@@ -5590,7 +5741,8 @@
       "stock": 1,
       "image": "/products/real/sf_LS-300C.jpg",
       "_src": "astatka-sf",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/sf_LS-300C.webp"
     },
     {
       "article": "C259",
@@ -5610,7 +5762,8 @@
       "stock": 1,
       "image": "/products/real/sf_C259.jpg",
       "_src": "astatka-sf",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/sf_C259.webp"
     },
     {
       "article": "LS-231C",
@@ -5630,7 +5783,8 @@
       "stock": 1,
       "image": "/products/real/sf_LS-231C.jpg",
       "_src": "astatka-sf",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/sf_LS-231C.webp"
     },
     {
       "article": "LS-237C",
@@ -5650,7 +5804,8 @@
       "stock": 3,
       "image": "/products/real/sf_LS-237C.jpg",
       "_src": "astatka-sf",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/sf_LS-237C.webp"
     },
     {
       "article": "LS-178B",
@@ -5670,7 +5825,8 @@
       "stock": 2,
       "image": "/products/real/sf_LS-178B.jpg",
       "_src": "astatka-sf",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/sf_LS-178B.webp"
     },
     {
       "article": "LS-505A",
@@ -5690,7 +5846,8 @@
       "stock": 0,
       "image": "/products/real/sf_LS-505A.jpg",
       "_src": "astatka-sf",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/sf_LS-505A.webp"
     },
     {
       "article": "A377",
@@ -5701,9 +5858,9 @@
         "en": "Office sofa A377"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
@@ -5721,16 +5878,17 @@
         "en": "Office sofa A378-8"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 1,
       "image": "/products/real/sf3_A378-8.jpg",
       "_src": "astatka-sf",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/sf3_A378-8.webp"
     },
     {
       "article": "LS-339A",
@@ -5741,16 +5899,17 @@
         "en": "Office sofa LS-339A"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 1,
       "image": "/products/real/sf3_LS-339A.jpg",
       "_src": "astatka-sf",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/sf3_LS-339A.webp"
     },
     {
       "article": "LS-339C",
@@ -5761,16 +5920,17 @@
         "en": "Office sofa LS-339C"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 2,
       "image": "/products/real/sf3_LS-339C.jpg",
       "_src": "astatka-sf",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/sf3_LS-339C.webp"
     },
     {
       "article": "LS-277C",
@@ -5781,16 +5941,17 @@
         "en": "Office sofa LS-277C"
       },
       "description": {
-        "uz": "",
-        "ru": "",
-        "en": ""
+        "uz": "Ofislar va qabulxonalar uchun o'rindiq. Alfraganus ko'rgazma zalida ko'rish mumkin — kelib, o'tirib sinab ko'ring.",
+        "ru": "Сиденье для офисов и приёмных. Можно посмотреть и опробовать в шоу-руме Alfraganus.",
+        "en": "Seating for offices and reception areas. See and try it at the Alfraganus showroom."
       },
       "price": null,
       "priceUSD": null,
       "stock": 2,
       "image": "/products/real/sf3_LS-277C.png",
       "_src": "astatka-sf",
-      "hidden": false
+      "hidden": false,
+      "thumb": "/products/real/thumbs/sf3_LS-277C.webp"
     }
   ]
 }

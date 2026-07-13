@@ -5,6 +5,7 @@ import AddToCartButton from "@/components/AddToCartButton";
 import ProductCard from "@/components/ProductCard";
 import ProductStage from "@/components/ProductStage";
 import ProductMaterials from "@/components/ProductMaterials";
+import ProductZoom from "@/components/ProductZoom";
 import { formatPrice } from "@/lib/format";
 import { t } from "@/lib/i18n";
 
@@ -33,8 +34,26 @@ export default async function ProductPage({ params }) {
     .filter((p) => p.category === product.category && p.article !== product.article)
     .slice(0, 5);
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: product.name[lang] || product.name.uz,
+    sku: product.article,
+    image: product.image ? `https://magnagroup.uz${product.image}` : undefined,
+    description: product.description?.[lang] || undefined,
+    brand: { "@type": "Brand", name: "Magna Group" },
+    offers: {
+      "@type": "Offer",
+      availability: Number(product.stock) > 0
+        ? "https://schema.org/InStock"
+        : "https://schema.org/PreOrder",
+      ...(product.price ? { price: String(product.price), priceCurrency: "UZS" } : {}),
+    },
+  };
+
   return (
     <div>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       {/* cinematic scroll stage */}
       <ProductStage product={product} lang={lang} />
 
@@ -50,8 +69,11 @@ export default async function ProductPage({ params }) {
 
         <div className="grid gap-8 md:grid-cols-2">
           <div>
-            <div className="mb-2 text-sm font-semibold uppercase tracking-wide text-gold-dark">
-              {t(lang, "article")}: {product.article}
+            <div className="mb-2 flex items-center justify-between gap-3">
+              <span className="text-sm font-semibold uppercase tracking-wide text-gold-dark">
+                {t(lang, "article")}: {product.article}
+              </span>
+              {product.image && <ProductZoom src={product.image} alt={product.name[lang]} lang={lang} />}
             </div>
             <h2 className="text-2xl font-extrabold leading-tight text-ink sm:text-3xl">{product.name[lang]}</h2>
             <dl className="mt-6 space-y-3 border-y border-black/5 py-5 text-sm">
