@@ -2,6 +2,8 @@ import { NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
 
+const onNetlify = () => !!(process.env.NETLIFY || process.env.NETLIFY_BLOBS_CONTEXT);
+
 export async function POST(req) {
   if (req.headers.get("x-admin-key") !== process.env.ADMIN_PASSWORD) {
     return NextResponse.json({ error: "unauthorized" }, { status: 401 });
@@ -14,6 +16,17 @@ export async function POST(req) {
   }
   const ext = (file.name.split(".").pop() || "jpg").toLowerCase().replace(/[^a-z0-9]/g, "") || "jpg";
   const buf = Buffer.from(await file.arrayBuffer());
+
+  if (onNetlify()) {
+    // Deployed filesystem is read-only: keep the image bytes in Netlify Blobs
+    // and serve them through /api/img/[article].
+    const { getStore } = await import("@netlify/blobs");
+    const store = getStore({ name: "images", consistency: "strong" });
+    const type = file.type || (ext === "png" ? "image/png" : "image/jpeg");
+    await store.set(article, buf, { metadata: { contentType: type } });
+    return NextResponse.json({ ok: true, path: `/api/img/${article}?v=${Date.now()}` });
+  }
+
   const dir = path.join(process.cwd(), "public", "products");
   fs.mkdirSync(dir, { recursive: true });
   const fname = `${article}.${ext}`;

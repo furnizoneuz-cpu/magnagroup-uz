@@ -106,6 +106,7 @@ function Products({ adminKey }) {
               <th className="p-3">Artikul</th>
               <th className="p-3">Nomi (uz)</th>
               <th className="p-3">Narx (so'm)</th>
+              <th className="p-3">Qoldiq</th>
               <th className="p-3">Ko'rinish</th>
             </tr>
           </thead>
@@ -122,6 +123,7 @@ function Products({ adminKey }) {
 
 function Row({ p, adminKey, onSaved }) {
   const [price, setPrice] = useState(p.price ?? "");
+  const [stock, setStock] = useState(p.stock ?? "");
   const [saving, setSaving] = useState(false);
   const [savedFlag, setSavedFlag] = useState(false);
   const [img, setImg] = useState(p.image);
@@ -166,11 +168,15 @@ function Row({ p, adminKey, onSaved }) {
         <div className="flex items-center gap-2">
           <input value={price} onChange={(e) => setPrice(e.target.value)} type="number"
             className="w-32 rounded border border-black/12 px-2 py-1 text-sm outline-none focus:border-gold" placeholder="—" />
-          <button onClick={() => save({ price })} disabled={saving}
+          <button onClick={() => save({ price, stock })} disabled={saving}
             className="rounded bg-ink px-3 py-1 text-xs font-semibold text-white hover:bg-gold-dark disabled:opacity-50">
             {savedFlag ? "✓" : "Saqlash"}
           </button>
         </div>
+      </td>
+      <td className="p-3">
+        <input value={stock} onChange={(e) => setStock(e.target.value)} type="number" min="0"
+          className="w-16 rounded border border-black/12 px-2 py-1 text-sm outline-none focus:border-gold" placeholder="0" />
       </td>
       <td className="p-3">
         <button onClick={() => { const nv = !hidden; setHidden(nv); save({ hidden: nv }); }}

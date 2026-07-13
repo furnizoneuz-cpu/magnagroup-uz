@@ -1,0 +1,1190 @@
+{
+  "ostatka_kreslo": [
+    {
+      "name_ru": "Номи",
+      "stock": 0,
+      "image": null
+    },
+    {
+      "name_ru": "А337-8 кора",
+      "stock": 0,
+      "image": "/products/real/ost_А337-8_кора.png"
+    },
+    {
+      "name_ru": "А337-8 жигар",
+      "stock": 0,
+      "image": "/products/real/ost_А337-8_кора.png"
+    },
+    {
+      "name_ru": "В313-8 кора",
+      "stock": 0,
+      "image": "/products/real/ost_В313-8_кора.jpg"
+    },
+    {
+      "name_ru": "В313-8 жигар",
+      "stock": 0,
+      "image": "/products/real/ost_В313-8_кора.jpg"
+    },
+    {
+      "name_ru": "В315-8 кора",
+      "stock": 1,
+      "image": "/products/real/ost_В315-8_кора.jpg"
+    },
+    {
+      "name_ru": "В315-8 жигар",
+      "stock": 1,
+      "image": "/products/real/ost_В315-8_кора.jpg"
+    },
+    {
+      "name_ru": "А276-8 кора",
+      "stock": 0,
+      "image": "/products/real/ost_А276-8_кора.jpg"
+    },
+    {
+      "name_ru": "А276-8 жигар",
+      "stock": 0,
+      "image": "/products/real/ost_А276-8_кора.jpg"
+    },
+    {
+      "name_ru": "В152-8 кора",
+      "stock": 1,
+      "image": "/products/real/ost_В152-8_кора.jpg"
+    },
+    {
+      "name_ru": "В152-8 жигар",
+      "stock": 0,
+      "image": "/products/real/ost_В152-8_кора.jpg"
+    },
+    {
+      "name_ru": "С320 кора",
+      "stock": 0,
+      "image": "/products/real/ost_С320_кора.jpg"
+    },
+    {
+      "name_ru": "С320 жигар",
+      "stock": 2,
+      "image": "/products/real/ost_С320_кора.jpg"
+    },
+    {
+      "name_ru": "SF-092 див кора",
+      "stock": 0,
+      "image": "/products/real/ost_SF-092_див_кора.jpg"
+    },
+    {
+      "name_ru": "SF-092 див жигар",
+      "stock": 0,
+      "image": "/products/real/ost_SF-092_див_кора.jpg"
+    },
+    {
+      "name_ru": "SF-107 див зелён",
+      "stock": 0,
+      "image": "/products/real/ost_SF-107_див_зелён.png"
+    },
+    {
+      "name_ru": "RX-838 кора",
+      "stock": 1,
+      "image": "/products/real/ost_RX-838_кора.jpg"
+    },
+    {
+      "name_ru": "RX-834 кора",
+      "stock": 1,
+      "image": "/products/real/ost_RX-834_кора.jpg"
+    },
+    {
+      "name_ru": "RX-612 кора",
+      "stock": 1,
+      "image": "/products/real/ost_RX-612_кора.jpg"
+    },
+    {
+      "name_ru": "RX-617 кора",
+      "stock": 0,
+      "image": "/products/real/ost_RX-617_кора.jpg"
+    },
+    {
+      "name_ru": "Аеропорт",
+      "stock": 0,
+      "image": "/products/real/ost_Аеропорт.jpg"
+    },
+    {
+      "name_ru": "DL920A PU",
+      "stock": 0,
+      "image": "/products/real/ost_DL920A_PU.jpg"
+    },
+    {
+      "name_ru": "DL920C PU",
+      "stock": 2,
+      "image": "/products/real/ost_DL920C_PU.jpg"
+    },
+    {
+      "name_ru": "DE1825C-PU",
+      "stock": 0,
+      "image": "/products/real/ost_DE1825C-PU.jpg"
+    },
+    {
+      "name_ru": "DE1868C-PU",
+      "stock": 2,
+      "image": "/products/real/ost_DE1868C-PU.jpg"
+    },
+    {
+      "name_ru": "DE3903C-PU",
+      "stock": 1,
+      "image": "/products/real/ost_DE3903C-PU.jpg"
+    }
+  ],
+  "partiya1": [
+    {
+      "article": "MG01-D0118LQ",
+      "desc_ru": "Рабочий стол руководителя",
+      "dimensions": "Total Size：1800*1600*750 Table Top:1800*800\nSide Return: 1600*500*750",
+      "color_ru": "DA15 Rhine Light Oak+DB01 White",
+      "stock": 0,
+      "priceUSD": 340.9,
+      "image": "/products/real/p1_MG01-D0118LQ.png"
+    },
+    {
+      "article": "MG01-C0124LQ",
+      "desc_ru": "Стол для совещаний",
+      "dimensions": "2400*1200*750",
+      "color_ru": "DA15 Rhine Light Oak+DB01 White",
+      "stock": 1,
+      "priceUSD": 305.7,
+      "image": "/products/real/p1_MG01-C0124LQ.png"
+    },
+    {
+      "article": "MG03-D0118LW",
+      "desc_ru": "Рабочий стол руководителя",
+      "dimensions": "Total Size: 1800W*1600D*760H Table Top: 1800W*800D*40H",
+      "color_ru": "DA10 Rhine dark Oak\n+DB05  Iron Gray",
+      "stock": 0,
+      "priceUSD": 388.2,
+      "image": "/products/real/p1_MG03-D0118LW.jpg"
+    },
+    {
+      "article": "MG03-D0412",
+      "desc_ru": "2-местное рабочее место",
+      "dimensions": "1200*1200*750",
+      "color_ru": "DA10 Rhine Oak DB05  Iron Gray DB02 Silver Gray",
+      "stock": 1,
+      "priceUSD": 328.5,
+      "image": "/products/real/p1_MG03-D0412.jpg"
+    },
+    {
+      "article": "MG03-D0412Y",
+      "desc_ru": "2-местное рабочее место с возможностью расширения",
+      "dimensions": "1200*1200*750",
+      "color_ru": "DA10 Rhine Oak DB05  Iron Gray DB02 Silver Gray",
+      "stock": 0,
+      "priceUSD": 269.6,
+      "image": "/products/real/p1_MG03-D0412Y.jpg"
+    },
+    {
+      "article": "MG05-D0318KW",
+      "desc_ru": "Рабочий стол руководителя",
+      "dimensions": "1800*1600*750",
+      "color_ru": "DB01 White",
+      "stock": 1,
+      "priceUSD": 394.9,
+      "image": "/products/real/p1_MG05-D0318KW.jpg"
+    },
+    {
+      "article": "MG05-D0412KW",
+      "desc_ru": "2-местное рабочее место",
+      "dimensions": "1200*1200*750",
+      "color_ru": "DB01 White",
+      "stock": 1,
+      "priceUSD": 331.7,
+      "image": "/products/real/p1_MG05-D0412KW.jpg"
+    },
+    {
+      "article": "MG05-D0412YW",
+      "desc_ru": "2-местное рабочее место с возможностью расширения",
+      "dimensions": "1200*1200*750",
+      "color_ru": "DB01 White",
+      "stock": 0,
+      "priceUSD": 244.3,
+      "image": "/products/real/p1_MG05-D0412YW.jpg"
+    },
+    {
+      "article": "MG05-D0524KW",
+      "desc_ru": "4-местное рабочее место без подставки",
+      "dimensions": "2400*1200*750",
+      "color_ru": "DB01 White",
+      "stock": 0,
+      "priceUSD": 513.5,
+      "image": "/products/real/p1_MG05-D0524KW.jpg"
+    },
+    {
+      "article": "MG05-C0120MW",
+      "desc_ru": "Стол для совещаний",
+      "dimensions": "2000*1000*750",
+      "color_ru": "DB01 White",
+      "stock": 1,
+      "priceUSD": 329.9,
+      "image": "/products/real/p1_MG05-C0120MW.jpg"
+    },
+    {
+      "article": "MG05- D0112MEG",
+      "desc_ru": "Офисный стол",
+      "dimensions": "1200*600*750",
+      "color_ru": "DB17 VL Elm DB04 VL Gray",
+      "stock": 1,
+      "priceUSD": 179,
+      "image": "/products/real/p1_MG05-_D0112MEG.jpg"
+    },
+    {
+      "article": "MG05- D0218MEG",
+      "desc_ru": "Офисный стол длиной 1,8 м",
+      "dimensions": "1800*800*750",
+      "color_ru": "DB17 VL Elm DB04 VL Gray",
+      "stock": 1,
+      "priceUSD": 216.2,
+      "image": "/products/real/p1_MG05-_D0218MEG.jpg"
+    },
+    {
+      "article": "MG05- D0218MEG DG05-S0610EG",
+      "desc_ru": "Рабочий стол руководителя",
+      "dimensions": "1800*1800*750",
+      "color_ru": "DB17 VL Elm DB04 VL Gray",
+      "stock": 0,
+      "priceUSD": 332.9,
+      "image": "/products/real/p1_MG05-_D0218MEG_DG05-S0610EG.jpg"
+    },
+    {
+      "article": "MG07-D0118",
+      "desc_ru": "Рабочий стол руководителя",
+      "dimensions": "Total Size: 1800*1600*760 Table Top:1800*800*50 Extension Size: 1600*500*630",
+      "color_ru": "DA10 Rhine Oak DB05  Iron Gray",
+      "stock": 0,
+      "priceUSD": 432.7,
+      "image": "/products/real/p1_MG07-D0118.jpg"
+    },
+    {
+      "article": "MG08-D0118",
+      "desc_ru": "Рабочий стол руководителя",
+      "dimensions": "Total Size: 1800*1400*750 Table Top:1600*760*25",
+      "color_ru": "DB17 VL Elm DB04 VL Gray",
+      "stock": 0,
+      "priceUSD": 304,
+      "image": "/products/real/p1_MG08-D0118.jpg"
+    },
+    {
+      "article": "MG08-D0312\n(с настольным экраном)",
+      "desc_ru": "2-местное рабочее место",
+      "dimensions": "1200*1200*750",
+      "color_ru": "DB17 VL Elm DB04 VL Gray",
+      "stock": 1,
+      "priceUSD": 279.5,
+      "image": "/products/real/p1_MG08-D0312_с_настольным_экраном_.jpg"
+    },
+    {
+      "article": "MG08-D0312Y\n(с настольным экраном)",
+      "desc_ru": "Расширение рабочего места на 2 места",
+      "dimensions": "1200*1200*750",
+      "color_ru": "DB17 VL Elm DB04 VL Gray",
+      "stock": 0,
+      "priceUSD": 237.2,
+      "image": "/products/real/p1_MG08-D0312Y_с_настольным_экраном_.jpg"
+    },
+    {
+      "article": "MG11-D0218",
+      "desc_ru": "Рабочий стол руководителя",
+      "dimensions": "1800*1500*750\ntabletop: 1620*800",
+      "color_ru": "DA07 NA Oak\nDB05  Iron Gray",
+      "stock": 0,
+      "priceUSD": 352.3,
+      "image": "/products/real/p1_MG11-D0218.jpg"
+    },
+    {
+      "article": "MG11-D0412",
+      "desc_ru": "2-местное рабочее место",
+      "dimensions": "1200*1200*750",
+      "color_ru": "DA07 NA Oak\nDB05  Iron Gray",
+      "stock": 1,
+      "priceUSD": 301.5,
+      "image": "/products/real/p1_MG11-D0412.jpg"
+    },
+    {
+      "article": "MG11-D0412Y",
+      "desc_ru": "Расширение рабочего места на 2 места",
+      "dimensions": "1200*1200*750",
+      "color_ru": "DA07 NA Oak\nDB05  Iron Gray",
+      "stock": 0,
+      "priceUSD": 239.3,
+      "image": "/products/real/p1_MG11-D0412Y.jpg"
+    },
+    {
+      "article": "MG15-D0118T",
+      "desc_ru": "Рабочий стол руководителя",
+      "dimensions": "1800*1500*760\nTable top:1600W*800D",
+      "color_ru": "DA05 Australian Oak DB03 Ash Gray",
+      "stock": 0,
+      "priceUSD": 403,
+      "image": "/products/real/p1_MG15-D0118T.jpg"
+    },
+    {
+      "article": "MG15-C0132",
+      "desc_ru": "Стол для совещаний",
+      "dimensions": "3200*1200*760",
+      "color_ru": "DA05 Australian Oak DB03 Ash Gray",
+      "stock": 0,
+      "priceUSD": 675.9,
+      "image": "/products/real/p1_MG15-C0132.jpg"
+    },
+    {
+      "article": "MG15-D0214",
+      "desc_ru": "Офисный стол",
+      "dimensions": "1400*600*760\nTable top: 1200W*600D",
+      "color_ru": "DA05 Australian Oak DB03 Ash Gray",
+      "stock": 0,
+      "priceUSD": 267.4,
+      "image": "/products/real/p1_MG15-D0214.jpg"
+    },
+    {
+      "article": "MG15-F0212",
+      "desc_ru": "Кофейный столик",
+      "dimensions": "1200*600*450",
+      "color_ru": "DA05 Australian Oak\nDB03 Ash Gray",
+      "stock": 0,
+      "priceUSD": 113.1,
+      "image": "/products/real/p1_MG15-F0212.jpg"
+    },
+    {
+      "article": "MG16-D0814",
+      "desc_ru": "Офисный стол",
+      "dimensions": "1400*600*750",
+      "color_ru": "DB01 White",
+      "stock": 1,
+      "priceUSD": 226.9,
+      "image": "/products/real/p1_MG16-D0814.jpg"
+    },
+    {
+      "article": "MG16-D0218",
+      "desc_ru": "Рабочий стол руководителя",
+      "dimensions": "1800*1600*750",
+      "color_ru": "DB01 White",
+      "stock": 1,
+      "priceUSD": 379.8,
+      "image": "/products/real/p1_MG16-D0218.jpg"
+    },
+    {
+      "article": "MG16-C0124",
+      "desc_ru": "Стол для совещаний",
+      "dimensions": "2400*1200*760",
+      "color_ru": "DB01 White",
+      "stock": 0,
+      "priceUSD": 413.5,
+      "image": "/products/real/p1_MG16-C0124.jpg"
+    },
+    {
+      "article": "MXH-311",
+      "desc_ru": "Кабельная коробка",
+      "dimensions": "340*115*180",
+      "color_ru": "DB01 White",
+      "stock": 0,
+      "priceUSD": 17,
+      "image": "/products/real/p1_MXH-311.png"
+    },
+    {
+      "article": "MG19-D0118",
+      "desc_ru": "Рабочий стол руководителя",
+      "dimensions": "1800*1600*760",
+      "color_ru": "DB26 SA Dark Teakwood DB05  Iron Gray",
+      "stock": 0,
+      "priceUSD": 399.9,
+      "image": "/products/real/p1_MG19-D0118.jpg"
+    },
+    {
+      "article": "MG19-C0124",
+      "desc_ru": "Стол для совещаний",
+      "dimensions": "2400*1200*750",
+      "color_ru": "DB26 SA Dark Teakwood DB05  Iron Gray",
+      "stock": 1,
+      "priceUSD": 443.5,
+      "image": "/products/real/p1_MG19-C0124.jpg"
+    },
+    {
+      "article": "MG19-S0408",
+      "desc_ru": "Картотечный шкаф",
+      "dimensions": "800*400*2000",
+      "color_ru": "DB26 SA Dark Teakwood DB05  Iron Gray",
+      "stock": 1,
+      "priceUSD": 243.3,
+      "image": "/products/real/p1_MG19-S0408.jpg"
+    },
+    {
+      "article": "MG18-D0118W",
+      "desc_ru": "Рабочий стол руководителя",
+      "dimensions": "1800*1600*750",
+      "color_ru": "DB01  White DB05  Iron Gray",
+      "stock": 0,
+      "priceUSD": 394.6,
+      "image": "/products/real/p1_MG18-D0118W.jpg"
+    },
+    {
+      "article": "MG18-S0120W",
+      "desc_ru": "Картотечный шкаф",
+      "dimensions": "2000*400*1250",
+      "color_ru": "DB01  White DB05  Iron Gray",
+      "stock": 0,
+      "priceUSD": 373.1,
+      "image": null
+    },
+    {
+      "article": "MG18-D0414W",
+      "desc_ru": "2-местное рабочее место",
+      "dimensions": "1400*1200*750",
+      "color_ru": "DB01  White DB05  Iron Gray",
+      "stock": 1,
+      "priceUSD": 412.9,
+      "image": "/products/real/p1_MG18-D0414W.jpg"
+    },
+    {
+      "article": "MG18-D0414WY",
+      "desc_ru": "Расширение рабочего места на 2 места",
+      "dimensions": "1400*1200*750",
+      "color_ru": "DB01  White DB05  Iron Gray",
+      "stock": 0,
+      "priceUSD": 266,
+      "image": "/products/real/p1_MG18-D0414WY.jpg"
+    },
+    {
+      "article": "MGSY-05D24",
+      "desc_ru": "Рабочий стол руководителя слева или справа",
+      "dimensions": "2400W*1975D*750H",
+      "color_ru": "Deep Straight Grain",
+      "stock": 0,
+      "priceUSD": 644.5,
+      "image": "/products/real/p1_MGSY-05D24.jpg"
+    },
+    {
+      "article": "MGSY-01S25",
+      "desc_ru": "Картотечный шкаф",
+      "dimensions": "2500W*425D*2000H",
+      "color_ru": "Deep Straight Grain",
+      "stock": 1,
+      "priceUSD": 685.3,
+      "image": "/products/real/p1_MGSY-01S25.jpg"
+    },
+    {
+      "article": "MGSY-01F12",
+      "desc_ru": "Кофейный столик",
+      "dimensions": "1200W*600D*450H",
+      "color_ru": "Deep Straight Grain",
+      "stock": 0,
+      "priceUSD": 137.2,
+      "image": "/products/real/p1_MGSY-01F12.jpg"
+    },
+    {
+      "article": "MGSY-03D28",
+      "desc_ru": "Исполнительный стол",
+      "dimensions": "2800W*1975D*750H",
+      "color_ru": "Deep Straight Grain",
+      "stock": 0,
+      "priceUSD": 780.3,
+      "image": "/products/real/p1_MGSY-03D28.jpg"
+    },
+    {
+      "article": "MGSY-05D28",
+      "desc_ru": "Рабочий стол руководителя Слева или справа",
+      "dimensions": "2800W*1975D*750H",
+      "color_ru": "Deep Straight Grain",
+      "stock": 0,
+      "priceUSD": 737.9,
+      "image": "/products/real/p1_MGSY-05D28.jpg"
+    },
+    {
+      "article": "MGSY-02D14",
+      "desc_ru": "Рабочий стол руководителя",
+      "dimensions": "Main desk: 1400*700*750 Mobile pedestal: 400*450*650",
+      "color_ru": "Deep Straight Grain",
+      "stock": 1,
+      "priceUSD": 340.5,
+      "image": "/products/real/p1_MGSY-02D14.jpg"
+    },
+    {
+      "article": "MGSY-01S34",
+      "desc_ru": "Кресло с высокой спинкой",
+      "dimensions": "3400*425*2000",
+      "color_ru": "Deep Straight Grain",
+      "stock": 0,
+      "priceUSD": 964.3,
+      "image": "/products/real/p1_MGSY-01S34.jpg"
+    },
+    {
+      "article": "MGSY-01C48",
+      "desc_ru": "Стол для совещаний",
+      "dimensions": "4800*1600*750",
+      "color_ru": "Deep Straight Grain",
+      "stock": 0,
+      "priceUSD": 1221.9,
+      "image": "/products/real/p1_MGSY-01C48.jpg"
+    },
+    {
+      "article": "MGSY-01C36",
+      "desc_ru": "Стол для переговоров",
+      "dimensions": "3600*1500*750",
+      "color_ru": "Deep Straight Grain",
+      "stock": 0,
+      "priceUSD": 812.6,
+      "image": "/products/real/p1_MGSY-01C36.jpg"
+    },
+    {
+      "article": "MGSY-01F12",
+      "desc_ru": "кофейный столик",
+      "dimensions": "1200*600*450",
+      "color_ru": "Deep Straight Grain",
+      "stock": 0,
+      "priceUSD": 137.2,
+      "image": "/products/real/p1_MGSY-01F12.jpg"
+    },
+    {
+      "article": "MGSY-01F06",
+      "desc_ru": "Приставной столик",
+      "dimensions": "600*600*450",
+      "color_ru": "Deep Straight Grain",
+      "stock": 1,
+      "priceUSD": 88.1,
+      "image": "/products/real/p1_MGSY-01F06.jpg"
+    },
+    {
+      "article": "MG-LB-H2B12",
+      "desc_ru": "Рабочее место на два места\n- Лицом к лицу",
+      "dimensions": "1260*1230*1100",
+      "color_ru": "White+ BMW aluminum\n+Grey strip",
+      "stock": 0,
+      "priceUSD": 329,
+      "image": "/products/real/p1_MG-LB-H2B12.jpg"
+    },
+    {
+      "article": "MG-LB-H2B14",
+      "desc_ru": "Двухместное рабочее место\n- Лицом к лицу",
+      "dimensions": "1460*1230*1100",
+      "color_ru": "White+ BMW aluminum\n+Grey strip",
+      "stock": 0,
+      "priceUSD": 355,
+      "image": "/products/real/p1_MG-LB-H2B14.jpg"
+    },
+    {
+      "article": "MG-LB-E2B12E",
+      "desc_ru": "Двухместное рабочее место с вкладышем",
+      "dimensions": "2490*630*1100",
+      "color_ru": "White+ BMW aluminum +Grey strip",
+      "stock": 0,
+      "priceUSD": 364.5,
+      "image": "/products/real/p1_MG-LB-E2B12E.jpg"
+    },
+    {
+      "article": "MG-LB-E2B14E",
+      "desc_ru": "Двухместное рабочее место с вкладышем",
+      "dimensions": "2890*630*1100",
+      "color_ru": "White+ BMW aluminum +Grey strip",
+      "stock": 0,
+      "priceUSD": 404.2,
+      "image": "/products/real/p1_MG-LB-E2B14E.jpg"
+    },
+    {
+      "article": "MG-LB-L1B12L",
+      "desc_ru": "Двухместное рабочее место L- образной формы",
+      "dimensions": "1430*1230*1100",
+      "color_ru": "White+ BMW aluminum +Grey strip",
+      "stock": 0,
+      "priceUSD": 315.3,
+      "image": "/products/real/p1_MG-LB-L1B12L.jpg"
+    },
+    {
+      "article": "MG-LB-L1B14L",
+      "desc_ru": "Двухместное рабочее место L- образной формы",
+      "dimensions": "1430*1430*1100",
+      "color_ru": "White+ BMW aluminum +Grey strip",
+      "stock": 0,
+      "priceUSD": 340.5,
+      "image": "/products/real/p1_MG-LB-L1B14L.jpg"
+    }
+  ],
+  "partiya2_mebel": [
+    {
+      "article": "DSN-01D27",
+      "stock": 1,
+      "image": "/products/real/p2m_DSN-01D27_2.png"
+    },
+    {
+      "article": "DSN-01D27",
+      "stock": 0,
+      "image": "/products/real/p2m_DSN-01D27_3.jpg"
+    },
+    {
+      "article": "DSN-01H15",
+      "stock": 1,
+      "image": "/products/real/p2m_DSN-01H15_4.jpg"
+    },
+    {
+      "article": "ASY-05D28",
+      "stock": 1,
+      "image": "/products/real/p2m_ASY-05D28_5.jpg"
+    },
+    {
+      "article": "ASY-01S34",
+      "stock": 1,
+      "image": "/products/real/p2m_ASY-01S34_6.jpg"
+    },
+    {
+      "article": "ASY-01F12",
+      "stock": 0,
+      "image": "/products/real/p2m_ASY-01F12_7.jpg"
+    },
+    {
+      "article": "ASY-05D20",
+      "stock": 1,
+      "image": "/products/real/p2m_ASY-05D20_8.jpg"
+    },
+    {
+      "article": "ASY-01C36",
+      "stock": 0,
+      "image": "/products/real/p2m_ASY-01C36_9.jpg"
+    },
+    {
+      "article": "DL939A",
+      "stock": 0,
+      "image": "/products/real/p2m_DL939A_10.jpg"
+    },
+    {
+      "article": "DL939B",
+      "stock": 1,
+      "image": "/products/real/p2m_DL939B_11.jpg"
+    },
+    {
+      "article": "DL939C",
+      "stock": 10,
+      "image": "/products/real/p2m_DL939C_12.jpg"
+    },
+    {
+      "article": "JY-008-A",
+      "stock": 1,
+      "image": "/products/real/p2m_JY-008-A_13.jpg"
+    },
+    {
+      "article": "JY-008-B",
+      "stock": 1,
+      "image": "/products/real/p2m_JY-008-B_14.jpg"
+    },
+    {
+      "article": "DX7106A",
+      "stock": 1,
+      "image": "/products/real/p2m_DX7106A_15.jpg"
+    },
+    {
+      "article": "GB28",
+      "stock": 2,
+      "image": "/products/real/p2m_GB28_16.jpg"
+    }
+  ],
+  "partiya2_kreslo": [
+    {
+      "article": "GA91",
+      "stock": 2,
+      "image": "/products/real/g_GA91_2.jpg"
+    },
+    {
+      "article": "GA91",
+      "stock": 1,
+      "image": "/products/real/g_GA91_3.jpg"
+    },
+    {
+      "article": "GA91",
+      "stock": 0,
+      "image": "/products/real/g_GA91_4.jpg"
+    },
+    {
+      "article": "GA92",
+      "stock": 0,
+      "image": "/products/real/g_GA92_5.jpg"
+    },
+    {
+      "article": "GD92",
+      "stock": 1,
+      "image": "/products/real/g_GD92_6.jpg"
+    },
+    {
+      "article": "GE92",
+      "stock": 4,
+      "image": "/products/real/g_GE92_7.jpg"
+    },
+    {
+      "article": "GA92-2",
+      "stock": 0,
+      "image": "/products/real/g_GA92-2_8.jpg"
+    },
+    {
+      "article": "GA92-2",
+      "stock": 1,
+      "image": "/products/real/g_GA92-2_9.jpg"
+    },
+    {
+      "article": "GE92-2",
+      "stock": 5,
+      "image": "/products/real/g_GE92-2_10.jpg"
+    },
+    {
+      "article": "GB93",
+      "stock": 3,
+      "image": "/products/real/g_GB93_11.jpg"
+    },
+    {
+      "article": "GD93",
+      "stock": 5,
+      "image": "/products/real/g_GD93_12.jpg"
+    },
+    {
+      "article": "GE93",
+      "stock": 0,
+      "image": "/products/real/g_GE93_13.jpg"
+    },
+    {
+      "article": "GB93",
+      "stock": 0,
+      "image": "/products/real/g_GB93_14.jpg"
+    },
+    {
+      "article": "GD93",
+      "stock": 0,
+      "image": "/products/real/g_GD93_15.jpg"
+    },
+    {
+      "article": "GE93",
+      "stock": 4,
+      "image": "/products/real/g_GE93_16.jpg"
+    },
+    {
+      "article": "GB93-2",
+      "stock": 1,
+      "image": "/products/real/g_GB93-2_17.jpg"
+    },
+    {
+      "article": "GD93-2",
+      "stock": 3,
+      "image": "/products/real/g_GD93-2_18.jpg"
+    },
+    {
+      "article": "GE93-2",
+      "stock": 5,
+      "image": "/products/real/g_GE93-2_19.jpg"
+    },
+    {
+      "article": "GA96",
+      "stock": 0,
+      "image": "/products/real/g_GA96_20.jpg"
+    },
+    {
+      "article": "GB96",
+      "stock": 1,
+      "image": null
+    },
+    {
+      "article": "GD96",
+      "stock": 3,
+      "image": "/products/real/g_GD96_22.jpg"
+    },
+    {
+      "article": "GA96-1",
+      "stock": 0,
+      "image": "/products/real/g_GA96-1_23.jpg"
+    },
+    {
+      "article": "GA96-1",
+      "stock": 3,
+      "image": "/products/real/g_GA96-1_24.jpg"
+    },
+    {
+      "article": "GB96-1",
+      "stock": 2,
+      "image": "/products/real/g_GB96-1_25.jpg"
+    },
+    {
+      "article": "GB96-1",
+      "stock": 0,
+      "image": "/products/real/g_GB96-1_26.jpg"
+    },
+    {
+      "article": "GD96-1",
+      "stock": 4,
+      "image": "/products/real/g_GD96-1_27.jpg"
+    },
+    {
+      "article": "GD96-1",
+      "stock": 2,
+      "image": "/products/real/g_GD96-1_28.jpg"
+    },
+    {
+      "article": "GA98",
+      "stock": 1,
+      "image": "/products/real/g_GA98_29.jpg"
+    },
+    {
+      "article": "GB98",
+      "stock": 1,
+      "image": "/products/real/g_GB98_30.jpg"
+    },
+    {
+      "article": "GD98",
+      "stock": 0,
+      "image": "/products/real/g_GD98_31.jpg"
+    },
+    {
+      "article": "GA109",
+      "stock": 0,
+      "image": "/products/real/g_GA109_32.jpg"
+    },
+    {
+      "article": "GA109-DP",
+      "stock": 0,
+      "image": "/products/real/g_GA109-DP_33.jpg"
+    },
+    {
+      "article": "GA109-2",
+      "stock": 2,
+      "image": "/products/real/g_GA109-2_34.jpg"
+    },
+    {
+      "article": "GA115",
+      "stock": 0,
+      "image": "/products/real/g_GA115_35.jpg"
+    },
+    {
+      "article": "GA115-DP",
+      "stock": 0,
+      "image": "/products/real/g_GA115-DP_36.jpg"
+    },
+    {
+      "article": "GB115-DP",
+      "stock": 1,
+      "image": "/products/real/g_GB115-DP_37.jpg"
+    },
+    {
+      "article": "GA115-2-DP",
+      "stock": 1,
+      "image": "/products/real/g_GA115-2-DP_38.jpg"
+    },
+    {
+      "article": "GB115-2-DP",
+      "stock": 4,
+      "image": "/products/real/g_GB115-2-DP_39.jpg"
+    },
+    {
+      "article": "GD107 FOUR LEGS",
+      "stock": 1,
+      "image": "/products/real/g_GD107_FOUR_LEGS_40.jpg"
+    },
+    {
+      "article": "GD107-2 FOUR LEGS",
+      "stock": 1,
+      "image": "/products/real/g_GD107-2_FOUR_LEGS_41.jpg"
+    },
+    {
+      "article": "GD107(FOLDING)",
+      "stock": 1,
+      "image": "/products/real/g_GD107_FOLDING__42.jpg"
+    },
+    {
+      "article": "GA198",
+      "stock": 1,
+      "image": "/products/real/g_GA198_43.jpg"
+    },
+    {
+      "article": "A3030-1",
+      "stock": 1,
+      "image": "/products/real/g_A3030-1_44.jpg"
+    },
+    {
+      "article": "D3030-1",
+      "stock": 1,
+      "image": "/products/real/g_D3030-1_45.jpg"
+    },
+    {
+      "article": "GA18",
+      "stock": 0,
+      "image": "/products/real/g_GA18_46.jpg"
+    },
+    {
+      "article": "GA18",
+      "stock": 2,
+      "image": "/products/real/g_GA18_47.jpg"
+    },
+    {
+      "article": "GA19",
+      "stock": 1,
+      "image": "/products/real/g_GA19_48.jpg"
+    },
+    {
+      "article": "GA32",
+      "stock": 1,
+      "image": "/products/real/g_GA32_49.jpg"
+    },
+    {
+      "article": "GD32",
+      "stock": 1,
+      "image": "/products/real/g_GD32_50.jpg"
+    },
+    {
+      "article": "GA39",
+      "stock": 1,
+      "image": "/products/real/g_GA39_51.jpg"
+    },
+    {
+      "article": "GB39",
+      "stock": 1,
+      "image": "/products/real/g_GB39_52.jpg"
+    },
+    {
+      "article": "GD39",
+      "stock": 2,
+      "image": "/products/real/g_GD39_53.jpg"
+    },
+    {
+      "article": "GA69",
+      "stock": 0,
+      "image": "/products/real/g_GA69_54.jpg"
+    },
+    {
+      "article": "GD69",
+      "stock": 1,
+      "image": "/products/real/g_GD69_55.jpg"
+    },
+    {
+      "article": "GA83",
+      "stock": 1,
+      "image": "/products/real/g_GA83_56.jpg"
+    },
+    {
+      "article": "GA86",
+      "stock": 0,
+      "image": "/products/real/g_GA86_57.jpg"
+    },
+    {
+      "article": "GB86",
+      "stock": 1,
+      "image": "/products/real/g_GB86_58.jpg"
+    },
+    {
+      "article": "GD86",
+      "stock": 3,
+      "image": "/products/real/g_GD86_59.jpg"
+    },
+    {
+      "article": "A3009",
+      "stock": 1,
+      "image": "/products/real/g_A3009_60.jpg"
+    }
+  ],
+  "partiya2_divan": [
+    {
+      "article": "SF-106-8",
+      "desc_ru": "Офисный диван с одним сиденьем",
+      "material_ru": "дерево, металл,\nискусственная кожа (PU)",
+      "stock": 1,
+      "image": "/products/real/sf_SF-106-8.png"
+    },
+    {
+      "article": "SF-087",
+      "desc_ru": "Офисный диван с одним\nсиденьем\n+ Офисный диван для трех\nчеловек",
+      "material_ru": "дерево, металл,\nискусственная кожа (PU)",
+      "stock": 1,
+      "image": "/products/real/sf_SF-087.jpg"
+    },
+    {
+      "article": "SF-107",
+      "desc_ru": "Офисный диван с одним\nсиденьем\n+ Офисный диван для трех\nчеловек",
+      "material_ru": "дерево, металл,\nискусственная кожа (PU)",
+      "stock": 0,
+      "image": "/products/real/sf_SF-107.jpg"
+    },
+    {
+      "article": "SF-102",
+      "desc_ru": "Офисный диван с одним\nсиденьем\n+ Офисный диван для трех\nчеловек",
+      "material_ru": "дерево, металл,\nискусственная кожа (PU)",
+      "stock": 0,
+      "image": null
+    },
+    {
+      "article": "SF-093",
+      "desc_ru": "Офисный диван с одним\nсиденьем\n+ Офисный диван для трех\nчеловек",
+      "material_ru": "дерево, металл,\nискусственная кожа (PU)",
+      "stock": 1,
+      "image": "/products/real/sf_SF-093.jpg"
+    },
+    {
+      "article": "SF-109",
+      "desc_ru": "Офисный диван с одним\nсиденьем\n+ Офисный диван для трех\nчеловек",
+      "material_ru": "дерево, металл,\nискусственная кожа (PU)",
+      "stock": 0,
+      "image": "/products/real/sf_SF-109.jpg"
+    },
+    {
+      "article": "SF-092",
+      "desc_ru": "Офисный диван с одним\nсиденьем\n+ Офисный диван для трех\nчеловек",
+      "material_ru": "дерево, металл,\nискусственная кожа (PU)",
+      "stock": 0,
+      "image": "/products/real/sf_SF-092.png"
+    },
+    {
+      "article": "SF-052",
+      "desc_ru": "Офисный диван с одним\nсиденьем\n+ Офисный диван для трех\nчеловек",
+      "material_ru": "дерево, металл,\nискусственная кожа (PU)",
+      "stock": 1,
+      "image": "/products/real/sf_SF-052.jpg"
+    },
+    {
+      "article": "SF-210",
+      "desc_ru": "Офисный диван с одним\nсиденьем\n+ Офисный диван для трех\nчеловек",
+      "material_ru": "дерево, металл,\nискусственная кожа (PU)",
+      "stock": 0,
+      "image": "/products/real/sf_SF-210.jpg"
+    },
+    {
+      "article": "SF-095",
+      "desc_ru": "Офисный диван с одним\nсиденьем\n+ Офисный диван для трех\nчеловек",
+      "material_ru": "дерево, металл,\nискусственная кожа (PU)",
+      "stock": 0,
+      "image": "/products/real/sf_SF-095.jpg"
+    },
+    {
+      "article": "A301-8",
+      "desc_ru": "Офисное вращающееся кресло\n+ Офисное вращающееся кресло",
+      "material_ru": "натуральная кожа, металл, Паролон",
+      "stock": 1,
+      "image": "/products/real/sf_A301-8.jpg"
+    },
+    {
+      "article": "LS-277A",
+      "desc_ru": "Офисное вращающееся кресло",
+      "material_ru": "искусственная кожа (PU), металл,",
+      "stock": 1,
+      "image": "/products/real/sf_LS-277A.jpg"
+    },
+    {
+      "article": "LS-280C",
+      "desc_ru": "Офисное кресло для проведения конференций",
+      "material_ru": "искусственная кожа (PU), металл,",
+      "stock": 1,
+      "image": "/products/real/sf_LS-280C.jpg"
+    },
+    {
+      "article": "LS-300C",
+      "desc_ru": "Офисное кресло для проведения конференций",
+      "material_ru": "искусственная кожа (PU), металл,",
+      "stock": 1,
+      "image": "/products/real/sf_LS-300C.jpg"
+    },
+    {
+      "article": "C259",
+      "desc_ru": "Офисное кресло для проведения конференций",
+      "material_ru": "искусственная кожа (PU), металл,",
+      "stock": 1,
+      "image": "/products/real/sf_C259.jpg"
+    },
+    {
+      "article": "LS-231C",
+      "desc_ru": "Офисное кресло для проведения конференций",
+      "material_ru": "искусственная кожа (PU), металл,",
+      "stock": 1,
+      "image": "/products/real/sf_LS-231C.jpg"
+    },
+    {
+      "article": "LS-237C",
+      "desc_ru": "Офисное кресло для проведения конференций",
+      "material_ru": "нейлон, сетка, паролон, ткань, металл",
+      "stock": 3,
+      "image": "/products/real/sf_LS-237C.jpg"
+    },
+    {
+      "article": "LS-178B",
+      "desc_ru": "Офисное вращающееся кресло",
+      "material_ru": "нейлон, сетка, паролон, ткань, металл",
+      "stock": 2,
+      "image": "/products/real/sf_LS-178B.jpg"
+    },
+    {
+      "article": "LS-505A",
+      "desc_ru": "Офисное вращающееся кресло",
+      "material_ru": "нейлон, сетка, паролон, ткань, металл",
+      "stock": 0,
+      "image": "/products/real/sf_LS-505A.jpg"
+    }
+  ],
+  "partiya3_divan": [
+    {
+      "article": "SF-107",
+      "stock": 1,
+      "image": "/products/real/sf3_SF-107.png"
+    },
+    {
+      "article": "SF-102",
+      "stock": 1,
+      "image": "/products/real/sf3_SF-102.jpg"
+    },
+    {
+      "article": "SF-093",
+      "stock": 0,
+      "image": "/products/real/sf3_SF-093.jpg"
+    },
+    {
+      "article": "SF-109",
+      "stock": 1,
+      "image": "/products/real/sf3_SF-109.png"
+    },
+    {
+      "article": "SF-092",
+      "stock": 1,
+      "image": "/products/real/sf3_SF-092.jpg"
+    },
+    {
+      "article": "SF-095",
+      "stock": 1,
+      "image": "/products/real/sf3_SF-095.jpg"
+    },
+    {
+      "article": "A377",
+      "stock": 1,
+      "image": null
+    },
+    {
+      "article": null,
+      "stock": 1,
+      "image": null
+    },
+    {
+      "article": null,
+      "stock": 1,
+      "image": "/products/real/sf3_row10.jpg"
+    },
+    {
+      "article": "A378-8",
+      "stock": 1,
+      "image": "/products/real/sf3_A378-8.jpg"
+    },
+    {
+      "article": null,
+      "stock": 1,
+      "image": null
+    },
+    {
+      "article": "LS-339A",
+      "stock": 1,
+      "image": "/products/real/sf3_LS-339A.jpg"
+    },
+    {
+      "article": "LS-339C",
+      "stock": 2,
+      "image": "/products/real/sf3_LS-339C.jpg"
+    },
+    {
+      "article": "LS-277A",
+      "stock": 0,
+      "image": "/products/real/sf3_LS-277A.jpg"
+    },
+    {
+      "article": "LS-277C",
+      "stock": 2,
+      "image": "/products/real/sf3_LS-277C.png"
+    }
+  ]
+}

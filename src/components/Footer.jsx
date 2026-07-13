@@ -27,7 +27,7 @@ export default function Footer({ lang, brand, categories }) {
         <div>
           <div className="mb-3 text-sm font-bold uppercase tracking-wide text-white">{t(lang, "nav_contact")}</div>
           <ul className="space-y-1.5 text-sm text-white/60">
-            <li>{brand.address[lang]}</li>
+            <li>{(brand.showroom?.address[lang]) || brand.address[lang]}</li>
             {brand.phones.map((p) => (
               <li key={p}><a href={`tel:${p.replace(/[^+\d]/g, "")}`} className="hover:text-gold">{p}</a></li>
             ))}

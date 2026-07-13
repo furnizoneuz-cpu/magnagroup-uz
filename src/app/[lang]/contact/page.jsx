@@ -29,6 +29,27 @@ export default function ContactPage({ params }) {
         </div>
       </div>
 
+      {/* Ko'rgazma zali / do'kon */}
+      {brand.showroom && (
+        <div className="mt-8 overflow-hidden rounded-2xl border border-black/5 bg-white">
+          <div className="p-6">
+            <div className="text-sm font-semibold text-gold-dark">
+              {lang === "ru" ? "Шоу-рум" : lang === "en" ? "Showroom" : "Ko'rgazma zali"}
+            </div>
+            <div className="mt-1 text-ink">{brand.showroom.address[lang]}</div>
+            <a href={brand.showroom.mapsUrl} target="_blank" rel="noopener noreferrer" className="mt-2 inline-block text-sm font-medium text-gold-dark hover:underline">
+              {lang === "ru" ? "Открыть на карте →" : lang === "en" ? "Open in Maps →" : "Xaritada ochish →"}
+            </a>
+          </div>
+          <iframe
+            title="Magna Group showroom map"
+            className="h-72 w-full border-0"
+            loading="lazy"
+            src={`https://maps.google.com/maps?q=${brand.showroom.lat},${brand.showroom.lng}&z=16&output=embed`}
+          />
+        </div>
+      )}
+
       {/* Yuridik rekvizitlar */}
       {brand.legal_name && (
         <div className="mt-8 rounded-2xl border border-black/5 bg-white p-6">

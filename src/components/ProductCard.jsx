@@ -24,6 +24,17 @@ export default function ProductCard({ product, lang }) {
         {product.dimensions && (
           <div className="mt-1 text-xs text-black/50">{product.dimensions}</div>
         )}
+        <div className="mt-1.5">
+          {Number(product.stock) > 0 ? (
+            <span className="inline-flex items-center gap-1 rounded-full bg-green-50 px-2 py-0.5 text-[11px] font-semibold text-green-700">
+              ● {t(lang, "in_stock")}: {product.stock} {lang === "ru" ? "шт" : lang === "en" ? "pcs" : "dona"}
+            </span>
+          ) : (
+            <span className="inline-flex items-center gap-1 rounded-full bg-amber-50 px-2 py-0.5 text-[11px] font-semibold text-amber-700">
+              {t(lang, "on_order")}
+            </span>
+          )}
+        </div>
         <div className="mt-auto pt-3">
           <div className="mb-2 text-sm font-bold text-ink">
             {price || <span className="font-medium text-black/45">{t(lang, "price_on_request")}</span>}

@@ -10,15 +10,26 @@ import { t } from "@/lib/i18n";
 
 export const revalidate = 60;
 
-export default function ProductPage({ params }) {
+export async function generateMetadata({ params }) {
   const { lang, article } = params;
-  const product = getProduct(decodeURIComponent(article));
+  const product = await getProduct(decodeURIComponent(article));
+  if (!product) return {};
+  const name = product.name[lang] || product.name.uz;
+  return {
+    title: `${name} — ${product.article} | Magna Group`,
+    description: product.description?.[lang] || `${name} — Magna Group. Artikul: ${product.article}.`,
+  };
+}
+
+export default async function ProductPage({ params }) {
+  const { lang, article } = params;
+  const product = await getProduct(decodeURIComponent(article));
   if (!product) notFound();
 
   const categories = getCategories();
   const cat = categories.find((c) => c.id === product.category);
   const price = formatPrice(product.price, lang);
-  const related = getProducts()
+  const related = (await getProducts())
     .filter((p) => p.category === product.category && p.article !== product.article)
     .slice(0, 5);
 
@@ -58,6 +69,17 @@ export default function ProductPage({ params }) {
           </div>
 
           <div className="md:pt-2">
+            <div className="mb-3">
+              {Number(product.stock) > 0 ? (
+                <span className="inline-flex items-center gap-1.5 rounded-full bg-green-50 px-3 py-1 text-sm font-semibold text-green-700">
+                  ● {t(lang, "in_stock")}: {product.stock} {lang === "ru" ? "шт" : lang === "en" ? "pcs" : "dona"}
+                </span>
+              ) : (
+                <span className="inline-flex items-center gap-1.5 rounded-full bg-amber-50 px-3 py-1 text-sm font-semibold text-amber-700">
+                  {t(lang, "on_order")}
+                </span>
+              )}
+            </div>
             <div className="mb-4 text-2xl font-extrabold text-ink">
               {price || <span className="text-lg font-semibold text-black/45">{t(lang, "price_on_request")}</span>}
             </div>

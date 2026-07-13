@@ -8,7 +8,9 @@ function authed(req) {
 export async function GET(req) {
   if (!authed(req)) return NextResponse.json({ error: "unauthorized" }, { status: 401 });
   const c = readCatalog();
-  return NextResponse.json({ products: c.products, categories: c.categories });
+  const { getProducts } = await import("@/lib/data");
+  const products = await getProducts(); // override-merged (admin edits included)
+  return NextResponse.json({ products, categories: c.categories });
 }
 
 export async function PUT(req) {
@@ -24,8 +26,12 @@ export async function PUT(req) {
   }
   if ("image" in patch) allowed.image = patch.image || null;
   if ("hidden" in patch) allowed.hidden = !!patch.hidden;
+  if ("stock" in patch) {
+    const s = patch.stock;
+    allowed.stock = s === null || s === "" ? 0 : Math.max(0, Number(s) || 0);
+  }
 
-  const updated = updateProduct(article, allowed);
+  const updated = await updateProduct(article, allowed);
   if (!updated) return NextResponse.json({ error: "not_found" }, { status: 404 });
   return NextResponse.json({ ok: true, product: updated });
 }

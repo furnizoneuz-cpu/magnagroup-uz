@@ -15,7 +15,7 @@ export async function POST(req) {
       price: i.price ?? null,
     }));
     const total = clean.reduce((s, i) => s + (Number(i.price) || 0) * i.qty, 0);
-    const order = addOrder({
+    const order = await addOrder({
       customer: {
         name: String(customer.name).slice(0, 120),
         phone: String(customer.phone).slice(0, 40),
@@ -38,5 +38,5 @@ export async function GET(req) {
   if (auth !== process.env.ADMIN_PASSWORD) {
     return NextResponse.json({ error: "unauthorized" }, { status: 401 });
   }
-  return NextResponse.json({ orders: readOrders().reverse() });
+  return NextResponse.json({ orders: (await readOrders()).reverse() });
 }
