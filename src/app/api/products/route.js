@@ -1,8 +1,11 @@
 import { NextResponse } from "next/server";
 import { readCatalog, updateProduct } from "@/lib/data";
+import { hasRole } from "@/lib/auth";
 
+// Admin/seller may edit the catalog — via a logged-in session (role ≥ seller)
+// or the legacy admin key header (kept for the password-only admin login).
 function authed(req) {
-  return req.headers.get("x-admin-key") === process.env.ADMIN_PASSWORD;
+  return req.headers.get("x-admin-key") === process.env.ADMIN_PASSWORD || hasRole(req, "seller");
 }
 
 export async function GET(req) {

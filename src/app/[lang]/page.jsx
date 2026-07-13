@@ -25,8 +25,8 @@ const COPY = {
     featured: "Ombordagi mahsulotlar",
     cats: "Kategoriyalar bo'yicha",
     banner: "SHOWROOMGA KELING",
-    bannerSub: "Toshkent, Alfraganus savdo majmuasi, 2-qavat — mahsulotlarni jonli ko'ring va sinab ko'ring.",
-    bannerCta: "Manzilni ochish",
+    bannerSub: "Toshkent, Sergeli tumani — Magna Group markaziy ko'rgazma zali. Mahsulotlarni jonli ko'ring va sinab ko'ring.",
+    bannerCta: "Yo'l ko'rsatish",
     all: "Hammasini ko'rish",
   },
   ru: {
@@ -38,8 +38,8 @@ const COPY = {
     featured: "Товары на складе",
     cats: "По категориям",
     banner: "ПРИХОДИТЕ В ШОУ-РУМ",
-    bannerSub: "Ташкент, ТЦ Alfraganus, 2 этаж — посмотрите и опробуйте мебель вживую.",
-    bannerCta: "Открыть адрес",
+    bannerSub: "Ташкент, Сергелийский район — центральный шоу-рум Magna Group. Посмотрите и опробуйте мебель вживую.",
+    bannerCta: "Построить маршрут",
     all: "Смотреть все",
   },
   en: {
@@ -51,8 +51,8 @@ const COPY = {
     featured: "In-stock products",
     cats: "Shop by category",
     banner: "VISIT THE SHOWROOM",
-    bannerSub: "Tashkent, Alfraganus trade center, 2nd floor — see and try the furniture in person.",
-    bannerCta: "Open address",
+    bannerSub: "Tashkent, Sergeli district — Magna Group central showroom. See and try the furniture in person.",
+    bannerCta: "Get directions",
     all: "View all",
   },
 };
@@ -143,8 +143,9 @@ export default async function Home({ params }) {
         <div className="bg-[#111] px-6 py-14 text-center text-white md:py-20">
           <h2 className="display-head text-4xl md:text-6xl">{c.banner}</h2>
           <p className="mx-auto mt-4 max-w-lg text-[15px] text-white/70">{c.bannerSub}</p>
-          <a href="https://maps.google.com/?q=41.289941,69.296108" target="_blank" rel="noopener noreferrer"
-            className="mt-7 inline-flex items-center justify-center rounded-full bg-white px-6 py-2.5 text-sm font-semibold text-[#111] transition hover:bg-white/85">
+          <a href="https://www.google.com/maps/dir/?api=1&destination=41.246406,69.228694" target="_blank" rel="noopener noreferrer"
+            className="mt-7 inline-flex items-center justify-center gap-2 rounded-full bg-white px-6 py-2.5 text-sm font-semibold text-[#111] transition hover:bg-white/85">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="h-4 w-4"><path d="M3 11l19-9-9 19-2-8-8-2Z" strokeLinejoin="round"/></svg>
             {c.bannerCta}
           </a>
         </div>

@@ -83,6 +83,27 @@ export default function CatalogView({ lang, products, categories }) {
 
       {filtered.length === 0 ? (
         <div className="py-24 text-center text-[#757575]">{t(lang, "no_results")}</div>
+      ) : !cat && !q.trim() ? (
+        // No filter → group everything under category sections.
+        <div className="space-y-12">
+          {categories.map((c) => {
+            const items = filtered.filter((p) => p.category === c.id);
+            if (items.length === 0) return null;
+            return (
+              <section key={c.id}>
+                <div className="mb-4 flex items-center justify-between border-b border-black/10 pb-2">
+                  <h2 className="text-lg font-bold text-[#111]">{c.name[lang]}</h2>
+                  <button onClick={() => { setCat(c.id); updateUrl(c.id, ""); }} className="text-sm font-semibold text-[#757575] hover:text-[#111]">
+                    {items.length} →
+                  </button>
+                </div>
+                <div className="grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 xl:grid-cols-4">
+                  {items.map((p) => <ProductCard key={p.article} product={p} lang={lang} />)}
+                </div>
+              </section>
+            );
+          })}
+        </div>
       ) : (
         <div className="grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-3 xl:grid-cols-4">
           {filtered.map((p) => (

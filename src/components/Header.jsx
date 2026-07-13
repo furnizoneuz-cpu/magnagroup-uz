@@ -3,14 +3,23 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { useCart } from "@/components/CartProvider";
+import { useAuth } from "@/components/AuthProvider";
 import LangSwitch from "@/components/LangSwitch";
 import { t } from "@/lib/i18n";
 
 export default function Header({ lang }) {
   const { count } = useCart();
+  const { user, logout } = useAuth();
   const router = useRouter();
   const [q, setQ] = useState("");
   const [open, setOpen] = useState(false);
+  const [acc, setAcc] = useState(false);
+
+  const A = {
+    uz: { signin: "Kirish", register: "Ro'yxatdan o'tish", logout: "Chiqish", admin: "Boshqaruv", role: { admin: "Administrator", seller: "Sotuvchi", customer: "Mijoz", visitor: "Mehmon" } },
+    ru: { signin: "Войти", register: "Регистрация", logout: "Выйти", admin: "Панель", role: { admin: "Администратор", seller: "Продавец", customer: "Клиент", visitor: "Гость" } },
+    en: { signin: "Sign in", register: "Create account", logout: "Log out", admin: "Dashboard", role: { admin: "Administrator", seller: "Seller", customer: "Customer", visitor: "Visitor" } },
+  }[lang] || {};
 
   function submitSearch(e) {
     e.preventDefault();
@@ -72,6 +81,38 @@ export default function Header({ lang }) {
             <input value={q} onChange={(e) => setQ(e.target.value)} placeholder={t(lang, "search_ph")}
               className="w-40 bg-transparent pr-4 text-sm outline-none placeholder:text-black/50" />
           </form>
+
+          {/* account */}
+          <div className="relative">
+            <button onClick={() => setAcc((v) => !v)} aria-label="account"
+              className="grid h-9 w-9 place-items-center rounded-full transition hover:bg-[#e5e5e5]">
+              <svg className="h-[22px] w-[22px] text-[#111]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
+                <circle cx="12" cy="8" r="4" /><path d="M4 21c0-4 4-6 8-6s8 2 8 6" strokeLinecap="round" />
+              </svg>
+            </button>
+            {acc && (
+              <div className="absolute right-0 top-11 z-50 w-52 rounded-xl border border-black/10 bg-white p-2 shadow-xl" onMouseLeave={() => setAcc(false)}>
+                {user ? (
+                  <>
+                    <div className="px-3 py-2">
+                      <div className="truncate text-sm font-semibold text-[#111]">{user.name}</div>
+                      <div className="truncate text-xs text-[#757575]">{user.email}</div>
+                      <span className="mt-1 inline-block rounded-full bg-[#f5f5f5] px-2 py-0.5 text-[11px] font-semibold text-[#111]">{A.role?.[user.role]}</span>
+                    </div>
+                    {(user.role === "admin" || user.role === "seller") && (
+                      <Link href="/admin" onClick={() => setAcc(false)} className="block rounded-lg px-3 py-2 text-sm font-medium hover:bg-[#f5f5f5]">{A.admin}</Link>
+                    )}
+                    <button onClick={() => { logout(); setAcc(false); }} className="block w-full rounded-lg px-3 py-2 text-left text-sm font-medium text-[#9E3500] hover:bg-[#f5f5f5]">{A.logout}</button>
+                  </>
+                ) : (
+                  <>
+                    <Link href={`/${lang}/login`} onClick={() => setAcc(false)} className="block rounded-lg px-3 py-2 text-sm font-semibold hover:bg-[#f5f5f5]">{A.signin}</Link>
+                    <Link href={`/${lang}/register`} onClick={() => setAcc(false)} className="block rounded-lg px-3 py-2 text-sm font-medium hover:bg-[#f5f5f5]">{A.register}</Link>
+                  </>
+                )}
+              </div>
+            )}
+          </div>
 
           {/* cart */}
           <Link id="cart-btn" href={`/${lang}/cart`} aria-label="cart"

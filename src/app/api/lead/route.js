@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { addLead, readLeads } from "@/lib/data";
+import { hasRole } from "@/lib/auth";
 
 export async function POST(req) {
   try {
@@ -17,7 +18,7 @@ export async function POST(req) {
 }
 
 export async function GET(req) {
-  if (req.headers.get("x-admin-key") !== process.env.ADMIN_PASSWORD) {
+  if (req.headers.get("x-admin-key") !== process.env.ADMIN_PASSWORD && !hasRole(req, "seller")) {
     return NextResponse.json({ error: "unauthorized" }, { status: 401 });
   }
   return NextResponse.json({ leads: (await readLeads()).reverse() });

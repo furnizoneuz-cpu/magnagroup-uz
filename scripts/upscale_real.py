@@ -8,7 +8,9 @@ import os, subprocess, sys, tempfile
 from PIL import Image
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-IMGDIR = os.path.join(ROOT, "public", "products", "real")
+# argv[1] bo'lsa o'sha papka (masalan 'catalog'), aks holda 'real'
+_sub = sys.argv[1] if len(sys.argv) > 1 else "real"
+IMGDIR = os.path.join(ROOT, "public", "products", _sub)
 EXE = os.path.join(ROOT, "tools", "realesrgan", "realesrgan-ncnn-vulkan.exe")
 TARGET = 1400      # eng kichik tomon shu qiymatdan katta bo'lsin
 MAXSIDE = 2800     # yakuniy eng katta tomon cheklovi (fayl hajmi uchun)

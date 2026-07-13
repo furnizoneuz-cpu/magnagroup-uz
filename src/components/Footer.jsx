@@ -31,7 +31,13 @@ export default function Footer({ lang, brand, categories }) {
         <div>
           <div className="mb-4 text-sm font-bold uppercase tracking-wide">{t(lang, "nav_contact")}</div>
           <ul className="space-y-2.5 text-sm text-[#757575]">
-            <li>{(brand.showroom?.address[lang]) || brand.address[lang]}</li>
+            {(brand.showrooms || (brand.showroom ? [brand.showroom] : [])).map((s, i) => (
+              <li key={i}>
+                <a href={`https://www.google.com/maps/dir/?api=1&destination=${s.lat},${s.lng}`} target="_blank" rel="noopener noreferrer" className="transition hover:text-[#111]">
+                  <span className="font-semibold text-[#111]">{s.label?.[lang]}:</span> {s.address[lang]}
+                </a>
+              </li>
+            ))}
             {brand.phones.map((p) => (
               <li key={p}><a href={`tel:${p.replace(/[^+\d]/g, "")}`} className="transition hover:text-[#111]">{p}</a></li>
             ))}

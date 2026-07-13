@@ -6,16 +6,24 @@ const KEY = "magna_admin_key";
 export default function Admin() {
   const [key, setKey] = useState("");
   const [authed, setAuthed] = useState(false);
+  const [role, setRole] = useState(null);
   const [tab, setTab] = useState("products");
 
   useEffect(() => {
-    const k = localStorage.getItem(KEY);
-    if (k) { setKey(k); tryAuth(k); }
+    // 1) try a logged-in session (admin/seller) via cookie; 2) fall back to saved key
+    (async () => {
+      const me = await fetch("/api/auth/me", { cache: "no-store" }).then((r) => r.json()).catch(() => ({}));
+      if (me.user && (me.user.role === "admin" || me.user.role === "seller")) {
+        setRole(me.user.role); setAuthed(true); return;
+      }
+      const k = localStorage.getItem(KEY);
+      if (k) { setKey(k); tryAuth(k); }
+    })();
   }, []);
 
   async function tryAuth(k) {
-    const res = await fetch("/api/products", { headers: { "x-admin-key": k } });
-    if (res.ok) { setAuthed(true); localStorage.setItem(KEY, k); }
+    const res = await fetch("/api/products", { headers: k ? { "x-admin-key": k } : {} });
+    if (res.ok) { setAuthed(true); setRole((r) => r || "admin"); if (k) localStorage.setItem(KEY, k); }
     else { setAuthed(false); }
     return res.ok;
   }
@@ -42,11 +50,11 @@ export default function Admin() {
       <header className="border-b border-black/10 bg-white">
         <div className="mx-auto flex max-w-6xl items-center gap-4 px-4 py-3">
           <span className="text-lg font-extrabold text-ink">MAGNA <span className="text-[#111]">admin</span></span>
-          <nav className="ml-4 flex gap-1">
-            {["products", "orders", "leads"].map((tb) => (
+          <nav className="ml-4 flex flex-wrap gap-1">
+            {["products", "orders", "leads", ...(role === "admin" ? ["users"] : [])].map((tb) => (
               <button key={tb} onClick={() => setTab(tb)}
                 className={"rounded-lg px-3 py-1.5 text-sm font-semibold " + (tab === tb ? "bg-ink text-white" : "text-black/60 hover:bg-sand")}>
-                {tb === "products" ? "Mahsulotlar" : tb === "orders" ? "Buyurtmalar" : "Murojaatlar"}
+                {tb === "products" ? "Mahsulotlar" : tb === "orders" ? "Buyurtmalar" : tb === "leads" ? "Murojaatlar" : "Foydalanuvchilar"}
               </button>
             ))}
           </nav>
@@ -56,7 +64,7 @@ export default function Admin() {
         </div>
       </header>
       <main className="mx-auto max-w-6xl px-4 py-6">
-        {tab === "products" ? <Products adminKey={key} /> : tab === "orders" ? <Orders adminKey={key} /> : <Leads adminKey={key} />}
+        {tab === "products" ? <Products adminKey={key} /> : tab === "orders" ? <Orders adminKey={key} /> : tab === "leads" ? <Leads adminKey={key} /> : <Users />}
       </main>
     </div>
   );
@@ -185,6 +193,45 @@ function Row({ p, adminKey, onSaved }) {
         </button>
       </td>
     </tr>
+  );
+}
+
+function Users() {
+  const [users, setUsers] = useState([]);
+  const ROLES = ["visitor", "customer", "seller", "admin"];
+  async function load() {
+    const d = await fetch("/api/users", { cache: "no-store" }).then((r) => r.json());
+    setUsers(d.users || []);
+  }
+  useEffect(() => { load(); }, []);
+  async function change(email, role) {
+    await fetch("/api/users", { method: "PUT", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ email, role }) });
+    load();
+  }
+  if (users.length === 0) return <div className="rounded-xl border border-dashed border-black/15 py-16 text-center text-black/40">Foydalanuvchilar yo'q</div>;
+  return (
+    <div className="overflow-x-auto rounded-xl border border-black/5 bg-white">
+      <table className="w-full text-sm">
+        <thead className="bg-sand text-left text-xs uppercase text-black/50">
+          <tr><th className="p-3">Ism</th><th className="p-3">Email</th><th className="p-3">Manba</th><th className="p-3">Rol</th></tr>
+        </thead>
+        <tbody className="divide-y divide-black/5">
+          {users.map((u) => (
+            <tr key={u.email}>
+              <td className="p-3 font-semibold text-ink">{u.name}</td>
+              <td className="p-3 text-black/60">{u.email}</td>
+              <td className="p-3 text-black/50">{u.provider}</td>
+              <td className="p-3">
+                <select value={u.role} onChange={(e) => change(u.email, e.target.value)}
+                  className="rounded border border-black/12 px-2 py-1 text-sm">
+                  {ROLES.map((r) => <option key={r} value={r}>{r}</option>)}
+                </select>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
   );
 }
 

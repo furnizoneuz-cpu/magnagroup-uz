@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Inter, Montserrat } from "next/font/google";
 import { CartProvider } from "@/components/CartProvider";
+import { AuthProvider } from "@/components/AuthProvider";
 
 const inter = Inter({ subsets: ["latin", "cyrillic"], variable: "--font-inter", display: "swap" });
 const montserrat = Montserrat({ subsets: ["latin", "cyrillic"], weight: ["600", "700", "800"], variable: "--font-montserrat", display: "swap" });
@@ -15,7 +16,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="uz" className={`${inter.variable} ${montserrat.variable}`}>
       <body className="font-sans antialiased">
-        <CartProvider>{children}</CartProvider>
+        <AuthProvider>
+          <CartProvider>{children}</CartProvider>
+        </AuthProvider>
       </body>
     </html>
   );
