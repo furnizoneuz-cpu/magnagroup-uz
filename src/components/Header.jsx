@@ -42,9 +42,13 @@ export default function Header({ lang }) {
 
       {/* main bar */}
       <div className="container-x flex items-center gap-4 py-2.5">
-        <Link href={`/${lang}`} className="flex shrink-0 items-center" aria-label="Magna Group">
+        <Link href={`/${lang}`} className="flex shrink-0 items-center gap-2.5" aria-label="Magna Group">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src="/logo-mark.png" alt="Magna Group" className="h-9 w-auto" />
+          <span className="font-head text-xl font-extrabold lowercase leading-none tracking-tight">
+            <span className="text-[#111]">magna</span>
+            <span className="text-brand"> group</span>
+          </span>
         </Link>
 
         {/* centered nav */}

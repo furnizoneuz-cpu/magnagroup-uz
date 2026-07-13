@@ -2801,7 +2801,7 @@
       "_aiRender": "/products/ai/MG08-D0118.jpg"
     },
     {
-      "article": "MG08-D0312\n(с настольным экраном)",
+      "article": "MG08-D0312",
       "category": "staff",
       "name": {
         "uz": "2 o'rinli ish joyi",
@@ -2822,10 +2822,11 @@
       "hidden": false,
       "thumb": "/products/real/thumbs/p1_MG08-D0312_с_настольным_экраном_.webp",
       "_realPhoto": "/products/real/p1_MG08-D0312_с_настольным_экраном_.jpg",
-      "_aiRender": "/products/ai/MG08-D0312__с_настольным_экраном_.jpg"
+      "_aiRender": "/products/ai/MG08-D0312__с_настольным_экраном_.jpg",
+      "_articleFull": "MG08-D0312\n(с настольным экраном)"
     },
     {
-      "article": "MG08-D0312Y\n(с настольным экраном)",
+      "article": "MG08-D0312Y",
       "category": "staff",
       "name": {
         "uz": "Ish joyini 2 o'ringa kengaytirish moduli",
@@ -2846,7 +2847,8 @@
       "hidden": false,
       "thumb": "/products/real/thumbs/p1_MG08-D0312Y_с_настольным_экраном_.webp",
       "_realPhoto": "/products/real/p1_MG08-D0312Y_с_настольным_экраном_.jpg",
-      "_aiRender": "/products/ai/MG08-D0312Y__с_настольным_экраном_.jpg"
+      "_aiRender": "/products/ai/MG08-D0312Y__с_настольным_экраном_.jpg",
+      "_articleFull": "MG08-D0312Y\n(с настольным экраном)"
     },
     {
       "article": "MG11-D0218",
@@ -3107,7 +3109,7 @@
       "image": "/products/real/p1_MXH-311.png",
       "_src": "astatka-p1",
       "_costUSD": 17,
-      "hidden": false,
+      "hidden": true,
       "thumb": "/products/real/thumbs/p1_MXH-311.webp",
       "_realPhoto": "/products/real/p1_MXH-311.png",
       "_aiRender": "/products/ai/MXH-311.jpg"

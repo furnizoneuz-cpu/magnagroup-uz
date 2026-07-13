@@ -24,7 +24,7 @@ export async function generateMetadata({ params }) {
 export default async function ProductPage({ params }) {
   const { lang, article } = params;
   const product = await getProduct(decodeURIComponent(article));
-  if (!product) notFound();
+  if (!product || product.hidden) notFound();
 
   const categories = getCategories();
   const cat = categories.find((c) => c.id === product.category);

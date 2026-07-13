@@ -53,7 +53,8 @@ export default function Footer({ lang, brand, categories }) {
           <span className="inline-flex items-center gap-2 font-semibold text-[#111]">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src="/logo-mark.png" alt="" className="h-5 w-auto" />
-            © {new Date().getFullYear()} {brand.legal_name || "Magna Group"}
+            <span className="font-head lowercase tracking-tight"><span className="text-[#111]">magna</span><span className="text-brand"> group</span></span>
+            <span className="text-[#757575]">· © {new Date().getFullYear()} {brand.legal_name || "Magna Group"}</span>
           </span>
           <span>{t(lang, "footer_rights")}</span>
           <span className="ml-auto">{L("O'zbekiston", "Узбекистан", "Uzbekistan")}</span>

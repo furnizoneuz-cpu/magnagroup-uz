@@ -43,7 +43,7 @@ export default function CheckoutPage({ params }) {
         </div>
         <h1 className="mt-5 text-2xl font-extrabold text-ink">{t(lang, "co_success")}</h1>
         <p className="mt-2 text-black/55">{t(lang, "co_order_no")}: <b>{done}</b></p>
-        <Link href={`/${lang}/catalog`} className="mt-6 inline-block rounded-lg bg-ink px-6 py-3 text-sm font-semibold text-white hover:bg-gold-dark">
+        <Link href={`/${lang}/catalog`} className="mt-6 inline-block rounded-lg bg-ink px-6 py-3 text-sm font-semibold text-white hover:bg-[#3a3a3a]">
           {t(lang, "continue_shopping")}
         </Link>
       </div>
@@ -59,7 +59,7 @@ export default function CheckoutPage({ params }) {
     );
   }
 
-  const inp = "w-full rounded-lg border border-black/12 bg-white px-4 py-2.5 text-sm outline-none focus:border-gold";
+  const inp = "w-full rounded-lg border border-black/12 bg-white px-4 py-2.5 text-sm outline-none focus:border-[#111]";
 
   return (
     <div className="container-x py-8">
@@ -93,7 +93,7 @@ export default function CheckoutPage({ params }) {
                 { id: "uzum", label: "Uzum" },
               ].map((p) => (
                 <button type="button" key={p.id} onClick={() => set("payment", p.id)}
-                  className={"rounded-lg border px-4 py-2 text-sm font-semibold transition " + (form.payment === p.id ? "border-gold bg-gold-light text-ink" : "border-black/12 text-black/60 hover:border-gold")}>
+                  className={"rounded-lg border px-4 py-2 text-sm font-semibold transition " + (form.payment === p.id ? "border-gold bg-[#e5e5e5] text-ink" : "border-black/12 text-black/60 hover:border-gold")}>
                   {p.label}
                 </button>
               ))}
@@ -107,7 +107,7 @@ export default function CheckoutPage({ params }) {
             )}
           </div>
           {err && <div className="rounded-lg bg-red-50 px-4 py-2 text-sm text-red-600">{err}</div>}
-          <button disabled={busy} className="w-full rounded-lg bg-ink px-6 py-3 text-sm font-bold text-white hover:bg-gold-dark disabled:opacity-50 sm:w-auto">
+          <button disabled={busy} className="w-full rounded-lg bg-ink px-6 py-3 text-sm font-bold text-white hover:bg-[#3a3a3a] disabled:opacity-50 sm:w-auto">
             {busy ? "..." : t(lang, "co_submit")}
           </button>
         </form>

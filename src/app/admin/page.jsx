@@ -27,9 +27,9 @@ export default function Admin() {
           <h1 className="mb-1 text-xl font-extrabold text-ink">Magna Admin</h1>
           <p className="mb-5 text-sm text-black/50">Boshqaruv paneli</p>
           <input type="password" value={key} onChange={(e) => setKey(e.target.value)}
-            placeholder="Parol" className="w-full rounded-lg border border-black/12 px-4 py-2.5 text-sm outline-none focus:border-gold"
+            placeholder="Parol" className="w-full rounded-lg border border-black/12 px-4 py-2.5 text-sm outline-none focus:border-[#111]"
             onKeyDown={(e) => e.key === "Enter" && tryAuth(key)} />
-          <button onClick={() => tryAuth(key)} className="mt-3 w-full rounded-lg bg-ink px-4 py-2.5 text-sm font-bold text-white hover:bg-gold-dark">
+          <button onClick={() => tryAuth(key)} className="mt-3 w-full rounded-lg bg-ink px-4 py-2.5 text-sm font-bold text-white hover:bg-[#3a3a3a]">
             Kirish
           </button>
         </div>
@@ -41,7 +41,7 @@ export default function Admin() {
     <div className="min-h-screen bg-sand">
       <header className="border-b border-black/10 bg-white">
         <div className="mx-auto flex max-w-6xl items-center gap-4 px-4 py-3">
-          <span className="text-lg font-extrabold text-ink">MAGNA <span className="text-gold-dark">admin</span></span>
+          <span className="text-lg font-extrabold text-ink">MAGNA <span className="text-[#111]">admin</span></span>
           <nav className="ml-4 flex gap-1">
             {["products", "orders", "leads"].map((tb) => (
               <button key={tb} onClick={() => setTab(tb)}
@@ -90,7 +90,7 @@ function Products({ adminKey }) {
     <div>
       <div className="mb-4 flex flex-wrap items-center gap-3">
         <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Qidirish..."
-          className="rounded-lg border border-black/12 bg-white px-4 py-2 text-sm outline-none focus:border-gold" />
+          className="rounded-lg border border-black/12 bg-white px-4 py-2 text-sm outline-none focus:border-[#111]" />
         <select value={cat} onChange={(e) => setCat(e.target.value)} className="rounded-lg border border-black/12 bg-white px-3 py-2 text-sm">
           <option value="">Barcha kategoriyalar</option>
           {categories.map((c) => <option key={c.id} value={c.id}>{c.name.uz}</option>)}
@@ -162,21 +162,21 @@ function Row({ p, adminKey, onSaved }) {
           <input type="file" accept="image/*" className="hidden" onChange={(e) => e.target.files[0] && upload(e.target.files[0])} />
         </label>
       </td>
-      <td className="p-3 font-mono text-xs font-semibold text-gold-dark">{p.article}</td>
+      <td className="p-3 font-mono text-xs font-semibold text-[#111]">{p.article}</td>
       <td className="p-3 max-w-xs">{p.name.uz}{p.dimensions ? <span className="block text-xs text-black/40">{p.dimensions}</span> : null}</td>
       <td className="p-3">
         <div className="flex items-center gap-2">
           <input value={price} onChange={(e) => setPrice(e.target.value)} type="number"
-            className="w-32 rounded border border-black/12 px-2 py-1 text-sm outline-none focus:border-gold" placeholder="—" />
+            className="w-32 rounded border border-black/12 px-2 py-1 text-sm outline-none focus:border-[#111]" placeholder="—" />
           <button onClick={() => save({ price, stock })} disabled={saving}
-            className="rounded bg-ink px-3 py-1 text-xs font-semibold text-white hover:bg-gold-dark disabled:opacity-50">
+            className="rounded bg-ink px-3 py-1 text-xs font-semibold text-white hover:bg-[#3a3a3a] disabled:opacity-50">
             {savedFlag ? "✓" : "Saqlash"}
           </button>
         </div>
       </td>
       <td className="p-3">
         <input value={stock} onChange={(e) => setStock(e.target.value)} type="number" min="0"
-          className="w-16 rounded border border-black/12 px-2 py-1 text-sm outline-none focus:border-gold" placeholder="0" />
+          className="w-16 rounded border border-black/12 px-2 py-1 text-sm outline-none focus:border-[#111]" placeholder="0" />
       </td>
       <td className="p-3">
         <button onClick={() => { const nv = !hidden; setHidden(nv); save({ hidden: nv }); }}
@@ -231,7 +231,7 @@ function Orders({ adminKey }) {
         <div key={o.number} className="rounded-xl border border-black/5 bg-white p-4">
           <div className="flex flex-wrap items-center gap-3">
             <span className="font-bold text-ink">{o.number}</span>
-            <span className="rounded bg-gold-light px-2 py-0.5 text-xs font-semibold text-gold-dark">{o.customer.payment}</span>
+            <span className="rounded bg-[#e5e5e5] px-2 py-0.5 text-xs font-semibold text-[#111]">{o.customer.payment}</span>
             <span className="text-sm text-black/50">{new Date(o.createdAt).toLocaleString()}</span>
             <span className="ml-auto font-bold text-ink">{o.total ? o.total.toLocaleString("ru-RU") + " so'm" : "narx so'rovi"}</span>
           </div>

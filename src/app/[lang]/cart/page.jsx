@@ -16,7 +16,7 @@ export default function CartPage({ params }) {
       {items.length === 0 ? (
         <div className="rounded-2xl border border-dashed border-black/15 py-20 text-center">
           <p className="text-black/40">{t(lang, "cart_empty")}</p>
-          <Link href={`/${lang}/catalog`} className="mt-4 inline-block rounded-lg bg-ink px-6 py-3 text-sm font-semibold text-white hover:bg-gold-dark">
+          <Link href={`/${lang}/catalog`} className="mt-4 inline-block rounded-lg bg-ink px-6 py-3 text-sm font-semibold text-white hover:bg-[#3a3a3a]">
             {t(lang, "continue_shopping")}
           </Link>
         </div>
@@ -32,7 +32,7 @@ export default function CartPage({ params }) {
                       <ProductImage product={it} lang={lang} />
                     </div>
                     <div className="flex flex-1 flex-col">
-                      <Link href={`/${lang}/product/${encodeURIComponent(it.article)}`} className="text-sm font-semibold text-ink hover:text-gold-dark">
+                      <Link href={`/${lang}/product/${encodeURIComponent(it.article)}`} className="text-sm font-semibold text-ink hover:text-[#111]">
                         {it.name[lang]}
                       </Link>
                       <div className="text-xs text-black/45">{t(lang, "article")}: {it.article}</div>
@@ -64,10 +64,10 @@ export default function CartPage({ params }) {
                   {hasPrices ? formatPrice(total, lang) : t(lang, "price_on_request")}
                 </span>
               </div>
-              <Link href={`/${lang}/checkout`} className="block rounded-lg bg-ink px-6 py-3 text-center text-sm font-bold text-white hover:bg-gold-dark">
+              <Link href={`/${lang}/checkout`} className="block rounded-lg bg-ink px-6 py-3 text-center text-sm font-bold text-white hover:bg-[#3a3a3a]">
                 {t(lang, "cart_checkout")}
               </Link>
-              <Link href={`/${lang}/catalog`} className="mt-2 block text-center text-sm font-medium text-gold-dark hover:underline">
+              <Link href={`/${lang}/catalog`} className="mt-2 block text-center text-sm font-medium text-[#111] hover:underline">
                 {t(lang, "continue_shopping")}
               </Link>
             </div>

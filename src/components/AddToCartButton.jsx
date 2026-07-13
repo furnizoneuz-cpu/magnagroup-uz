@@ -22,7 +22,7 @@ export default function AddToCartButton({ product, lang, full = false, pill = fa
         (full ? "w-full " : "") +
         (pill
           ? "btn-pill gap-2 !py-3"
-          : "inline-flex items-center justify-center gap-2 rounded-lg bg-ink px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-gold-dark active:scale-95")
+          : "inline-flex items-center justify-center gap-2 rounded-lg bg-ink px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-[#3a3a3a] active:scale-95")
       }
     >
       {added ? (

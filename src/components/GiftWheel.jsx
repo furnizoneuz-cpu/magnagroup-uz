@@ -109,10 +109,10 @@ export default function GiftWheel({ lang = "uz" }) {
             {result ? (
               <div className="pop">
                 <div className="text-sm text-black/50">{t.won}</div>
-                <div className="my-1 text-2xl font-extrabold text-gold-dark">{result.label}</div>
+                <div className="my-1 text-2xl font-extrabold text-[#111]">{result.label}</div>
                 <div className="mt-3 flex items-center justify-center gap-2">
                   <code className="rounded-lg bg-sand px-4 py-2 font-mono text-lg font-bold tracking-wider text-ink">{result.code}</code>
-                  <button onClick={copy} className="rounded-lg bg-ink px-3 py-2 text-sm font-semibold text-white hover:bg-gold-dark">
+                  <button onClick={copy} className="rounded-lg bg-ink px-3 py-2 text-sm font-semibold text-white hover:bg-[#3a3a3a]">
                     {copied ? t.copied : t.copy}
                   </button>
                 </div>
@@ -120,7 +120,7 @@ export default function GiftWheel({ lang = "uz" }) {
               </div>
             ) : (
               <button onClick={spin} disabled={spinning}
-                className="w-full rounded-xl bg-ink px-6 py-3.5 text-base font-bold text-white transition hover:bg-gold-dark disabled:opacity-60">
+                className="w-full rounded-xl bg-ink px-6 py-3.5 text-base font-bold text-white transition hover:bg-[#3a3a3a] disabled:opacity-60">
                 {spinning ? "…" : t.spin}
               </button>
             )}

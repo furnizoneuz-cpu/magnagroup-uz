@@ -21,3 +21,8 @@ Thumbs.db
 # Local Netlify folder
 .netlify
 data/overrides.json
+
+# runtime data (production uses Netlify Blobs)
+data/orders.json
+data/leads.json
+data/overrides.json

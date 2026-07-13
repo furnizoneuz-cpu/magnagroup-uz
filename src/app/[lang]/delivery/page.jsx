@@ -23,11 +23,11 @@ export default function DeliveryPage({ params }) {
       <h1 className="mb-8 text-3xl font-extrabold text-ink">{t(lang, "delivery_title")}</h1>
       <div className="grid gap-8 sm:grid-cols-2">
         <div>
-          <h2 className="mb-3 text-lg font-bold text-gold-dark">{t(lang, "nav_delivery")}</h2>
+          <h2 className="mb-3 text-lg font-bold text-[#111]">{t(lang, "nav_delivery")}</h2>
           <ul className="space-y-2 text-sm text-black/70">{b.d.map((x, i) => <li key={i}>• {x}</li>)}</ul>
         </div>
         <div>
-          <h2 className="mb-3 text-lg font-bold text-gold-dark">{t(lang, "co_payment")}</h2>
+          <h2 className="mb-3 text-lg font-bold text-[#111]">{t(lang, "co_payment")}</h2>
           <ul className="space-y-2 text-sm text-black/70">{b.p.map((x, i) => <li key={i}>• {x}</li>)}</ul>
         </div>
       </div>

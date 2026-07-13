@@ -9,23 +9,23 @@ export default function ContactPage({ params }) {
       <h1 className="mb-8 text-3xl font-extrabold text-ink">{t(lang, "contact_title")}</h1>
       <div className="grid gap-6 sm:grid-cols-2">
         <div className="rounded-2xl border border-black/5 bg-sand p-6">
-          <div className="text-sm font-semibold text-gold-dark">{t(lang, "address_label")}</div>
+          <div className="text-sm font-semibold text-[#111]">{t(lang, "address_label")}</div>
           <div className="mt-1 text-ink">{brand.address[lang]}</div>
         </div>
         <div className="rounded-2xl border border-black/5 bg-sand p-6">
-          <div className="text-sm font-semibold text-gold-dark">{t(lang, "phone_label")}</div>
+          <div className="text-sm font-semibold text-[#111]">{t(lang, "phone_label")}</div>
           {brand.phones.map((p) => (
-            <div key={p}><a href={`tel:${p.replace(/[^+\d]/g, "")}`} className="text-ink hover:text-gold-dark">{p}</a></div>
+            <div key={p}><a href={`tel:${p.replace(/[^+\d]/g, "")}`} className="text-ink hover:text-[#111]">{p}</a></div>
           ))}
         </div>
         <div className="rounded-2xl border border-black/5 bg-sand p-6">
-          <div className="text-sm font-semibold text-gold-dark">{t(lang, "email_label")}</div>
-          <a href={`mailto:${brand.email}`} className="mt-1 block text-ink hover:text-gold-dark">{brand.email}</a>
+          <div className="text-sm font-semibold text-[#111]">{t(lang, "email_label")}</div>
+          <a href={`mailto:${brand.email}`} className="mt-1 block text-ink hover:text-[#111]">{brand.email}</a>
         </div>
         <div className="rounded-2xl border border-black/5 bg-sand p-6">
-          <div className="text-sm font-semibold text-gold-dark">Social</div>
-          <a href={`https://t.me/${brand.telegram}`} className="mt-1 block text-ink hover:text-gold-dark">Telegram: @{brand.telegram}</a>
-          <a href={`https://instagram.com/${brand.instagram}`} className="block text-ink hover:text-gold-dark">Instagram: @{brand.instagram}</a>
+          <div className="text-sm font-semibold text-[#111]">Social</div>
+          <a href={`https://t.me/${brand.telegram}`} className="mt-1 block text-ink hover:text-[#111]">Telegram: @{brand.telegram}</a>
+          <a href={`https://instagram.com/${brand.instagram}`} className="block text-ink hover:text-[#111]">Instagram: @{brand.instagram}</a>
         </div>
       </div>
 
@@ -33,11 +33,11 @@ export default function ContactPage({ params }) {
       {brand.showroom && (
         <div className="mt-8 overflow-hidden rounded-2xl border border-black/5 bg-white">
           <div className="p-6">
-            <div className="text-sm font-semibold text-gold-dark">
+            <div className="text-sm font-semibold text-[#111]">
               {lang === "ru" ? "Шоу-рум" : lang === "en" ? "Showroom" : "Ko'rgazma zali"}
             </div>
             <div className="mt-1 text-ink">{brand.showroom.address[lang]}</div>
-            <a href={brand.showroom.mapsUrl} target="_blank" rel="noopener noreferrer" className="mt-2 inline-block text-sm font-medium text-gold-dark hover:underline">
+            <a href={brand.showroom.mapsUrl} target="_blank" rel="noopener noreferrer" className="mt-2 inline-block text-sm font-medium text-[#111] hover:underline">
               {lang === "ru" ? "Открыть на карте →" : lang === "en" ? "Open in Maps →" : "Xaritada ochish →"}
             </a>
           </div>
@@ -53,7 +53,7 @@ export default function ContactPage({ params }) {
       {/* Yuridik rekvizitlar */}
       {brand.legal_name && (
         <div className="mt-8 rounded-2xl border border-black/5 bg-white p-6">
-          <div className="mb-4 text-sm font-bold uppercase tracking-wide text-gold-dark">
+          <div className="mb-4 text-sm font-bold uppercase tracking-wide text-[#111]">
             {lang === "ru" ? "Реквизиты" : lang === "en" ? "Company details" : "Rekvizitlar"}
           </div>
           <dl className="grid gap-x-8 gap-y-2 text-sm sm:grid-cols-2">
