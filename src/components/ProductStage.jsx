@@ -1,6 +1,8 @@
 "use client";
 import { useEffect, useRef } from "react";
 import { CATEGORY_ACCENT } from "@/lib/format";
+import Spin360 from "@/components/Spin360";
+import Model3D from "@/components/Model3D";
 
 /*
   Scroll-driven cinematic product stage.
@@ -230,31 +232,39 @@ export default function ProductStage({ product, lang }) {
     }
     function onDbl() { ui.yaw = 0; ui.pitch = 0; ui.zoom = 1; ui.vyaw = 0; onScroll(); }
 
+    // GLB viewer and 360° spin bring their own gestures — the stage-level
+    // drag/zoom handlers only run for the single-photo turntable.
+    const ownGestures = !!(product.model3d || (Array.isArray(product.spin) && product.spin.length > 4));
+
     render();
     window.addEventListener("scroll", onScroll, { passive: true });
     window.addEventListener("resize", render);
-    wrap.addEventListener("mousedown", onDown);
-    window.addEventListener("mousemove", onMove);
-    window.addEventListener("mouseup", onUp);
-    wrap.addEventListener("touchstart", onDown, { passive: true });
-    wrap.addEventListener("touchmove", onMove, { passive: false });
-    wrap.addEventListener("touchend", onUp);
-    wrap.addEventListener("wheel", onWheel, { passive: false });
-    wrap.addEventListener("dblclick", onDbl);
+    if (!ownGestures) {
+      wrap.addEventListener("mousedown", onDown);
+      window.addEventListener("mousemove", onMove);
+      window.addEventListener("mouseup", onUp);
+      wrap.addEventListener("touchstart", onDown, { passive: true });
+      wrap.addEventListener("touchmove", onMove, { passive: false });
+      wrap.addEventListener("touchend", onUp);
+      wrap.addEventListener("wheel", onWheel, { passive: false });
+      wrap.addEventListener("dblclick", onDbl);
+    }
     return () => {
       window.removeEventListener("scroll", onScroll);
       window.removeEventListener("resize", render);
-      wrap.removeEventListener("mousedown", onDown);
-      window.removeEventListener("mousemove", onMove);
-      window.removeEventListener("mouseup", onUp);
-      wrap.removeEventListener("touchstart", onDown);
-      wrap.removeEventListener("touchmove", onMove);
-      wrap.removeEventListener("touchend", onUp);
-      wrap.removeEventListener("wheel", onWheel);
-      wrap.removeEventListener("dblclick", onDbl);
+      if (!ownGestures) {
+        wrap.removeEventListener("mousedown", onDown);
+        window.removeEventListener("mousemove", onMove);
+        window.removeEventListener("mouseup", onUp);
+        wrap.removeEventListener("touchstart", onDown);
+        wrap.removeEventListener("touchmove", onMove);
+        wrap.removeEventListener("touchend", onUp);
+        wrap.removeEventListener("wheel", onWheel);
+        wrap.removeEventListener("dblclick", onDbl);
+      }
       if (raf) cancelAnimationFrame(raf);
     };
-  }, [exploded, parts]);
+  }, [exploded, parts, product.model3d, product.spin]);
 
   return (
     <section ref={rootRef} className="relative" style={{ height: "300vh" }}>
@@ -266,10 +276,14 @@ export default function ProductStage({ product, lang }) {
         <div ref={mistRef} className="pointer-events-none absolute bottom-[14%] left-1/2 h-8 w-[55%] rounded-[50%] blur-xl will-change-transform"
           style={{ background: "rgba(30,34,41,0.12)", transform: "translateX(-50%)" }} />
 
-        {/* product images */}
+        {/* product media: real GLB 3D > real 360° photo spin > interactive photo turntable */}
         <div className="absolute inset-0 flex items-center justify-center p-8">
           <div className="relative h-[68vh] w-[68vh] max-w-[90vw]">
-            {product.image ? (
+            {product.model3d ? (
+              <Model3D src={product.model3d} poster={product.image} alt={product.name[lang]} className="absolute inset-0" />
+            ) : Array.isArray(product.spin) && product.spin.length > 4 ? (
+              <Spin360 frames={product.spin} alt={product.name[lang]} className="absolute inset-0 h-full w-full" />
+            ) : product.image ? (
               <div ref={imgRef} className="absolute inset-0 will-change-transform" style={{ transformStyle: "preserve-3d" }}>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src={product.image} alt={product.name[lang]}
