@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState, useMemo } from "react";
+import * as XLSX from "xlsx";
 
 const KEY = "magna_admin_key";
 
@@ -96,6 +97,7 @@ function Products({ adminKey }) {
 
   return (
     <div>
+      <BulkImport adminKey={adminKey} onDone={load} />
       <div className="mb-4 flex flex-wrap items-center gap-3">
         <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Qidirish..."
           className="rounded-lg border border-black/12 bg-white px-4 py-2 text-sm outline-none focus:border-[#111]" />
@@ -141,6 +143,87 @@ const CATS = [
   ["storage", "Shkaf/tumba"], ["tables", "Stollar"], ["seating", "O'rindiqlar"],
   ["medical", "Tibbiy"], ["student", "O'quvchi"], ["children", "Bolalar"],
 ];
+
+function BulkImport({ adminKey, onDone }) {
+  const [rows, setRows] = useState(null);
+  const [result, setResult] = useState(null);
+  const [busy, setBusy] = useState(false);
+  const [err, setErr] = useState("");
+
+  function parse(file) {
+    setErr(""); setResult(null);
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      try {
+        const wb = XLSX.read(e.target.result, { type: "array" });
+        const sheet = wb.Sheets[wb.SheetNames[0]];
+        const json = XLSX.utils.sheet_to_json(sheet, { defval: "" });
+        // ustun nomlarini moslash (artikul/article, narx/price, qoldiq/stock)
+        const norm = json.map((r) => {
+          const g = (keys) => { for (const k of Object.keys(r)) if (keys.includes(k.trim().toLowerCase())) return r[k]; return undefined; };
+          return {
+            article: g(["article", "artikul", "артикул", "sku", "kod"]),
+            price: g(["price", "narx", "narxi", "цена"]),
+            stock: g(["stock", "qoldiq", "soni", "остаток", "количество", "miqdor"]),
+            hidden: g(["hidden", "yashirin", "скрыт"]),
+          };
+        }).filter((r) => r.article);
+        if (!norm.length) { setErr("Ustunlar topilmadi. 'artikul' ustuni bo'lishi shart."); return; }
+        setRows(norm);
+      } catch { setErr("Faylni o'qib bo'lmadi (xlsx/csv bo'lsin)"); }
+    };
+    reader.readAsArrayBuffer(file);
+  }
+
+  async function apply() {
+    setBusy(true); setErr("");
+    try {
+      const res = await fetch("/api/products/bulk", {
+        method: "POST", headers: { "Content-Type": "application/json", "x-admin-key": adminKey },
+        body: JSON.stringify({ rows }),
+      });
+      const d = await res.json();
+      if (d.ok) { setResult(d); setRows(null); onDone && onDone(); }
+      else setErr("Xatolik: " + (d.error || ""));
+    } catch { setErr("Server xatosi"); }
+    setBusy(false);
+  }
+
+  function template() {
+    const ws = XLSX.utils.aoa_to_sheet([["artikul", "narx", "qoldiq", "yashirin"], ["GA91", 1450000, 5, ""], ["MGW114", "", 0, ""]]);
+    const wb = XLSX.utils.book_new(); XLSX.utils.book_append_sheet(wb, ws, "Mahsulotlar");
+    XLSX.writeFile(wb, "magna-import-shablon.xlsx");
+  }
+
+  return (
+    <div className="mb-4 rounded-xl border border-black/10 bg-[#fafafa] p-4">
+      <div className="flex flex-wrap items-center gap-3">
+        <span className="text-sm font-bold text-[#111]">📥 Ommaviy import (Excel/CSV)</span>
+        <button onClick={template} className="rounded border border-black/15 bg-white px-3 py-1 text-xs font-semibold hover:border-[#111]">Shablon yuklab olish</button>
+        <label className="cursor-pointer rounded bg-[#111] px-3 py-1 text-xs font-semibold text-white hover:bg-[#3a3a3a]">
+          Fayl tanlash
+          <input type="file" accept=".xlsx,.xls,.csv" className="hidden" onChange={(e) => e.target.files[0] && parse(e.target.files[0])} />
+        </label>
+        <span className="text-xs text-black/45">Ustunlar: artikul · narx · qoldiq · yashirin</span>
+      </div>
+      {err && <div className="mt-2 text-xs font-semibold text-red-600">{err}</div>}
+      {rows && (
+        <div className="mt-3 rounded-lg border border-black/10 bg-white p-3">
+          <div className="text-sm"><b>{rows.length}</b> qator o'qildi. Namuna: {rows.slice(0, 3).map((r) => r.article).join(", ")}…</div>
+          <button onClick={apply} disabled={busy} className="mt-2 rounded bg-[#12801F] px-4 py-1.5 text-xs font-bold text-white hover:bg-[#0d5f17] disabled:opacity-50">
+            {busy ? "Qo'llanmoqda…" : `${rows.length} qatorni qo'llash`}
+          </button>
+        </div>
+      )}
+      {result && (
+        <div className="mt-2 rounded-lg bg-green-50 p-3 text-sm text-green-800">
+          ✓ {result.updated} mahsulot yangilandi.
+          {result.notFoundCount > 0 && <span className="text-amber-700"> {result.notFoundCount} artikul topilmadi ({result.notFound.slice(0, 5).join(", ")}…)</span>}
+        </div>
+      )}
+    </div>
+  );
+}
 
 function Row({ p, adminKey, onSaved }) {
   const [price, setPrice] = useState(p.price ?? "");
