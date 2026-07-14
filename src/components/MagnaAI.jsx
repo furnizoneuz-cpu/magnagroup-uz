@@ -12,6 +12,25 @@ const T = {
   en: { title: "Magna AI", hello: "Hi! I'm Magna AI — I can help you choose furniture, check availability and place an order. What are you looking for?", ph: "Type your question…", err: "Error — please try again" },
 };
 
+// Telefon raqamlarini bosiladigan tel: havolaga aylantiradi (mobil mijozlar uchun)
+function renderWithTel(text) {
+  const re = /(\+998[\s\d-]{7,14}\d)/g;
+  const parts = String(text).split(re);
+  return parts.map((part, i) =>
+    re.test(part)
+      ? <a key={i} href={`tel:${part.replace(/[^+\d]/g, "")}`} className="font-semibold underline">{part}</a>
+      : part
+  );
+}
+
+function getSid() {
+  try {
+    let s = localStorage.getItem("magna_ai_sid");
+    if (!s) { s = Math.random().toString(36).slice(2) + Date.now().toString(36); localStorage.setItem("magna_ai_sid", s); }
+    return s;
+  } catch { return "anon"; }
+}
+
 export default function MagnaAI({ lang = "uz" }) {
   const t = T[lang] || T.uz;
   const [open, setOpen] = useState(false);
@@ -38,7 +57,7 @@ export default function MagnaAI({ lang = "uz" }) {
       const r = await fetch("/api/ai", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ messages: next.filter((m) => m.text !== t.hello), lang }),
+        body: JSON.stringify({ messages: next.filter((m) => m.text !== t.hello), lang, sid: getSid() }),
       });
       const d = await r.json();
       setMsgs((m) => [...m, { role: "ai", text: d.ok ? d.reply : t.err }]);
@@ -64,7 +83,7 @@ export default function MagnaAI({ lang = "uz" }) {
             {msgs.map((m, i) => (
               <div key={i} className={"max-w-[85%] whitespace-pre-wrap rounded-2xl px-3.5 py-2 text-[13px] leading-relaxed " +
                 (m.role === "ai" ? "bg-white text-[#111] shadow-sm" : "ml-auto bg-[#12801F] text-white")}>
-                {m.text}
+                {m.role === "ai" ? renderWithTel(m.text) : m.text}
               </div>
             ))}
             {busy && (

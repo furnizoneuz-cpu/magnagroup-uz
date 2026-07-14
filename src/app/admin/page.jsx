@@ -51,10 +51,10 @@ export default function Admin() {
         <div className="mx-auto flex max-w-6xl items-center gap-4 px-4 py-3">
           <span className="text-lg font-extrabold text-ink">MAGNA <span className="text-[#111]">admin</span></span>
           <nav className="ml-4 flex flex-wrap gap-1">
-            {["products", "orders", "leads", ...(role === "admin" ? ["users"] : [])].map((tb) => (
+            {["products", "orders", "leads", "ai", ...(role === "admin" ? ["users"] : [])].map((tb) => (
               <button key={tb} onClick={() => setTab(tb)}
                 className={"rounded-lg px-3 py-1.5 text-sm font-semibold " + (tab === tb ? "bg-ink text-white" : "text-black/60 hover:bg-sand")}>
-                {tb === "products" ? "Mahsulotlar" : tb === "orders" ? "Buyurtmalar" : tb === "leads" ? "Murojaatlar" : "Foydalanuvchilar"}
+                {tb === "products" ? "Mahsulotlar" : tb === "orders" ? "Buyurtmalar" : tb === "leads" ? "Murojaatlar" : tb === "ai" ? "AI suhbatlar" : "Foydalanuvchilar"}
               </button>
             ))}
           </nav>
@@ -64,7 +64,7 @@ export default function Admin() {
         </div>
       </header>
       <main className="mx-auto max-w-6xl px-4 py-6">
-        {tab === "products" ? <Products adminKey={key} /> : tab === "orders" ? <Orders adminKey={key} /> : tab === "leads" ? <Leads adminKey={key} /> : <Users />}
+        {tab === "products" ? <Products adminKey={key} /> : tab === "orders" ? <Orders adminKey={key} /> : tab === "leads" ? <Leads adminKey={key} /> : tab === "ai" ? <AiLogs adminKey={key} /> : <Users />}
       </main>
     </div>
   );
@@ -323,6 +323,33 @@ function Users() {
           ))}
         </tbody>
       </table>
+    </div>
+  );
+}
+
+function AiLogs({ adminKey }) {
+  const [logs, setLogs] = useState(null);
+  useEffect(() => {
+    fetch("/api/ai/logs", { headers: { "x-admin-key": adminKey } })
+      .then((r) => r.json()).then((d) => setLogs(d.logs || []));
+  }, []);
+  if (logs === null) return <div className="py-16 text-center text-black/40">Yuklanmoqda…</div>;
+  if (logs.length === 0) return <div className="rounded-xl border border-dashed border-black/15 py-16 text-center text-black/40">Hali suhbatlar yo'q</div>;
+  return (
+    <div className="space-y-2">
+      <div className="text-sm text-black/50">Oxirgi 7 kun · {logs.length} ta xabar</div>
+      {logs.map((l, i) => (
+        <div key={i} className="rounded-xl border border-black/5 bg-white p-3 text-sm">
+          <div className="flex flex-wrap items-center gap-2 text-xs text-black/45">
+            <span>{new Date(l.t).toLocaleString()}</span>
+            <span className="rounded bg-[#e5e5e5] px-1.5 py-0.5 font-semibold">{l.lang}</span>
+            {l.tool && <span className="rounded bg-blue-100 px-1.5 py-0.5 font-semibold text-blue-700">🔍 {l.tool}</span>}
+            <span className="ml-auto font-mono">{(l.sid || "").slice(0, 8)}</span>
+          </div>
+          <div className="mt-1.5"><b>Mijoz:</b> {l.q}</div>
+          <div className="mt-1 text-black/70"><b>AI:</b> {l.a}</div>
+        </div>
+      ))}
     </div>
   );
 }
