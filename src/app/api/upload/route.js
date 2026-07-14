@@ -27,6 +27,48 @@ export async function POST(req) {
   const ext = (file.name.split(".").pop() || "jpg").toLowerCase().replace(/[^a-z0-9]/g, "") || "jpg";
   const buf = Buffer.from(await file.arrayBuffer());
 
+  // AI moderatsiya (ixtiyoriy: AI_MODERATE=1 + GEMINI_API_KEY). Rasm mebel mahsulot
+  // fotosiga o'xshamasa rad etadi. Xato/quota bo'lsa fail-open (yuklashga ruxsat).
+  if (process.env.AI_MODERATE === "1" && process.env.GEMINI_API_KEY) {
+    try {
+      const mimeType = file.type || (ext === "png" ? "image/png" : "image/jpeg");
+      const ctrl = new AbortController();
+      const timer = setTimeout(() => ctrl.abort(), 9000);
+      const r = await fetch(
+        `https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=${process.env.GEMINI_API_KEY}`,
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            contents: [{
+              role: "user",
+              parts: [
+                { inline_data: { mime_type: mimeType, data: buf.toString("base64") } },
+                { text: 'Bu rasm mebel do\'koni katalogi uchun mahsulot fotosimi? Faqat JSON javob ber: {"ok": true/false, "reason": "qisqa sabab"}. Agar hujjat, skrinshot, odam, matn yoki mebelsiz rasm bo\'lsa ok=false.' },
+              ],
+            }],
+            generationConfig: { maxOutputTokens: 60, temperature: 0 },
+          }),
+          signal: ctrl.signal,
+        }
+      );
+      clearTimeout(timer);
+      if (r.ok) {
+        const d = await r.json();
+        const txt = d?.candidates?.[0]?.content?.parts?.map((p) => p.text).join("") || "";
+        const m = txt.match(/\{[\s\S]*\}/);
+        if (m) {
+          const verdict = JSON.parse(m[0]);
+          if (verdict.ok === false) {
+            return NextResponse.json({ error: "rejected", reason: verdict.reason || "Rasm mahsulotga mos emas" }, { status: 422 });
+          }
+        }
+      }
+    } catch {
+      // fail-open: AI ishlamasa yuklashni bloklamaymiz
+    }
+  }
+
   if (onNetlify()) {
     // Deployed filesystem is read-only: keep the image bytes in Netlify Blobs
     // and serve them through /api/img/[article].

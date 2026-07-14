@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { addOrder, readOrders, updateOrderStatus, ORDER_STATUSES } from "@/lib/data";
 import { hasRole } from "@/lib/auth";
+import { notifyNewOrder, notifyStatus } from "@/lib/notify";
 
 function staff(req) {
   return req.headers.get("x-admin-key") === process.env.ADMIN_PASSWORD || hasRole(req, "seller");
@@ -32,6 +33,7 @@ export async function POST(req) {
       items: clean,
       total,
     });
+    notifyNewOrder(order).catch(() => {}); // menejerga Telegram (env bo'lsa)
     return NextResponse.json({ ok: true, number: order.number });
   } catch (e) {
     return NextResponse.json({ error: "server" }, { status: 500 });
@@ -49,5 +51,6 @@ export async function PUT(req) {
   const { number, status } = await req.json();
   const updated = await updateOrderStatus(number, status);
   if (!updated) return NextResponse.json({ error: "invalid" }, { status: 400 });
+  notifyStatus(updated).catch(() => {}); // mijozga SMS + menejerga TG (env bo'lsa)
   return NextResponse.json({ ok: true, order: updated });
 }

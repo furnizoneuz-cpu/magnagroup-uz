@@ -4,8 +4,17 @@ import { hasRole } from "@/lib/auth";
 
 // Ommaviy import (admin/sotuv bo'limi): [{article, price?, stock?, hidden?}] massiv.
 // Faqat mavjud artikullar yangilanadi; noma'lumlar hisobotда qaytadi.
+// Ruxsat: admin paroli, seller sessiyasi, YOKI mashina-mashina sinxron tokeni
+// (1C/ombor tizimi uchun — STOCK_SYNC_TOKEN env).
+function allowed(req) {
+  if (req.headers.get("x-admin-key") === process.env.ADMIN_PASSWORD) return true;
+  const sync = process.env.STOCK_SYNC_TOKEN;
+  if (sync && req.headers.get("x-sync-token") === sync) return true;
+  return hasRole(req, "seller");
+}
+
 export async function POST(req) {
-  if (req.headers.get("x-admin-key") !== process.env.ADMIN_PASSWORD && !hasRole(req, "seller")) {
+  if (!allowed(req)) {
     return NextResponse.json({ error: "unauthorized" }, { status: 401 });
   }
   let rows;

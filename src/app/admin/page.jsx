@@ -270,6 +270,7 @@ function Row({ p, adminKey, onSaved }) {
     const res = await fetch("/api/upload", { method: "POST", headers: { "x-admin-key": adminKey }, body: fd });
     const data = await res.json();
     if (data.ok) { setImg(data.path); await save({ image: data.path }); }
+    else if (data.error === "rejected") setUploadErr("AI rad etdi: " + (data.reason || "mahsulotga mos emas"));
     else setUploadErr(data.error === "too_large" ? "Fayl juda katta" : "Yuklash xatosi");
   }
 
