@@ -84,13 +84,91 @@ function limited(ip) {
   return arr.length > 10;
 }
 
+/* ---------- qo'shimcha tool'lar ---------- */
+function searchCatalog(query, category) {
+  const ql = String(query || "").trim().toLowerCase();
+  const cl = String(category || "").trim().toLowerCase();
+  const hits = [];
+  for (const base of Object.values(STOCK)) {
+    const okQ = !ql || base.n.toLowerCase().includes(ql) || (base.nr || "").toLowerCase().includes(ql) || base.a.toLowerCase().includes(ql);
+    const okC = !cl || base.c.toLowerCase().includes(cl);
+    if (okQ && okC) {
+      hits.push({ article: base.a, name: base.n, category: base.c, availability: base.s > 0 ? `sotuvda (${base.s} dona)` : "buyurtma asosida" });
+      if (hits.length >= 8) break;
+    }
+  }
+  return hits.length ? { found: true, results: hits, note: "To'liq katalog: /uz/catalog" } : { found: false };
+}
+
+async function createLead({ name, phone, interest }) {
+  if (!phone || String(phone).replace(/\D/g, "").length < 7) return { ok: false, reason: "telefon noto'g'ri" };
+  const rec = {
+    id: Date.now(),
+    createdAt: new Date().toISOString(),
+    name: String(name || "Mijoz (AI chat)").slice(0, 120),
+    phone: String(phone).slice(0, 40),
+    message: `[Magna AI] ${String(interest || "").slice(0, 300)}`,
+  };
+  try {
+    const { getStore } = await import("@netlify/blobs");
+    const store = getStore({ name: "catalog", consistency: "strong" });
+    const leads = (await store.get("leads", { type: "json" })) || [];
+    leads.push(rec);
+    await store.setJSON("leads", leads);
+  } catch { return { ok: false, reason: "saqlash xatosi" }; }
+  // Telegram'ga yuborish (token/chat_id env'da bo'lsa)
+  const tok = process.env.TELEGRAM_BOT_TOKEN, chat = process.env.TELEGRAM_CHAT_ID;
+  if (tok && chat) {
+    try {
+      await fetch(`https://api.telegram.org/bot${tok}/sendMessage`, {
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ chat_id: chat, text: `🟢 Yangi lead (Magna AI)\n👤 ${rec.name}\n📞 ${rec.phone}\n💬 ${interest || "-"}` }),
+      });
+    } catch {}
+  }
+  return { ok: true, message: "Lead qabul qilindi, menejer tez orada bog'lanadi" };
+}
+
 const TOOLS = [{
-  functionDeclarations: [{
-    name: "check_stock",
-    description: "Magna Group omboridagi JONLI qoldiqni tekshiradi. Mahsulot mavjudligi, soni yoki narxi so'ralganda chaqir. query = artikul (masalan GA91) yoki nom qismi (masalan 'kreslo', 'divan').",
-    parameters: { type: "OBJECT", properties: { query: { type: "STRING", description: "Artikul yoki nom qidiruvi" } }, required: ["query"] },
-  }],
+  functionDeclarations: [
+    {
+      name: "check_stock",
+      description: "Magna Group omboridagi JONLI qoldiqni tekshiradi. Mahsulot mavjudligi, soni yoki narxi so'ralganda chaqir. query = artikul (masalan GA91) yoki nom qismi.",
+      parameters: { type: "OBJECT", properties: { query: { type: "STRING", description: "Artikul yoki nom qidiruvi" } }, required: ["query"] },
+    },
+    {
+      name: "search_catalog",
+      description: "Katalogdan mahsulot qidiradi (sotuvda bo'lmaganlarni ham, ular buyurtma asosida). Mijoz turkum yoki tur bo'yicha nimadir izlasa chaqir.",
+      parameters: { type: "OBJECT", properties: { query: { type: "STRING", description: "Nom/artikul qidiruvi" }, category: { type: "STRING", description: "Kategoriya nomi (ixtiyoriy): ofis, kreslo, divan, tibbiy, o'quvchi, bolalar, shkaf, stol" } } },
+    },
+    {
+      name: "get_showroom",
+      description: "Showroomlar (manzil, ish vaqti, mas'ul shaxs, telefon, xarita havolasi) haqida aniq ma'lumot qaytaradi.",
+      parameters: { type: "OBJECT", properties: {} },
+    },
+    {
+      name: "create_lead",
+      description: "Mijoz ism va telefonini qoldirsa CHAQIR — buyurtma so'rovini menejerga yuboradi. Avval mijozdan ism/telefonni so'ra, keyin chaqir.",
+      parameters: {
+        type: "OBJECT",
+        properties: {
+          name: { type: "STRING", description: "Mijoz ismi" },
+          phone: { type: "STRING", description: "Telefon raqami" },
+          interest: { type: "STRING", description: "Nimaga qiziqyapti (artikul/mahsulot/izoh)" },
+        },
+        required: ["phone"],
+      },
+    },
+  ],
 }];
+
+async function runTool(name, args) {
+  if (name === "check_stock") return checkStock(args?.query);
+  if (name === "search_catalog") return searchCatalog(args?.query, args?.category);
+  if (name === "get_showroom") return { showrooms: ctx.showrooms || [] };
+  if (name === "create_lead") return createLead(args || {});
+  return { error: "unknown_tool" };
+}
 
 async function callOne(key, model, contents, useTools) {
   const ctrl = new AbortController();
@@ -135,6 +213,15 @@ export async function POST(req) {
   try { body = await req.json(); } catch { return NextResponse.json({ error: "invalid" }, { status: 400 }); }
 
   try {
+    /* --- staff: tool'larni to'g'ridan-to'g'ri sinash (LLM'siz) --- */
+    if (body.task === "tool_test") {
+      if (req.headers.get("x-admin-key") !== process.env.ADMIN_PASSWORD) {
+        return NextResponse.json({ error: "unauthorized" }, { status: 401 });
+      }
+      const result = await runTool(body.tool, body.args || {});
+      return NextResponse.json({ ok: true, tool: body.tool, result });
+    }
+
     /* --- admin tavsif generatori --- */
     if (body.task === "describe") {
       const p = body.product || {};
@@ -175,13 +262,17 @@ export async function POST(req) {
       const d = await r.json();
       const content = d?.candidates?.[0]?.content;
       const parts = content?.parts || [];
-      const fc = parts.find((p) => p.functionCall);
-      if (fc && fc.functionCall.name === "check_stock") {
-        toolUsed = fc.functionCall.args?.query || "";
-        const result = await checkStock(toolUsed);
+      const fcs = parts.filter((p) => p.functionCall);
+      if (fcs.length) {
         // model javobini ASL holicha qaytaramiz (thoughtSignature saqlanishi shart)
         contents.push(content);
-        contents.push({ role: "user", parts: [{ functionResponse: { name: "check_stock", response: result } }] });
+        const responses = [];
+        for (const p of fcs) {
+          const { name, args } = p.functionCall;
+          toolUsed = `${name}(${JSON.stringify(args || {}).slice(0, 80)})`;
+          responses.push({ functionResponse: { name, response: await runTool(name, args) } });
+        }
+        contents.push({ role: "user", parts: responses });
         continue;
       }
       reply = parts.map((p) => p.text || "").join("").trim();

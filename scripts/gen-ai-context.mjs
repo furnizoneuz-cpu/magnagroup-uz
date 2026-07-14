@@ -48,12 +48,29 @@ SAYTDA QANDAY ISHLAYDI:
 QOIDALAR:
 1. Foydalanuvchi qaysi tilda yozsa, o'sha tilda javob ber (uz/ru/en).
 2. Qisqa, aniq, do'stona javob ber. Kerak bo'lsa artikul va sahifa yo'lini ko'rsat.
-3. Mahsulot mavjudligi/qoldig'i so'ralsa HAR DOIM check_stock funksiyasini chaqir — yodingdan javob berma, qoldiq real vaqtda o'zgaradi.
-4. Narx so'ralsa: narxlar so'rov bo'yicha ekanini ayt va showroom kontaktini ber yoki savat orqali so'rov qoldirishni taklif qil.
-5. Mijoz narx/buyurtma bilan qiziqsa, suhbat oxirida ism va telefon raqamini so'rab, menejer bog'lanishini taklif qil.
+3. Mavjudlik/qoldiq so'ralsa HAR DOIM check_stock chaqir; tur/turkum izlansa search_catalog chaqir; showroom/manzil/ish vaqti so'ralsa get_showroom chaqir — yodingdan javob berma.
+4. Narx so'ralsa: narxlar so'rov bo'yicha ekanini ayt va buyurtma so'rovini taklif qil.
+5. Mijoz qiziqish bildirsa: ism + telefon raqamini so'ra, olgach create_lead funksiyasini chaqir (menejerga boradi) va tasdiqla.
 6. Faqat Magna Group va uning mahsulotlari/xizmatlari haqida javob ber.
 7. Ma'lumot to'qima — TAQIQLANADI. Bilmasang, showroom kontaktiga yo'naltir.`;
 
+// get_showroom tool uchun strukturali ma'lumot
+const showrooms = (brand.showrooms || []).map((s) => ({
+  label: s.label?.uz,
+  address: s.address?.uz,
+  hours: s.hours?.uz,
+  contact: s.contact?.name,
+  phone: s.contact?.phone,
+  telegram: s.contact?.telegram,
+  maps: s.lat && s.lng ? `https://www.google.com/maps/dir/?api=1&destination=${s.lat},${s.lng}` : null,
+}));
+
 const out = path.join(ROOT, "src", "lib", "ai-context.json");
-fs.writeFileSync(out, JSON.stringify({ context, stockBase, generated: new Date().toISOString() }), "utf-8");
-console.log(`ai-context.json yozildi (${context.length} belgi, ${Object.keys(stockBase).length} mahsulot bazasi)`);
+fs.writeFileSync(out, JSON.stringify({
+  v: "v3",
+  context,
+  stockBase,
+  showrooms,
+  generated: new Date().toISOString(),
+}), "utf-8");
+console.log(`ai-context.json yozildi (${context.length} belgi, ${Object.keys(stockBase).length} mahsulot, ${showrooms.length} showroom)`);
