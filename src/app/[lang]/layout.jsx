@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CartFx from "@/components/CartFx";
 import QuickContact from "@/components/QuickContact";
+import MagnaAI from "@/components/MagnaAI";
 import { LANGS } from "@/lib/i18n";
 import { getBrand, getCategories } from "@/lib/data";
 
@@ -26,6 +27,7 @@ export default function LangLayout({ children, params }) {
       <Footer lang={lang} brand={brand} categories={categories} />
       <CartFx />
       <QuickContact lang={lang} contacts={contacts} />
+      <MagnaAI lang={lang} />
     </div>
   );
 }

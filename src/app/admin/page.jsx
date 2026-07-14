@@ -129,6 +129,19 @@ function Products({ adminKey }) {
   );
 }
 
+const UPLOAD_HINT = `RASM YUKLASH TALABLARI:
+• Format: JPG, PNG yoki WebP
+• O'lcham: kamida 1000×1000 px, tavsiya 1500–2500 px (kvadratga yaqin)
+• Hajm: 4 MB dan oshmasin (tavsiya 300 KB – 1.5 MB)
+• Fon: oq/och, mahsulot markazda, yaxshi yorug'lik
+• Suv belgisi/matn bo'lmasin — sayt tezligi uchun ortiqcha katta fayl yuklamang`;
+
+const CATS = [
+  ["office", "Ofis"], ["staff", "Xodimlar"], ["conference", "Muzokara"],
+  ["storage", "Shkaf/tumba"], ["tables", "Stollar"], ["seating", "O'rindiqlar"],
+  ["medical", "Tibbiy"], ["student", "O'quvchi"], ["children", "Bolalar"],
+];
+
 function Row({ p, adminKey, onSaved }) {
   const [price, setPrice] = useState(p.price ?? "");
   const [stock, setStock] = useState(p.stock ?? "");
@@ -136,6 +149,12 @@ function Row({ p, adminKey, onSaved }) {
   const [savedFlag, setSavedFlag] = useState(false);
   const [img, setImg] = useState(p.image);
   const [hidden, setHidden] = useState(!!p.hidden);
+  const [edit, setEdit] = useState(false);
+  const [form, setForm] = useState({
+    nameUz: p.name?.uz || "", nameRu: p.name?.ru || "", nameEn: p.name?.en || "",
+    desc: p.description?.uz || "", dimensions: p.dimensions || "", category: p.category,
+  });
+  const [uploadErr, setUploadErr] = useState("");
 
   async function save(patch) {
     setSaving(true);
@@ -148,30 +167,51 @@ function Row({ p, adminKey, onSaved }) {
     if (res.ok) { setSavedFlag(true); setTimeout(() => setSavedFlag(false), 1200); onSaved && onSaved(); }
   }
 
+  async function saveFull() {
+    await save({
+      name: { uz: form.nameUz, ru: form.nameRu || form.nameUz, en: form.nameEn || form.nameUz },
+      description: { uz: form.desc, ru: p.description?.ru || form.desc, en: p.description?.en || form.desc },
+      dimensions: form.dimensions,
+      category: form.category,
+    });
+    setEdit(false);
+  }
+
   async function upload(file) {
+    setUploadErr("");
+    if (file.size > 4 * 1024 * 1024) { setUploadErr("Fayl 4 MB dan katta!"); return; }
+    if (!["image/jpeg", "image/png", "image/webp"].includes(file.type)) { setUploadErr("Faqat JPG/PNG/WebP!"); return; }
     const fd = new FormData();
     fd.append("file", file);
     fd.append("article", p.article);
     const res = await fetch("/api/upload", { method: "POST", headers: { "x-admin-key": adminKey }, body: fd });
     const data = await res.json();
     if (data.ok) { setImg(data.path); await save({ image: data.path }); }
+    else setUploadErr(data.error === "too_large" ? "Fayl juda katta" : "Yuklash xatosi");
   }
 
   return (
+    <>
     <tr className={hidden ? "opacity-50" : ""}>
       <td className="p-2">
-        <label className="block h-12 w-12 cursor-pointer overflow-hidden rounded bg-sand">
+        <label className="block h-12 w-12 cursor-pointer overflow-hidden rounded bg-sand" title={UPLOAD_HINT}>
           {img ? (
             // eslint-disable-next-line @next/next/no-img-element
             <img src={img} alt="" className="h-full w-full object-cover" />
           ) : (
             <span className="grid h-full w-full place-items-center text-[10px] text-black/40">+ foto</span>
           )}
-          <input type="file" accept="image/*" className="hidden" onChange={(e) => e.target.files[0] && upload(e.target.files[0])} />
+          <input type="file" accept="image/jpeg,image/png,image/webp" className="hidden" onChange={(e) => e.target.files[0] && upload(e.target.files[0])} />
         </label>
+        {uploadErr && <div className="mt-1 w-24 text-[10px] font-semibold text-red-600">{uploadErr}</div>}
       </td>
       <td className="p-3 font-mono text-xs font-semibold text-[#111]">{p.article}</td>
-      <td className="p-3 max-w-xs">{p.name.uz}{p.dimensions ? <span className="block text-xs text-black/40">{p.dimensions}</span> : null}</td>
+      <td className="p-3 max-w-xs">
+        {p.name.uz}{p.dimensions ? <span className="block text-xs text-black/40">{p.dimensions}</span> : null}
+        <button onClick={() => setEdit((v) => !v)} className="mt-1 text-xs font-semibold text-[#12801F] hover:underline">
+          {edit ? "Yopish" : "✎ Tahrirlash"}
+        </button>
+      </td>
       <td className="p-3">
         <div className="flex items-center gap-2">
           <input value={price} onChange={(e) => setPrice(e.target.value)} type="number"
@@ -193,6 +233,58 @@ function Row({ p, adminKey, onSaved }) {
         </button>
       </td>
     </tr>
+    {edit && (
+      <tr className="bg-[#fafafa]">
+        <td colSpan={6} className="p-4">
+          <div className="grid gap-3 md:grid-cols-3">
+            <label className="text-xs font-semibold text-black/60">Nomi (uz)
+              <input value={form.nameUz} onChange={(e) => setForm({ ...form, nameUz: e.target.value })}
+                className="mt-1 w-full rounded border border-black/12 px-2 py-1.5 text-sm font-normal" />
+            </label>
+            <label className="text-xs font-semibold text-black/60">Название (ru)
+              <input value={form.nameRu} onChange={(e) => setForm({ ...form, nameRu: e.target.value })}
+                className="mt-1 w-full rounded border border-black/12 px-2 py-1.5 text-sm font-normal" />
+            </label>
+            <label className="text-xs font-semibold text-black/60">Name (en)
+              <input value={form.nameEn} onChange={(e) => setForm({ ...form, nameEn: e.target.value })}
+                className="mt-1 w-full rounded border border-black/12 px-2 py-1.5 text-sm font-normal" />
+            </label>
+            <label className="text-xs font-semibold text-black/60 md:col-span-2">Tavsif (uz)
+              <textarea value={form.desc} rows={2} onChange={(e) => setForm({ ...form, desc: e.target.value })}
+                className="mt-1 w-full rounded border border-black/12 px-2 py-1.5 text-sm font-normal" />
+              <button type="button" onClick={async () => {
+                const r = await fetch("/api/ai", { method: "POST", headers: { "Content-Type": "application/json" },
+                  body: JSON.stringify({ task: "describe", product: { name: form.nameUz, article: p.article, category: form.category, dimensions: form.dimensions } }) });
+                const d = await r.json();
+                if (d.ok) setForm((f) => ({ ...f, desc: d.reply }));
+              }} className="mt-1 rounded bg-[#111] px-3 py-1 text-[11px] font-semibold text-white hover:bg-[#3a3a3a]">
+                ✨ Magna AI tavsif yozsin
+              </button>
+            </label>
+            <div className="space-y-2">
+              <label className="block text-xs font-semibold text-black/60">O'lcham (mm)
+                <input value={form.dimensions} onChange={(e) => setForm({ ...form, dimensions: e.target.value })}
+                  placeholder="1800×800×750" className="mt-1 w-full rounded border border-black/12 px-2 py-1.5 text-sm font-normal" />
+              </label>
+              <label className="block text-xs font-semibold text-black/60">Kategoriya
+                <select value={form.category} onChange={(e) => setForm({ ...form, category: e.target.value })}
+                  className="mt-1 w-full rounded border border-black/12 px-2 py-1.5 text-sm font-normal">
+                  {CATS.map(([id, label]) => <option key={id} value={id}>{label}</option>)}
+                </select>
+              </label>
+            </div>
+          </div>
+          <div className="mt-3 flex items-center gap-3">
+            <button onClick={saveFull} disabled={saving}
+              className="rounded bg-[#12801F] px-4 py-1.5 text-xs font-bold text-white hover:bg-[#0d5f17] disabled:opacity-50">
+              To'liq saqlash
+            </button>
+            <pre className="whitespace-pre-wrap text-[10px] leading-tight text-black/45">{UPLOAD_HINT}</pre>
+          </div>
+        </td>
+      </tr>
+    )}
+    </>
   );
 }
 

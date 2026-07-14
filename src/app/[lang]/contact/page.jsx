@@ -27,8 +27,8 @@ export default function ContactPage({ params }) {
         </div>
         <div className="tile rounded-2xl p-6">
           <div className="text-sm font-bold text-[#111]">Social</div>
-          <a href={`https://t.me/${brand.telegram}`} className="mt-1 block text-[15px] text-[#111] hover:underline">Telegram: @{brand.telegram}</a>
-          <a href={`https://instagram.com/${brand.instagram}`} className="block text-[15px] text-[#111] hover:underline">Instagram: @{brand.instagram}</a>
+          <a href={`https://t.me/${brand.telegram}`} target="_blank" rel="noopener noreferrer" className="mt-1 block text-[15px] text-[#111] hover:underline">Telegram</a>
+          <a href={`https://instagram.com/${brand.instagram}`} target="_blank" rel="noopener noreferrer" className="block text-[15px] text-[#111] hover:underline">Instagram</a>
         </div>
       </div>
 

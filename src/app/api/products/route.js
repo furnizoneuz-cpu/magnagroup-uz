@@ -33,6 +33,19 @@ export async function PUT(req) {
     const s = patch.stock;
     allowed.stock = s === null || s === "" ? 0 : Math.max(0, Number(s) || 0);
   }
+  // To'liq tahrir (sotuv bo'limi boshlig'i/admin): nom, tavsif, o'lcham, kategoriya
+  const langs = ["uz", "ru", "en"];
+  if (patch.name && typeof patch.name === "object") {
+    allowed.name = Object.fromEntries(langs.map((l) => [l, String(patch.name[l] || "").slice(0, 200)]));
+  }
+  if (patch.description && typeof patch.description === "object") {
+    allowed.description = Object.fromEntries(langs.map((l) => [l, String(patch.description[l] || "").slice(0, 1000)]));
+  }
+  if ("dimensions" in patch) allowed.dimensions = patch.dimensions ? String(patch.dimensions).slice(0, 80) : null;
+  if ("category" in patch) {
+    const cats = readCatalog().categories.map((c) => c.id);
+    if (cats.includes(patch.category)) allowed.category = patch.category;
+  }
 
   const updated = await updateProduct(article, allowed);
   if (!updated) return NextResponse.json({ error: "not_found" }, { status: 404 });

@@ -1,11 +1,15 @@
 import { NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
+import { hasRole } from "@/lib/auth";
 
 const onNetlify = () => !!(process.env.NETLIFY || process.env.NETLIFY_BLOBS_CONTEXT);
+const ALLOWED = ["image/jpeg", "image/png", "image/webp"];
+const MAX_BYTES = 4 * 1024 * 1024; // 4MB
 
 export async function POST(req) {
-  if (req.headers.get("x-admin-key") !== process.env.ADMIN_PASSWORD) {
+  // admin paroli YOKI sotuv bo'limi boshlig'i (seller) sessiyasi
+  if (req.headers.get("x-admin-key") !== process.env.ADMIN_PASSWORD && !hasRole(req, "seller")) {
     return NextResponse.json({ error: "unauthorized" }, { status: 401 });
   }
   const form = await req.formData();
@@ -13,6 +17,12 @@ export async function POST(req) {
   const article = String(form.get("article") || "img").replace(/[^a-zA-Z0-9_-]/g, "");
   if (!file || typeof file === "string") {
     return NextResponse.json({ error: "no_file" }, { status: 400 });
+  }
+  if (file.type && !ALLOWED.includes(file.type)) {
+    return NextResponse.json({ error: "bad_type" }, { status: 400 });
+  }
+  if (file.size > MAX_BYTES) {
+    return NextResponse.json({ error: "too_large" }, { status: 400 });
   }
   const ext = (file.name.split(".").pop() || "jpg").toLowerCase().replace(/[^a-z0-9]/g, "") || "jpg";
   const buf = Buffer.from(await file.arrayBuffer());
