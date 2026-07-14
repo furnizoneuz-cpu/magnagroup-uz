@@ -263,12 +263,21 @@ function Leads({ adminKey }) {
   );
 }
 
+const STATUS_UZ = { new: "Yangi", processing: "Jarayonda", delivering: "Yetkazilmoqda", done: "Bajarildi", cancelled: "Bekor" };
+const STATUS_COLOR = { new: "bg-blue-100 text-blue-700", processing: "bg-amber-100 text-amber-700", delivering: "bg-purple-100 text-purple-700", done: "bg-green-100 text-green-700", cancelled: "bg-red-100 text-red-600" };
+
 function Orders({ adminKey }) {
   const [orders, setOrders] = useState([]);
-  useEffect(() => {
+  const [statuses, setStatuses] = useState(["new", "processing", "delivering", "done", "cancelled"]);
+  function load() {
     fetch("/api/orders", { headers: { "x-admin-key": adminKey } })
-      .then((r) => r.json()).then((d) => setOrders(d.orders || []));
-  }, []);
+      .then((r) => r.json()).then((d) => { setOrders(d.orders || []); if (d.statuses) setStatuses(d.statuses); });
+  }
+  useEffect(() => { load(); }, []);
+  async function setStatus(number, status) {
+    await fetch("/api/orders", { method: "PUT", headers: { "Content-Type": "application/json", "x-admin-key": adminKey }, body: JSON.stringify({ number, status }) });
+    load();
+  }
 
   if (orders.length === 0) return <div className="rounded-xl border border-dashed border-black/15 py-16 text-center text-black/40">Buyurtmalar yo'q</div>;
 
@@ -278,6 +287,11 @@ function Orders({ adminKey }) {
         <div key={o.number} className="rounded-xl border border-black/5 bg-white p-4">
           <div className="flex flex-wrap items-center gap-3">
             <span className="font-bold text-ink">{o.number}</span>
+            <span className={"rounded px-2 py-0.5 text-xs font-semibold " + (STATUS_COLOR[o.status] || "bg-[#e5e5e5] text-[#111]")}>{STATUS_UZ[o.status] || o.status}</span>
+            <select value={o.status} onChange={(e) => setStatus(o.number, e.target.value)}
+              className="rounded border border-black/12 px-2 py-1 text-xs">
+              {statuses.map((s) => <option key={s} value={s}>{STATUS_UZ[s] || s}</option>)}
+            </select>
             <span className="rounded bg-[#e5e5e5] px-2 py-0.5 text-xs font-semibold text-[#111]">{o.customer.payment}</span>
             <span className="text-sm text-black/50">{new Date(o.createdAt).toLocaleString()}</span>
             <span className="ml-auto font-bold text-ink">{o.total ? o.total.toLocaleString("ru-RU") + " so'm" : "narx so'rovi"}</span>

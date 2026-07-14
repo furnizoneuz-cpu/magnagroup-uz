@@ -148,6 +148,19 @@ export async function addOrder(order) {
   return record;
 }
 
+export const ORDER_STATUSES = ["new", "processing", "delivering", "done", "cancelled"];
+
+export async function updateOrderStatus(number, status) {
+  if (!ORDER_STATUSES.includes(status)) return null;
+  const orders = await readOrders();
+  const o = orders.find((x) => x.number === number);
+  if (!o) return null;
+  o.status = status;
+  o.updatedAt = new Date().toISOString();
+  await writeList("orders", ORDERS_FILE, orders);
+  return o;
+}
+
 const LEADS_FILE = path.join(DATA_DIR, "leads.json");
 
 export async function readLeads() {

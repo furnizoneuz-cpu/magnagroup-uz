@@ -24,6 +24,7 @@ export default function Footer({ lang, brand, categories }) {
             <li><Link href={`/${lang}/delivery`} className="transition hover:text-[#111]">{t(lang, "nav_delivery")}</Link></li>
             <li><Link href={`/${lang}/about`} className="transition hover:text-[#111]">{t(lang, "nav_about")}</Link></li>
             <li><Link href={`/${lang}/contact`} className="transition hover:text-[#111]">{t(lang, "nav_contact")}</Link></li>
+            <li><Link href={`/${lang}/flipbook`} className="transition hover:text-[#111]">{t(lang, "nav_flipbook")}</Link></li>
           </ul>
         </div>
 

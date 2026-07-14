@@ -48,11 +48,18 @@ h1, h2, h3, h4, .font-head {
 }
 .btn-pill {
   display: inline-flex; align-items: center; justify-content: center;
+  border-radius: 9999px; background: #12801F; color: #fff;
+  padding: 0.65rem 1.5rem; font-size: 0.95rem; font-weight: 600;
+  transition: background 0.2s ease;
+}
+.btn-pill:hover { background: #0d5f17; }
+.btn-dark {
+  display: inline-flex; align-items: center; justify-content: center;
   border-radius: 9999px; background: #111; color: #fff;
   padding: 0.65rem 1.5rem; font-size: 0.95rem; font-weight: 600;
   transition: background 0.2s ease;
 }
-.btn-pill:hover { background: #3a3a3a; }
+.btn-dark:hover { background: #3a3a3a; }
 .btn-pill-outline {
   display: inline-flex; align-items: center; justify-content: center;
   border-radius: 9999px; border: 1.5px solid #cacacb; background: #fff; color: #111;

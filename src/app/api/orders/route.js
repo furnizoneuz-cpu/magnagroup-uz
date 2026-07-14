@@ -1,6 +1,10 @@
 import { NextResponse } from "next/server";
-import { addOrder, readOrders } from "@/lib/data";
+import { addOrder, readOrders, updateOrderStatus, ORDER_STATUSES } from "@/lib/data";
 import { hasRole } from "@/lib/auth";
+
+function staff(req) {
+  return req.headers.get("x-admin-key") === process.env.ADMIN_PASSWORD || hasRole(req, "seller");
+}
 
 export async function POST(req) {
   try {
@@ -35,8 +39,15 @@ export async function POST(req) {
 }
 
 export async function GET(req) {
-  if (req.headers.get("x-admin-key") !== process.env.ADMIN_PASSWORD && !hasRole(req, "seller")) {
-    return NextResponse.json({ error: "unauthorized" }, { status: 401 });
-  }
-  return NextResponse.json({ orders: (await readOrders()).reverse() });
+  if (!staff(req)) return NextResponse.json({ error: "unauthorized" }, { status: 401 });
+  return NextResponse.json({ orders: (await readOrders()).reverse(), statuses: ORDER_STATUSES });
+}
+
+// Buyurtma holatini o'zgartirish (admin/sotuv bo'limi boshlig'i)
+export async function PUT(req) {
+  if (!staff(req)) return NextResponse.json({ error: "unauthorized" }, { status: 401 });
+  const { number, status } = await req.json();
+  const updated = await updateOrderStatus(number, status);
+  if (!updated) return NextResponse.json({ error: "invalid" }, { status: 400 });
+  return NextResponse.json({ ok: true, order: updated });
 }

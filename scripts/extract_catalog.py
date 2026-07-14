@@ -32,29 +32,34 @@ def load_valid():
         VALID.add(p["article"].strip().upper())
 
 def clean_product(crop):
+    """OQ-FON-TRIM (rembgsiz): PDF katalog fotolari allaqachon oq fonda, shuning
+    uchun mahsulotni oq fondan ajratib qirqamiz — TESHIK/YIRTIQ bo'lmaydi.
+    Mebel ichidagi oq joylar (javon oralig'i, shisha) saqlanadi."""
     import numpy as np
     from scipy import ndimage
-    cut = remove(crop.convert("RGBA"), session=session, post_process_mask=True)
-    a = np.array(cut.split()[-1])
-    # faqat eng katta bog'langan qism (mebel) — kichik matn parchalari tashlanadi
-    mask = a > 30
-    lbl, n = ndimage.label(mask)
-    if n > 1:
-        sizes = ndimage.sum(mask, lbl, range(1, n + 1))
-        keep = int(np.argmax(sizes)) + 1
-        a2 = np.where(lbl == keep, a, 0).astype("uint8")
-        cut.putalpha(Image.fromarray(a2))
-    bbox = cut.split()[-1].getbbox()
-    if not bbox:
+    rgb = np.asarray(crop.convert("RGB"), dtype=np.int16)
+    nonwhite = (rgb.min(axis=2) < 238)
+    # eng katta bog'langan qism = mahsulot; alohida matn/ikonka bloklari tashlanadi.
+    # Kichik teshiklarni yopib komponentni yaxlit qilamiz (bbox uchun).
+    filled = ndimage.binary_closing(nonwhite, iterations=3)
+    lbl, n = ndimage.label(filled)
+    if n == 0:
         return None
-    cut = cut.crop(bbox)
-    w, h = cut.size
+    sizes = ndimage.sum(filled, lbl, range(1, n + 1))
+    keep = int(np.argmax(sizes)) + 1
+    ys, xs = np.where(lbl == keep)
+    if len(ys) < 50:
+        return None
+    y0, y1, x0, x1 = ys.min(), ys.max(), xs.min(), xs.max()
+    # asl rasmni kesamiz — mebel ICHIDAGI oq joylar (javon/shisha) saqlanadi
+    prod = crop.crop((int(x0), int(y0), int(x1) + 1, int(y1) + 1))
+    w, h = prod.size
     if w < 40 or h < 40:
         return None
     side = int(max(w, h) * 1.12)
-    canvas = Image.new("RGBA", (side, side), (255, 255, 255, 255))
-    canvas.paste(cut, ((side - w) // 2, (side - h) // 2), cut)
-    return canvas.convert("RGB")
+    canvas = Image.new("RGB", (side, side), (255, 255, 255))
+    canvas.paste(prod, ((side - w) // 2, (side - h) // 2))
+    return canvas
 
 def ocr_code(region):
     """Kichik sohada OCR: MG-kod + kodning kvadrant ichidagi markazi (cx,cy fraksiya)."""

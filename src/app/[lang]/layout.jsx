@@ -15,13 +15,17 @@ export default function LangLayout({ children, params }) {
   if (!LANGS.includes(lang)) notFound();
   const brand = getBrand();
   const categories = getCategories();
+  const showrooms = brand.showrooms || (brand.showroom ? [brand.showroom] : []);
+  const contacts = showrooms
+    .filter((s) => s.contact)
+    .map((s) => ({ ...s.contact, label: s.label }));
   return (
     <div className="flex min-h-screen flex-col">
       <Header lang={lang} />
       <main className="flex-1">{children}</main>
       <Footer lang={lang} brand={brand} categories={categories} />
       <CartFx />
-      <QuickContact lang={lang} phone={brand.phones[0]} telegram={brand.telegram} />
+      <QuickContact lang={lang} contacts={contacts} />
     </div>
   );
 }

@@ -16,9 +16,9 @@ export default function Header({ lang }) {
   const [acc, setAcc] = useState(false);
 
   const A = {
-    uz: { signin: "Kirish", register: "Ro'yxatdan o'tish", logout: "Chiqish", admin: "Boshqaruv", role: { admin: "Administrator", seller: "Sotuvchi", customer: "Mijoz", visitor: "Mehmon" } },
-    ru: { signin: "Войти", register: "Регистрация", logout: "Выйти", admin: "Панель", role: { admin: "Администратор", seller: "Продавец", customer: "Клиент", visitor: "Гость" } },
-    en: { signin: "Sign in", register: "Create account", logout: "Log out", admin: "Dashboard", role: { admin: "Administrator", seller: "Seller", customer: "Customer", visitor: "Visitor" } },
+    uz: { signin: "Kirish", register: "Ro'yxatdan o'tish", logout: "Chiqish", admin: "Boshqaruv", role: { admin: "Administrator", seller: "Sotuv bo'lim boshlig'i", customer: "Mijoz", visitor: "Mehmon" } },
+    ru: { signin: "Войти", register: "Регистрация", logout: "Выйти", admin: "Панель", role: { admin: "Администратор", seller: "Руководитель отдела продаж", customer: "Клиент", visitor: "Гость" } },
+    en: { signin: "Sign in", register: "Create account", logout: "Log out", admin: "Dashboard", role: { admin: "Administrator", seller: "Head of Sales", customer: "Customer", visitor: "Visitor" } },
   }[lang] || {};
 
   function submitSearch(e) {
@@ -32,6 +32,7 @@ export default function Header({ lang }) {
     { href: `/${lang}/catalog?cat=office`, label: lang === "ru" ? "Кабинет" : lang === "en" ? "Executive" : "Rahbar" },
     { href: `/${lang}/catalog?cat=seating`, label: lang === "ru" ? "Кресла" : lang === "en" ? "Seating" : "Kreslolar" },
     { href: `/${lang}/catalog?cat=conference`, label: lang === "ru" ? "Переговорные" : lang === "en" ? "Conference" : "Muzokara" },
+    { href: `/${lang}/flipbook`, label: t(lang, "nav_flipbook") },
     { href: `/${lang}/about`, label: t(lang, "nav_about") },
     { href: `/${lang}/contact`, label: t(lang, "nav_contact") },
   ];
@@ -41,7 +42,7 @@ export default function Header({ lang }) {
       {/* thin utility bar */}
       <div className="hidden bg-[#f5f5f5] md:block">
         <div className="container-x flex items-center justify-end gap-4 py-1.5 text-xs font-medium text-[#111]">
-          <a href="tel:+998991725050" className="link-hover">+998 99 172 50 50</a>
+          <a href="tel:+998991425050" className="link-hover">+998 99 142 50 50</a>
           <span className="h-3 w-px bg-black/20" />
           <Link href={`/${lang}/delivery`} className="link-hover">{t(lang, "nav_delivery")}</Link>
           <span className="h-3 w-px bg-black/20" />
@@ -60,27 +61,18 @@ export default function Header({ lang }) {
           </span>
         </Link>
 
-        {/* centered nav */}
-        <nav className="mx-auto hidden items-center gap-6 md:flex">
-          {nav.map((n) => (
-            <Link key={n.href} href={n.href}
-              className="border-b-2 border-transparent pb-0.5 text-[15px] font-semibold text-[#111] transition hover:border-[#111]">
-              {n.label}
-            </Link>
-          ))}
-        </nav>
+        {/* prominent rounded search — commerce-first */}
+        <form onSubmit={submitSearch} className="mx-2 hidden max-w-xl flex-1 items-center rounded-full bg-[#f0f0f0] px-2 transition focus-within:ring-2 focus-within:ring-[#12801F]/40 md:flex">
+          <button className="grid h-10 w-9 place-items-center" aria-label="search">
+            <svg className="h-[18px] w-[18px] text-[#111]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+              <circle cx="11" cy="11" r="7" /><path d="M21 21l-4-4" strokeLinecap="round" />
+            </svg>
+          </button>
+          <input value={q} onChange={(e) => setQ(e.target.value)} placeholder={t(lang, "search_ph")}
+            className="w-full bg-transparent py-2.5 pr-4 text-sm outline-none placeholder:text-black/50" />
+        </form>
 
         <div className="ml-auto flex items-center gap-2 md:ml-0">
-          {/* search pill */}
-          <form onSubmit={submitSearch} className="hidden items-center rounded-full bg-[#f5f5f5] transition focus-within:bg-[#e5e5e5] hover:bg-[#e5e5e5] lg:flex">
-            <button className="grid h-9 w-9 place-items-center rounded-full hover:bg-[#d8d8d8]" aria-label="search">
-              <svg className="h-[18px] w-[18px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
-                <circle cx="11" cy="11" r="7" /><path d="M21 21l-4-4" strokeLinecap="round" />
-              </svg>
-            </button>
-            <input value={q} onChange={(e) => setQ(e.target.value)} placeholder={t(lang, "search_ph")}
-              className="w-40 bg-transparent pr-4 text-sm outline-none placeholder:text-black/50" />
-          </form>
 
           {/* account */}
           <div className="relative">
@@ -136,6 +128,18 @@ export default function Header({ lang }) {
           </button>
         </div>
       </div>
+
+      {/* nav row (search yuqorida, havolalar pastda) */}
+      <nav className="hidden border-t border-black/5 md:block">
+        <div className="container-x flex items-center gap-6 py-2">
+          {nav.map((n) => (
+            <Link key={n.href} href={n.href}
+              className="border-b-2 border-transparent pb-0.5 text-[14px] font-semibold text-[#111] transition hover:border-[#111]">
+              {n.label}
+            </Link>
+          ))}
+        </div>
+      </nav>
 
       {open && (
         <div className="border-t border-black/10 bg-white md:hidden">
