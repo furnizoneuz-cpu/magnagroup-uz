@@ -5,7 +5,7 @@
   Kalit bo'lmasa jimgina o'tkazib yuboradi (sayt ishlashiga ta'sir qilmaydi).
 */
 
-export async function tgSend(text) {
+export async function tgSend(text, replyMarkup) {
   const tok = process.env.TELEGRAM_BOT_TOKEN;
   const chat = process.env.TELEGRAM_CHAT_ID;
   if (!tok || !chat) return { skipped: "no_telegram_env" };
@@ -13,12 +13,32 @@ export async function tgSend(text) {
     const r = await fetch(`https://api.telegram.org/bot${tok}/sendMessage`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ chat_id: chat, text, parse_mode: "HTML", disable_web_page_preview: true }),
+      body: JSON.stringify({
+        chat_id: chat, text, parse_mode: "HTML", disable_web_page_preview: true,
+        ...(replyMarkup ? { reply_markup: replyMarkup } : {}),
+      }),
     });
     return { ok: r.ok };
   } catch {
     return { error: true };
   }
+}
+
+// Lead → bot guruhga tushadi + har sotuvchiga yo'naltiruvchi tugma (bosib
+// sotuvchi o'z Telegram'ini ochadi va davom ettiradi).
+export async function notifyLead(lead, sellers = []) {
+  const phone = String(lead.phone || "").replace(/[^+\d]/g, "");
+  const buttons = sellers
+    .filter((s) => s.telegram)
+    .map((s) => [{ text: `➡️ ${s.name} (${s.showroom || "sotuvchi"})`, url: `https://t.me/${s.telegram}` }]);
+  const markup = buttons.length ? { inline_keyboard: buttons } : undefined;
+  await tgSend(
+    `🟢 <b>Yangi so'rov (Magna AI)</b>\n` +
+    `👤 ${lead.name || "Mijoz"}\n📞 <code>${phone}</code>\n` +
+    (lead.interest ? `💬 ${lead.interest}\n` : "") +
+    `\nSotuvchi tanlab, mijoz bilan bog'laning 👇`,
+    markup
+  );
 }
 
 export async function smsSend(phone, text) {

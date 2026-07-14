@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import ctx from "@/lib/ai-context.json";
+import { notifyLead } from "@/lib/notify";
 
 /*
   Magna AI (edge) — tool calling bilan:
@@ -116,16 +117,11 @@ async function createLead({ name, phone, interest }) {
     leads.push(rec);
     await store.setJSON("leads", leads);
   } catch { return { ok: false, reason: "saqlash xatosi" }; }
-  // Telegram'ga yuborish (token/chat_id env'da bo'lsa)
-  const tok = process.env.TELEGRAM_BOT_TOKEN, chat = process.env.TELEGRAM_CHAT_ID;
-  if (tok && chat) {
-    try {
-      await fetch(`https://api.telegram.org/bot${tok}/sendMessage`, {
-        method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ chat_id: chat, text: `🟢 Yangi lead (Magna AI)\n👤 ${rec.name}\n📞 ${rec.phone}\n💬 ${interest || "-"}` }),
-      });
-    } catch {}
-  }
+  // Bot guruhga yuboradi + sotuvchiga yo'naltirish tugmalari (showroom mas'ullari)
+  const sellers = (ctx.showrooms || [])
+    .filter((s) => s.telegram)
+    .map((s) => ({ name: s.contact, telegram: s.telegram, showroom: s.label }));
+  await notifyLead({ name: rec.name, phone: rec.phone, interest }, sellers).catch(() => {});
   return { ok: true, message: "Lead qabul qilindi, menejer tez orada bog'lanadi" };
 }
 
